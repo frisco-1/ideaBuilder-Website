@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Row, Col, ListGroup } from 'react-bootstrap';
+import { Carousel, Row, Col, ListGroup, Card } from 'react-bootstrap';
 import { ALL } from './Products/NavItems';
 
 
@@ -35,16 +35,16 @@ function Home() {
       
       
         <Row>
-        <Col md={3}>
-          <div className='p-5' id='hiddenPhone'>
-            <h4 className='p-2' >Popular Products</h4>
-              <ListGroup variant='flush'>
-                <ListAll/>
-              </ListGroup>
-            </div>
+          <Col md={3} className='m-5 p-1 shadow' id='hiddenPhone'>
+            
+              <h4 className='p-3  d-flex sideBarP' >Popular Products</h4>
+                <ListGroup variant='flush'>
+                  <ListAll/>
+                </ListGroup>
+            
           </Col>
 
-          <Col md={9}>
+          <Col >
 
           </Col>
         </Row>

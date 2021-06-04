@@ -32,11 +32,46 @@
 }
 
 /* Home Page */
-#popularProducts {
-  background: #ffffff;
-  padding: 80px;
+.sideBarP {
+  background: #b7b7b7;
+  border: 2px solid lightgray;
+  border-bottom: none;
+  margin: 0px;
+}
+.shadow {
+  box-shadow: 10px 5px 5px black;
 }
 
+/* Footer */
+#footer {
+  background: #12263e;
+  padding: 50px 50px;
+}
+#footHeading {
+  color: #abcde7;
+}
+#LinkHead {
+  color: white;
+}
+#line-break {
+  border: 2px solid white;
+}
+#gray {
+  color: #a3a6a9;
+}
+#gray:hover {
+  color: white;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+#white {
+  color: white;
+}
+#white:hover {
+  color: lightgray;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
 @media only screen and (max-width: 900px) {
   .topNav {
     display: flex;
