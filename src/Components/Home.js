@@ -1,6 +1,6 @@
 import React from 'react';
-import { Carousel, Row, Col, ListGroup, Card } from 'react-bootstrap';
-import { ALL } from './Products/NavItems';
+import { Carousel, Row, Col, ListGroup, Card, Button } from 'react-bootstrap';
+import { ALL, SIGNS } from './Products/NavItems';
 
 
 function Home() {
@@ -44,8 +44,10 @@ function Home() {
             
           </Col>
 
-          <Col >
-
+          <Col>
+            
+              <ListCard/>
+            
           </Col>
         </Row>
 
@@ -61,6 +63,27 @@ function ListAll() {
   })
   return (
     <div>{mapAll}</div>
+  )
+}
+
+function ListCard() {
+  const mapSigns = SIGNS.map(sign => {
+    return (
+      <Col md={4}>
+        <Card className='m-5 d-flex '>
+          <Card.Title>{sign}</Card.Title>
+          <Button variant="primary">Go somewhere</Button>
+        </Card>
+      </Col>
+    )
+  })
+
+  return (
+    <Row>
+      
+        {mapSigns}
+      
+    </Row>
   )
 }
 
