@@ -73,7 +73,7 @@ function Footer() {
           </Col>
           {/* End of line break */}
         </Row>
-        <span id='LinkHead'>Idea Builder</span> <span id='gray'>All Rights Reserved Copyright &#169; {year}</span> 
+        <span id='LinkHead'>Idea Builder</span> <span id='grayf'>All Rights Reserved Copyright &#169; {year}</span> 
       </Container>
     </div>
   )

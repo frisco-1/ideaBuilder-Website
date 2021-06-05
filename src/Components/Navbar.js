@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Form, Button, Nav, NavDropdown } from 'react-bootstrap';
 import { AiOutlineSearch } from 'react-icons/ai';
-import { PRINTING, SIGNS, ITEM } from './Products/NavItems';
+import { PRODUCTS } from './Products/Products';
+import { Link } from 'react-router-dom';
 
 class NavB extends Component {
   render() {
@@ -62,7 +63,7 @@ class NavB extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link>Home</Nav.Link>
+                <Nav.Link as={Link} to='/'>Home</Nav.Link>
 
                 <NavDropdown title="Printing" id="collasible-nav-dropdown">
                   <ListPrinting/>
@@ -76,7 +77,7 @@ class NavB extends Component {
                   <ListItems/>
                 </NavDropdown>
 
-                <Nav.Link>Contact Us</Nav.Link>
+                <Nav.Link as={Link} to='/contact'>Contact Us</Nav.Link>
 
               </Nav>
               
@@ -90,10 +91,11 @@ class NavB extends Component {
 }
 
 function ListPrinting() {
-  const mapPrint = PRINTING.map(print => {
+  const findPrint = PRODUCTS.filter(print => print.type === 'PRINTING');
+  const mapPrint = findPrint.map(print => {
     return (
       <div>
-      <NavDropdown.Item>{print}</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to={print.id}>{print.name}</NavDropdown.Item>
       </div>
     )
   })
@@ -106,9 +108,10 @@ function ListPrinting() {
 };
 
 function ListSigns() {
-  const mapSigns = SIGNS.map(signs => {
+  const findSigns = PRODUCTS.filter(signs => signs.type === 'SIGNS');
+  const mapSigns = findSigns.map(signs => {
     return (
-      <NavDropdown.Item>{signs}</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to={signs.id}>{signs.name}</NavDropdown.Item>
     )
   })
 
@@ -120,9 +123,10 @@ function ListSigns() {
 };
 
 function ListItems() {
-  const mapItems = ITEM.map(item => {
-    return(
-      <NavDropdown.Item>{item}</NavDropdown.Item>
+  const findItems = PRODUCTS.filter(item => item.type === 'ITEMS');
+  const mapItems = findItems.map(item => {
+    return (
+      <NavDropdown.Item as={Link} to={item.id}>{item.name}</NavDropdown.Item>
     )
   })
 

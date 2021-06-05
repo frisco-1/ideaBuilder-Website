@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, Row, Col, ListGroup, Card, Button } from 'react-bootstrap';
-import { ALL, SIGNS } from './Products/NavItems';
+import { PRODUCTS } from './Products/Products';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -34,8 +35,8 @@ function Home() {
       </Carousel>
       
       
-        <Row>
-          <Col md={3} className='m-5 p-1 shadow' id='hiddenPhone'>
+        <Row id='margin-right-remove'>
+          <Col md={3} className='m-5 p-1 shadow' id='sideBarHide'>
             
               <h4 className='p-3  d-flex sideBarP' >Popular Products</h4>
                 <ListGroup variant='flush'>
@@ -44,8 +45,8 @@ function Home() {
             
           </Col>
 
-          <Col>
-            
+          <Col className='m-5'>
+              <h4>Products</h4>
               <ListCard/>
             
           </Col>
@@ -56,9 +57,9 @@ function Home() {
 }
 
 function ListAll() {
-  const mapAll = ALL.map(all => {
+  const mapAll = PRODUCTS.map(all => {
     return (
-      <ListGroup.Item action >{all}</ListGroup.Item>
+      <ListGroup.Item action as={Link} to={all.id}>{all.name}</ListGroup.Item>
     )
   })
   return (
@@ -67,11 +68,12 @@ function ListAll() {
 }
 
 function ListCard() {
-  const mapSigns = SIGNS.map(sign => {
+  const findSigns = PRODUCTS.filter(signs => signs.type === 'SIGNS');
+  const mapSigns = findSigns.map(sign => {
     return (
-      <Col md={4}>
-        <Card className='m-5 d-flex '>
-          <Card.Title>{sign}</Card.Title>
+      <Col md={4} sm={6} className='m-6'>
+        <Card className='m-3 d-flex '>
+          <Card.Title>{sign.name}</Card.Title>
           <Button variant="primary">Go somewhere</Button>
         </Card>
       </Col>
@@ -80,9 +82,7 @@ function ListCard() {
 
   return (
     <Row>
-      
-        {mapSigns}
-      
+      {mapSigns}
     </Row>
   )
 }

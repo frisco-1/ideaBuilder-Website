@@ -41,6 +41,9 @@
 .shadow {
   box-shadow: 10px 5px 5px black;
 }
+#margin-right-remove {
+  margin-right: 0;
+}
 
 /* Footer */
 #footer {
@@ -50,13 +53,17 @@
 #footHeading {
   color: #abcde7;
 }
-#LinkHead {
+#LinkHead,
+#white {
   color: white;
 }
 #line-break {
   border: 2px solid white;
 }
-#gray {
+
+/* Colors */
+#gray,
+#grayf {
   color: #a3a6a9;
 }
 #gray:hover {
@@ -64,18 +71,29 @@
   transition: 0.2s ease-in;
   text-decoration: none;
 }
-#white {
-  color: white;
-}
 #white:hover {
   color: lightgray;
   transition: 0.2s ease-in;
   text-decoration: none;
 }
+#lightBlue {
+  color: #80c7e5;
+}
+#lightBlue:hover {
+  color: white;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 900px) {
   .topNav {
     display: flex;
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1351px) {
+  #sideBarHide {
+    display: none;
   }
 }
 @media only screen and (max-width: 516px) {
@@ -102,6 +120,6 @@
     line-height: 1px;
   }
   #hiddenPhone {
-    visibility: hidden;
+    display: none;
   }
 }

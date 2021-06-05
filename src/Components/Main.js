@@ -10,9 +10,11 @@ function Main() {
     <>
       <Router>
         <NavB />
+
         <Switch>
           <Route exact path='/' component={Home}/>
         </Switch>
+        
         <Footer/>
       </Router> 
     </>
