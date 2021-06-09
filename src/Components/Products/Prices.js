@@ -1,0 +1,16 @@
+export const BCPRICES = [
+  { type:'Black & White 14 PT.', quantity: 1000, price: 30},
+  { type:'Multicolor 14 PT.', quantity: 1000, price: 45},
+  { type:'Full Color 4/0', quantity: 1000, price: 55},
+  { type:'Full Color 4/4 14 PT. 1M', quantity: 1000, price: 65},
+  { type:'Full Color 4/4 16 PT. 1M (40)', quantity: 1000, price: 75},
+  { type:'Full Color 4/4 12 PT. 5M (COPIDEN)', quantity: 5000, price: 120},
+  { type:'Full Color 4/4 16 PT. 5M Round Corners (40)', quantity: 5000, price: 180},
+  { type:'Full Color Spot UV 16 PT Round Corners (40)', quantity: 1000, price: 125},
+  { type:'16 PT Silk Laminated with Foil 4/4 (40)', quantity: 1000, price: 235},
+  { type:'20 PT Clear Plastic or Clear Frosted (40) (1M)', quantity: 1000, price: 265},
+  { type:'20 PT White Plastic 4/4 (40) (1M)', quantity: 1000, price: 210},
+  { type:'32 PT Uncoated Painted Edge (40) (1M)', quantity: 1000, price: 270},
+  { type:'Business Card Magnet FULL COLOR (1M)', quantity: 1000, price: 240},
+  { type:'Business Card Sticker FULL COLOR (1M)', quantity: 1000, price: 160},
+]

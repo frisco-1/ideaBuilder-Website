@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Row, Col, ListGroup, Card, Button } from 'react-bootstrap';
-import { PRODUCTS } from './Products/Products';
+import { PRODUCTS } from './Products/ProductsName';
 import { Link } from 'react-router-dom';
 
 

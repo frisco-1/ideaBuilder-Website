@@ -4,6 +4,23 @@ export const PRODUCTS = [
     id: 'business-cards',
     type: 'PRINTING',
     name: 'Business Cards'
+    // submenu: [
+    //   {
+    //     id: 'basic',
+    //     type: 'PRINTING',
+    //     name:'Basic Business Cards'
+    //   },
+    //   {
+    //     id: 'round-corner',
+    //     type: 'PRINTING',
+    //     name:'Round Corner'
+    //   },
+    //   {
+    //     id: 'plastic',
+    //     type: 'PRINTING',
+    //     name:'Plastic'
+    //   },
+    // ]
   },
   {
     id: 'brochures',

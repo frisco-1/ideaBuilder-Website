@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Form, Button, Nav, NavDropdown } from 'react-bootstrap';
+// import { DropdownSubmenu, NavDropdownMenu} from "react-bootstrap-submenu";
 import { AiOutlineSearch } from 'react-icons/ai';
-import { PRODUCTS } from './Products/Products';
+import { PRODUCTS } from './Products/ProductsName';
 import { Link } from 'react-router-dom';
 
 class NavB extends Component {
@@ -58,6 +59,7 @@ class NavB extends Component {
         </Navbar>
 
         {/* Websites Links */}
+
         <Navbar collapseOnSelect expand="lg" id="linksBg" variant="dark">
           <Container>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -84,6 +86,36 @@ class NavB extends Component {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+
+        {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+
+              <Nav.Link href="#features">Features</Nav.Link>
+
+              <NavDropdownMenu title="Dropdown 1" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+
+                <DropdownSubmenu href="#action/3.7" title="Text to show">
+
+                  <NavDropdown.Item href="#action/8.1">Sub 1</NavDropdown.Item>
+
+                  <DropdownSubmenu href="#action/3.7" title="Text to show">
+                    <NavDropdown.Item href="#action/9.1">
+                      Sub 2
+                    </NavDropdown.Item>
+                  </DropdownSubmenu>
+
+                </DropdownSubmenu>
+              </NavDropdownMenu>
+
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar> */}
         
       </>
     )
@@ -95,7 +127,9 @@ function ListPrinting() {
   const mapPrint = findPrint.map(print => {
     return (
       <div>
-        <NavDropdown.Item as={Link} to={print.id}>{print.name}</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to={print.id}>
+          {print.name}
+        </NavDropdown.Item>
       </div>
     )
   })
