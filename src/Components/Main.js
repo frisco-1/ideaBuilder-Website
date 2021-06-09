@@ -4,8 +4,6 @@ import Footer from './Footer';
 import Home from './Home';
 import NavB from './Navbar';
 
-import { PRODUCTS } from './Products/ProductsName';
-
 import {BusinessCard} from './ProductPages/ItemListing';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
