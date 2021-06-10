@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Form } from 'react-bootstrap';
 import  Select from 'react-select';
 //PRICES
 import { BCPRICES } from '../Products/Prices';
@@ -25,7 +25,7 @@ export function BusinessCard() {
     .filter(product => type && product.type === type.value && quantity && product.quantity === quantity.value)
     .map(product => {
       return (
-        <h3>${product.price}</h3>
+        <div className='d-inline'>${product.price}</div>
     )
   })
   return (
@@ -33,25 +33,39 @@ export function BusinessCard() {
       <Row>
         <Col md={12}><h2>Business Cards</h2></Col>
 
-        <Col md={6}>
+        <Col md={6} className='p-3 CalCol'>
           <img src='./img/p-business-card.jpg' alt='business-card' width='100%'/>
         </Col>
 
-        <Col md={6}>
-          <Select
-            value={type}
-            onChange={setType}
-            options={typeOptions}
-            placeholder='Select Type'
-          />
-          <Select
-            value={quantity}
-            onChange={setQuantity}
-            options={quantityOptions}
-            placeholder='Quantity'
-          />
+        <Col md={6} className='p-3 CalCol '>
+          <h3>Configure & Price</h3>
+          <hr/>
+          <Form>
+            <Form.Group controlId='productType'>
+              <Form.Label>Type:</Form.Label>
+              <Select
+              value={type}
+              onChange={setType}
+              options={typeOptions}
+              placeholder='Select Type'
+              isSearchable={false}
+              />
+            </Form.Group>
+              
+            <Form.Group controlId='productQuantity'>
+              <Form.Label>Quantity</Form.Label>
+              <Select
+                value={quantity}
+                onChange={setQuantity}
+                options={quantityOptions}
+                placeholder='Quantity'
+                isSearchable={false}
+              />
+            </Form.Group>
 
-          {priceOptions}
+          </Form>
+
+         <h3 className='pricingDiv'>Printing Cost: {priceOptions}</h3> 
         </Col>
       </Row>
     </Container>
