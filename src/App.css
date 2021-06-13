@@ -66,10 +66,8 @@
   border-radius: 5px;
 }
 .pricingDiv {
-  position: absolute;
-  bottom: 0;
   padding: 20px 0px;
-  margin: 20px 0px;
+  bottom: 0;
 }
 
 /* Colors */
