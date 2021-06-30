@@ -117,8 +117,813 @@ export const LETTERHEADS = [
   {type:'Full Color/Linen Paper', quantity: 500, price: 150},
   {type:'Full Color/Linen Paper', quantity: 1000, price: 225},
 ]
-
 // Check Over Invoices Again
+export const INVOICES2 = [
+  {
+    id: 1,
+    name: 'Invoices Contracts Black Ink 2 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 60 },
+              { quantity: 1000, price: 140 },
+              { quantity: 2000, price: 220 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 80 },
+              {quantity: 1000, price: 170 },
+              {quantity: 2000, price: 250 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 220 },
+              {quantity: 2000, price: 300}
+            ]
+          },
+        ]
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 60 },
+              { quantity: 1000, price: 140 },
+              { quantity: 2000, price: 220 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 80 },
+              {quantity: 1000, price: 170 },
+              {quantity: 2000, price: 250 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 220 },
+              {quantity: 2000, price: 300}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 60 },
+              { quantity: 500, price: 140 },
+              { quantity: 1000, price: 220 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 80 },
+              {quantity: 500, price: 170 },
+              {quantity: 1000, price: 250 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 220 },
+              {quantity: 1000, price: 300}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 120 },
+              { quantity: 500, price: 280 },
+              { quantity: 1000, price: 400 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 140 },
+              {quantity: 500, price: 300 },
+              {quantity: 1000, price: 430 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 350 },
+              {quantity: 1000, price: 480}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+  {
+    id: 2,
+    name: 'Invoices Contracts Black Ink 3 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 90 },
+              { quantity: 1000, price: 180 },
+              { quantity: 2000, price: 280 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 110 },
+              {quantity: 1000, price: 200 },
+              {quantity: 2000, price: 310 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 250 },
+              {quantity: 2000, price: 360}
+            ]
+          },
+        ]
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 90 },
+              { quantity: 1000, price: 180 },
+              { quantity: 2000, price: 280 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 110 },
+              {quantity: 1000, price: 200 },
+              {quantity: 2000, price: 310 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 250 },
+              {quantity: 2000, price: 360}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 90 },
+              { quantity: 500, price: 180 },
+              { quantity: 1000, price: 280 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 110 },
+              {quantity: 500, price: 200 },
+              {quantity: 1000, price: 310 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 250 },
+              {quantity: 1000, price: 360}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 150 },
+              { quantity: 500, price: 330 },
+              { quantity: 1000, price: 460 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 170 },
+              {quantity: 500, price: 350 },
+              {quantity: 1000, price: 490 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 400 },
+              {quantity: 1000, price: 540}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+  {
+    id: 3,
+    name: 'Invoices Contracts Black Ink 4 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 100 },
+              { quantity: 1000, price: 200 },
+              { quantity: 2000, price: 300 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 120 },
+              {quantity: 1000, price: 220 },
+              {quantity: 2000, price: 330 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 270 },
+              {quantity: 2000, price: 380}
+            ]
+          },
+        ]
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 100 },
+              { quantity: 1000, price: 200 },
+              { quantity: 2000, price: 300 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 120 },
+              {quantity: 1000, price: 220 },
+              {quantity: 2000, price: 330 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 270 },
+              {quantity: 2000, price: 380}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 100 },
+              { quantity: 500, price: 200 },
+              { quantity: 1000, price: 300 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 120 },
+              {quantity: 500, price: 220 },
+              {quantity: 1000, price: 330 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 270 },
+              {quantity: 1000, price: 380}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 160 },
+              { quantity: 500, price: 350 },
+              { quantity: 1000, price: 490 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 180 },
+              {quantity: 500, price: 370 },
+              {quantity: 1000, price: 520 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 420 },
+              {quantity: 1000, price: 570}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+  {
+    id: 4,
+    name: 'Invoices Contracts Full Color 2 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 85 },
+              { quantity: 1000, price: 190 },
+              { quantity: 2000, price: 270 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 105 },
+              {quantity: 1000, price: 210 },
+              {quantity: 2000, price: 300 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 260 },
+              {quantity: 2000, price: 350}
+            ]
+          },
+        ]
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 85 },
+              { quantity: 1000, price: 190 },
+              { quantity: 2000, price: 270 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 105 },
+              {quantity: 1000, price: 210 },
+              {quantity: 2000, price: 300 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 260 },
+              {quantity: 2000, price: 350}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 85 },
+              { quantity: 500, price: 190 },
+              { quantity: 1000, price: 270 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 105 },
+              {quantity: 500, price: 210 },
+              {quantity: 1000, price: 300 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 260 },
+              {quantity: 1000, price: 350}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 150 },
+              { quantity: 500, price: 320 },
+              { quantity: 1000, price: 450 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 170 },
+              {quantity: 500, price: 340 },
+              {quantity: 1000, price: 480 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 390},
+              {quantity: 1000, price: 530}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+  {
+    id: 5,
+    name: 'Invoices Contracts Full Color 3 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 120 },
+              { quantity: 1000, price: 220 },
+              { quantity: 2000, price: 320 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 140 },
+              {quantity: 1000, price: 240 },
+              {quantity: 2000, price: 350 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 290 },
+              {quantity: 2000, price: 400}
+            ]
+          },
+        ]
+      },
+      {
+        id:2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 120 },
+              { quantity: 1000, price: 220 },
+              { quantity: 2000, price: 320 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 140 },
+              {quantity: 1000, price: 240 },
+              {quantity: 2000, price: 350 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 290 },
+              {quantity: 2000, price: 400}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 120 },
+              { quantity: 500, price: 220 },
+              { quantity: 1000, price: 320 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 140 },
+              {quantity: 500, price: 240 },
+              {quantity: 1000, price: 350 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 290 },
+              {quantity: 1000, price: 400}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 180 },
+              { quantity: 500, price: 380 },
+              { quantity: 1000, price: 520 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 200 },
+              {quantity: 500, price: 400 },
+              {quantity: 1000, price: 550 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 450},
+              {quantity: 1000, price: 600}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+  {
+    id: 6,
+    name: 'Invoices Contracts Full Color 4 Parts',
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 120 },
+              { quantity: 1000, price: 235 },
+              { quantity: 2000, price: 350 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 140 },
+              {quantity: 1000, price: 255 },
+              {quantity: 2000, price: 380 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 305 },
+              {quantity: 2000, price: 430}
+            ]
+          },
+        ]
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 200, price: 120 },
+              { quantity: 1000, price: 235 },
+              { quantity: 2000, price: 350 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 200, price: 140 },
+              {quantity: 1000, price: 255 },
+              {quantity: 2000, price: 380 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 1000, price: 305 },
+              {quantity: 2000, price: 430}
+            ]
+          },
+        ]
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 120 },
+              { quantity: 500, price: 235 },
+              { quantity: 1000, price: 350 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 140 },
+              {quantity: 500, price: 255 },
+              {quantity: 1000, price: 380 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 305 },
+              {quantity: 1000, price: 430}
+            ]
+          },
+        ]
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: 'Regular',
+            amount: [
+              { quantity: 100, price: 180 },
+              { quantity: 500, price: 390 },
+              { quantity: 1000, price: 540 }
+            ]
+          },
+          {
+            id: 2,
+            type: 'With Numbering',
+            amount: [
+              {quantity: 100, price: 200 },
+              {quantity: 500, price: 410 },
+              {quantity: 1000, price: 570 }
+            ]
+          },
+          {
+            id: 3,
+            type: 'With Numbering & Made in Booklets',
+            amount: [
+              { quantity: 500, price: 460},
+              {quantity: 1000, price: 620}
+            ]
+          },
+        ]
+      },
+    ]
+  },
+]
 export const INVOICES = [
   // Invoices Contracts Black Ink 2 Parts
 
@@ -292,6 +1097,128 @@ export const INVOICES = [
     
     {pName: 'Invoices Contracts Full Color 2 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 260 },
     {pName: 'Invoices Contracts Full Color 2 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 2000, price: 350 },
+
+    //8.5" x 11"
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 100, price: 85 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 500, price: 190 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 1000, price: 270 },
+
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 100, price: 105 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 500, price: 210 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 1000, price: 300 },
+    
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 260 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 350 },
+
+    //8.5" x 14"
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 100, price: 150 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 500, price: 320 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 1000, price: 450 },
+
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 100, price: 170 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 500, price: 340 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 1000, price: 480 },
+    
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 390 },
+    {pName: 'Invoices Contracts Full Color 2 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 530 },
+    
+  //Invoices Contracts Full Color 3 Parts
+    //5.5" x 8.5"
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 200, price: 120 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 1000, price: 220 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 2000, price: 320 },
+
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 200, price: 140 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 1000, price: 240 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 2000, price: 350 },
+    
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 290 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '5.5" x 8.5"', type: 'With Numbering & Made in Booklets', quantity: 2000, price: 400 },
+    
+  //4.25" x 11"
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 200, price: 120 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 1000, price: 220 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 2000, price: 320 },
+
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 200, price: 140 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 1000, price: 240 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 2000, price: 350 },
+    
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 290 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 2000, price: 400 },
+    
+  //8.5" x 11"
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 100, price: 120 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 500, price: 220 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 1000, price: 320 },
+
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 100, price: 140 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 500, price: 240 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 1000, price: 350 },
+    
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 290 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 400 },
+    
+  //8.5" x 14"
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 100, price: 180 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 500, price: 380 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 1000, price: 520 },
+
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 100, price: 200 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 500, price: 400 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 1000, price: 550 },
+    
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 450 },
+    {pName: 'Invoices Contracts Full Color 3 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 600 },
+    
+  //Invoices Contracts Full Color 4 Parts
+    //5.5" x 8.5"
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 200, price: 120 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 1000, price: 235 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'Regular', quantity: 2000, price: 350 },
+
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 200, price: 140 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 1000, price: 255 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'With Numbering', quantity: 2000, price: 380 },
+    
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 305 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '5.5" x 8.5"', type: 'With Numbering & Made in Booklets', quantity: 2000, price: 430 },
+    
+  //4.25" x 11"
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 200, price: 120 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 1000, price: 235 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'Regular', quantity: 2000, price: 350 },
+
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 200, price: 140 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 1000, price: 255 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'With Numbering', quantity: 2000, price: 380 },
+    
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 305 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '4.25" x 11"', type: 'With Numbering & Made in Booklets', quantity: 2000, price: 430 },
+    
+  //8.5" x 11"
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 100, price: 120 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 500, price: 235 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'Regular', quantity: 1000, price: 350 },
+
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 100, price: 140 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 500, price: 255 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'With Numbering', quantity: 1000, price: 380 },
+    
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 305 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 11"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 430 },
+
+    //8.5" x 14"
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 100, price: 180 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 500, price: 390 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'Regular', quantity: 1000, price: 540 },
+
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 100, price: 200 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 500, price: 410 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'With Numbering', quantity: 1000, price: 570 },
+    
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 500, price: 460 },
+    {pName: 'Invoices Contracts Full Color 4 Parts', size: '8.5" x 14"', type: 'With Numbering & Made in Booklets', quantity: 1000, price: 620 },
 
 ]
 

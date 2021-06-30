@@ -1,8 +1,8 @@
 import React from 'react';
 // Nav, Home, Footer
 import Footer from './Footer';
-import Home from './Home';
-import NavB from './Navbar';
+import Home from './HomePage/Home';
+import NavB from './Navbar/Navbar';
 
 import {BusinessCard, Flyers, Invoices, Envelopes} from './ProductPages/ItemListing';
 

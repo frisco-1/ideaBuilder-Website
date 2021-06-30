@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import  Select from 'react-select';
 import { Link } from 'react-router-dom';
 //PRICES
-import { BCPRICES, FLYERS, INVOICES, ENVELOPES  } from '../Products/Prices';
+import { BCPRICES, FLYERS, INVOICES2, ENVELOPES  } from '../Products/Prices';
 
 // BusinessCard
 export function BusinessCard() {
@@ -160,44 +160,47 @@ export function Flyers() {
 //Invoices
 export function Invoices() {
   //State
-  const [pName, setPName] = React.useState();
-  const [size, setSize] = React.useState();
-  const [type, setType] = React.useState();
-  const [quantity, setQuantity] = React.useState();
+  const [pName, setPName] = React.useState(
+    {label: 'Invoices Contracts Black Ink 2 Parts', value: 'Invoices Contracts Black Ink 2 Parts'}
+  );
+  const [size, setSize] = React.useState(
+    {label: '5.5" x 8.5"', value: '5.5" x 8.5"'}
+  );
+  const [type, setType] = React.useState(
+    {label: 'Regular', value: 'Regular' }
+  );
+  const [quantity, setQuantity] = React.useState(
+    {label: 0, value: 0}
+  );
 
   //Array Functions
 
   // pNameOptions
-  const pNameOptions = INVOICES
-    .map(product => product.pName)
-    .filter((v, i, a) => a.indexOf(v) === i)
+  const pNameOptions = INVOICES2
+    .map(p => p.name)
     .map((pName) => ({ label: pName, value: pName }));
+  
+  console.log(pNameOptions);
 
   //sizeOptions
-  const sizeOptions = INVOICES
-    .filter((product) => pName && product.pName === pName.value)
-    .map(product => product.size)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((size) => ({ label: size, value: size }));
+  const sizeOptions = INVOICES2
+    .filter((p) => p.name === pName.value)[0].measurements.map((m) => ({ label: m.size, value: m.size }));
+    
+  console.log(sizeOptions);
 
   // typeOptions
-  const typeOptions = INVOICES
-    .filter(product => pName && product.pName === pName.value && size && product.size === size.value)
-    .map(product => product.type)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((type) => ({ label: type, value: type }));
+  const typeOptions = INVOICES2
+  .filter((p) => p.name=== pName.value)[0].measurements[0].category.map((c) => ({label: c.type, value: c.type}))
+
+  console.log(typeOptions);
 
   //quantityOptions
-  const quantityOptions = INVOICES
-    .filter(p => pName && p.pName === pName.value && size && p.size === size.value && type && p.type === type.value)
-    .map(p => p.quantity)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((quantity) => ({ label: quantity, value: quantity }))
+  const quantityOptions = INVOICES2
+    .filter((p) => p.name === pName.value)[0].measurements[0].category[0].amount.map((a)=> ({label: a.quantity, value: a.quantity}));
   
   //priceOptions
-  const priceOptions = INVOICES
-    .filter(p=> pName && p.pName === pName.value && size && p.size === size.value && type && p.type === type.value && quantity && p.quantity === quantity.value)
-    .map(p => p.price)
+  const priceOptions = INVOICES2
+    .filter((p) => p.name === pName.value)[0].measurements[0].category[0].amount.map((p)=> p.price);
   
   
   return (
