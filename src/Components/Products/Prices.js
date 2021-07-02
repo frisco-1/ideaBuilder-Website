@@ -122,7 +122,7 @@ export const LETTERHEADS = [
 export const INVOICES2 = [
   {
     id: 1,
-    name: 'Invoices Contracts Black Ink 2 Parts',
+    name: "Invoices Contracts Black Ink 2 Parts",
     measurements: [
       {
         id: 1,
@@ -130,31 +130,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 60 },
-              { quantity: 1000, price: 140 },
-              { quantity: 2000, price: 220 }
-            ]
+              { id: 1, quantity: 200, price: 60 },
+              { id: 2, quantity: 1000, price: 140 },
+              { id: 3, quantity: 2000, price: 220 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 80 },
-              {quantity: 1000, price: 170 },
-              {quantity: 2000, price: 250 }
-            ]
+              { id: 1, quantity: 200, price: 80 },
+              { id: 2, quantity: 1000, price: 170 },
+              { id: 3, quantity: 2000, price: 250 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 220 },
-              {quantity: 2000, price: 300}
-            ]
+              { id: 1, quantity: 1000, price: 220 },
+              { id: 2, quantity: 2000, price: 300 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 2,
@@ -162,31 +162,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 60 },
-              { quantity: 1000, price: 140 },
-              { quantity: 2000, price: 220 }
-            ]
+              { id: 1, quantity: 200, price: 60 },
+              { id: 2, quantity: 1000, price: 140 },
+              { id: 3, quantity: 2000, price: 220 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 80 },
-              {quantity: 1000, price: 170 },
-              {quantity: 2000, price: 250 }
-            ]
+              { id: 1, quantity: 200, price: 80 },
+              { id: 2, quantity: 1000, price: 170 },
+              { id: 3, quantity: 2000, price: 250 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 220 },
-              {quantity: 2000, price: 300}
-            ]
+              { id: 1, quantity: 1000, price: 220 },
+              { id: 2, quantity: 2000, price: 300 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 3,
@@ -194,31 +194,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 60 },
-              { quantity: 500, price: 140 },
-              { quantity: 1000, price: 220 }
-            ]
+              { id: 1, quantity: 100, price: 60 },
+              { id: 2, quantity: 500, price: 140 },
+              { id: 3, quantity: 1000, price: 220 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 80 },
-              {quantity: 500, price: 170 },
-              {quantity: 1000, price: 250 }
-            ]
+              { id: 1, quantity: 100, price: 80 },
+              { id: 2, quantity: 500, price: 170 },
+              { id: 3, quantity: 1000, price: 250 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 220 },
-              {quantity: 1000, price: 300}
-            ]
+              { id: 1, quantity: 500, price: 220 },
+              { id: 2, quantity: 1000, price: 300 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 4,
@@ -226,37 +226,37 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 120 },
-              { quantity: 500, price: 280 },
-              { quantity: 1000, price: 400 }
-            ]
+              { id: 1, quantity: 100, price: 120 },
+              { id: 2, quantity: 500, price: 280 },
+              { id: 3, quantity: 1000, price: 400 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 140 },
-              {quantity: 500, price: 300 },
-              {quantity: 1000, price: 430 }
-            ]
+              { id: 1, quantity: 100, price: 140 },
+              { id: 2, quantity: 500, price: 300 },
+              { id: 3, quantity: 1000, price: 430 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 350 },
-              {quantity: 1000, price: 480}
-            ]
+              { id: 1, quantity: 500, price: 350 },
+              { id: 2, quantity: 1000, price: 480 },
+            ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     id: 2,
-    name: 'Invoices Contracts Black Ink 3 Parts',
+    name: "Invoices Contracts Black Ink 3 Parts",
     measurements: [
       {
         id: 1,
@@ -264,31 +264,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 90 },
-              { quantity: 1000, price: 180 },
-              { quantity: 2000, price: 280 }
-            ]
+              { id: 1, quantity: 200, price: 90 },
+              { id: 2, quantity: 1000, price: 180 },
+              { id: 3, quantity: 2000, price: 280 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 110 },
-              {quantity: 1000, price: 200 },
-              {quantity: 2000, price: 310 }
-            ]
+              { id: 1, quantity: 200, price: 110 },
+              { id: 2, quantity: 1000, price: 200 },
+              { id: 3, quantity: 2000, price: 310 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 250 },
-              {quantity: 2000, price: 360}
-            ]
+              { id: 1, quantity: 1000, price: 250 },
+              { id: 2, quantity: 2000, price: 360 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 2,
@@ -296,31 +296,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 90 },
-              { quantity: 1000, price: 180 },
-              { quantity: 2000, price: 280 }
-            ]
+              { id: 1, quantity: 200, price: 90 },
+              { id: 2, quantity: 1000, price: 180 },
+              { id: 3, quantity: 2000, price: 280 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 110 },
-              {quantity: 1000, price: 200 },
-              {quantity: 2000, price: 310 }
-            ]
+              { id: 1, quantity: 200, price: 110 },
+              { id: 2, quantity: 1000, price: 200 },
+              { id: 3, quantity: 2000, price: 310 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 250 },
-              {quantity: 2000, price: 360}
-            ]
+              { id: 1, quantity: 1000, price: 250 },
+              { id: 2, quantity: 2000, price: 360 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 3,
@@ -328,31 +328,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 90 },
-              { quantity: 500, price: 180 },
-              { quantity: 1000, price: 280 }
-            ]
+              { id: 1, quantity: 100, price: 90 },
+              { id: 2, quantity: 500, price: 180 },
+              { id: 3, quantity: 1000, price: 280 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 110 },
-              {quantity: 500, price: 200 },
-              {quantity: 1000, price: 310 }
-            ]
+              { id: 1, quantity: 100, price: 110 },
+              { id: 2, quantity: 500, price: 200 },
+              { id: 3, quantity: 1000, price: 310 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 250 },
-              {quantity: 1000, price: 360}
-            ]
+              { id: 1, quantity: 500, price: 250 },
+              { id: 2, quantity: 1000, price: 360 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 4,
@@ -360,37 +360,37 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 150 },
-              { quantity: 500, price: 330 },
-              { quantity: 1000, price: 460 }
-            ]
+              { id: 1, quantity: 100, price: 150 },
+              { id: 2, quantity: 500, price: 330 },
+              { id: 3, quantity: 1000, price: 460 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 170 },
-              {quantity: 500, price: 350 },
-              {quantity: 1000, price: 490 }
-            ]
+              { id: 1, quantity: 100, price: 170 },
+              { id: 2, quantity: 500, price: 350 },
+              { id: 3, quantity: 1000, price: 490 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 400 },
-              {quantity: 1000, price: 540}
-            ]
+              { id: 1, quantity: 500, price: 400 },
+              { id: 2, quantity: 1000, price: 540 },
+            ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     id: 3,
-    name: 'Invoices Contracts Black Ink 4 Parts',
+    name: "Invoices Contracts Black Ink 4 Parts",
     measurements: [
       {
         id: 1,
@@ -398,31 +398,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 100 },
-              { quantity: 1000, price: 200 },
-              { quantity: 2000, price: 300 }
-            ]
+              { id: 1, quantity: 200, price: 100 },
+              { id: 2, quantity: 1000, price: 200 },
+              { id: 3, quantity: 2000, price: 300 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 120 },
-              {quantity: 1000, price: 220 },
-              {quantity: 2000, price: 330 }
-            ]
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 220 },
+              { id: 3, quantity: 2000, price: 330 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 270 },
-              {quantity: 2000, price: 380}
-            ]
+              { id: 1, quantity: 1000, price: 270 },
+              { id: 2, quantity: 2000, price: 380 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 2,
@@ -430,31 +430,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 100 },
-              { quantity: 1000, price: 200 },
-              { quantity: 2000, price: 300 }
-            ]
+              { id: 1, quantity: 200, price: 100 },
+              { id: 2, quantity: 1000, price: 200 },
+              { id: 3, quantity: 2000, price: 300 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 120 },
-              {quantity: 1000, price: 220 },
-              {quantity: 2000, price: 330 }
-            ]
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 220 },
+              { id: 3, quantity: 2000, price: 330 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 270 },
-              {quantity: 2000, price: 380}
-            ]
+              { id: 1, quantity: 1000, price: 270 },
+              { id: 2, quantity: 2000, price: 380 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 3,
@@ -462,31 +462,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 100 },
-              { quantity: 500, price: 200 },
-              { quantity: 1000, price: 300 }
-            ]
+              { id: 1, quantity: 100, price: 100 },
+              { id: 2, quantity: 500, price: 200 },
+              { id: 3, quantity: 1000, price: 300 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 120 },
-              {quantity: 500, price: 220 },
-              {quantity: 1000, price: 330 }
-            ]
+              { id: 1, quantity: 100, price: 120 },
+              { id: 2, quantity: 500, price: 220 },
+              { id: 3, quantity: 1000, price: 330 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 270 },
-              {quantity: 1000, price: 380}
-            ]
+              { id: 1, quantity: 500, price: 270 },
+              { id: 2, quantity: 1000, price: 380 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 4,
@@ -494,37 +494,37 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 160 },
-              { quantity: 500, price: 350 },
-              { quantity: 1000, price: 490 }
-            ]
+              { id: 1, quantity: 100, price: 160 },
+              { id: 2, quantity: 500, price: 350 },
+              { id: 3, quantity: 1000, price: 490 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 180 },
-              {quantity: 500, price: 370 },
-              {quantity: 1000, price: 520 }
-            ]
+              { id: 1, quantity: 100, price: 180 },
+              { id: 2, quantity: 500, price: 370 },
+              { id: 3, quantity: 1000, price: 520 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 420 },
-              {quantity: 1000, price: 570}
-            ]
+              { id: 1, quantity: 500, price: 420 },
+              { id: 2, quantity: 1000, price: 570 },
+            ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     id: 4,
-    name: 'Invoices Contracts Full Color 2 Parts',
+    name: "Invoices Contracts Full Color 2 Parts",
     measurements: [
       {
         id: 1,
@@ -532,31 +532,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 85 },
-              { quantity: 1000, price: 190 },
-              { quantity: 2000, price: 270 }
-            ]
+              { id: 1, quantity: 200, price: 85 },
+              { id: 2, quantity: 1000, price: 190 },
+              { id: 3, quantity: 2000, price: 270 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 105 },
-              {quantity: 1000, price: 210 },
-              {quantity: 2000, price: 300 }
-            ]
+              { id: 1, quantity: 200, price: 105 },
+              { id: 2, quantity: 1000, price: 210 },
+              { id: 3, quantity: 2000, price: 300 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 260 },
-              {quantity: 2000, price: 350}
-            ]
+              { id: 1, quantity: 1000, price: 260 },
+              { id: 2, quantity: 2000, price: 350 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 2,
@@ -564,31 +564,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 85 },
-              { quantity: 1000, price: 190 },
-              { quantity: 2000, price: 270 }
-            ]
+              { id: 1, quantity: 200, price: 85 },
+              { id: 2, quantity: 1000, price: 190 },
+              { id: 3, quantity: 2000, price: 270 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 105 },
-              {quantity: 1000, price: 210 },
-              {quantity: 2000, price: 300 }
-            ]
+              { id: 1, quantity: 200, price: 105 },
+              { id: 2, quantity: 1000, price: 210 },
+              { id: 3, quantity: 2000, price: 300 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 260 },
-              {quantity: 2000, price: 350}
-            ]
+              { id: 1, quantity: 1000, price: 260 },
+              { id: 2, quantity: 2000, price: 350 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 3,
@@ -596,31 +596,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 85 },
-              { quantity: 500, price: 190 },
-              { quantity: 1000, price: 270 }
-            ]
+              { id: 1, quantity: 100, price: 85 },
+              { id: 2, quantity: 500, price: 190 },
+              { id: 3, quantity: 1000, price: 270 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 105 },
-              {quantity: 500, price: 210 },
-              {quantity: 1000, price: 300 }
-            ]
+              { id: 1, quantity: 100, price: 105 },
+              { id: 2, quantity: 500, price: 210 },
+              { id: 3, quantity: 1000, price: 300 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 260 },
-              {quantity: 1000, price: 350}
-            ]
+              { id: 1, quantity: 500, price: 260 },
+              { id: 2, quantity: 1000, price: 350 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 4,
@@ -628,37 +628,37 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 150 },
-              { quantity: 500, price: 320 },
-              { quantity: 1000, price: 450 }
-            ]
+              { id: 1, quantity: 100, price: 150 },
+              { id: 2, quantity: 500, price: 320 },
+              { id: 3, quantity: 1000, price: 450 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 170 },
-              {quantity: 500, price: 340 },
-              {quantity: 1000, price: 480 }
-            ]
+              { id: 1, quantity: 100, price: 170 },
+              { id: 2, quantity: 500, price: 340 },
+              { id: 3, quantity: 1000, price: 480 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 390},
-              {quantity: 1000, price: 530}
-            ]
+              { id: 1, quantity: 500, price: 390 },
+              { id: 2, quantity: 1000, price: 530 },
+            ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     id: 5,
-    name: 'Invoices Contracts Full Color 3 Parts',
+    name: "Invoices Contracts Full Color 3 Parts",
     measurements: [
       {
         id: 1,
@@ -666,165 +666,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 120 },
-              { quantity: 1000, price: 220 },
-              { quantity: 2000, price: 320 }
-            ]
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 220 },
+              { id: 3, quantity: 2000, price: 320 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 140 },
-              {quantity: 1000, price: 240 },
-              {quantity: 2000, price: 350 }
-            ]
+              { id: 1, quantity: 200, price: 140 },
+              { id: 2, quantity: 1000, price: 240 },
+              { id: 3, quantity: 2000, price: 350 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 290 },
-              {quantity: 2000, price: 400}
-            ]
+              { id: 1, quantity: 1000, price: 290 },
+              { id: 2, quantity: 2000, price: 400 },
+            ],
           },
-        ]
-      },
-      {
-        id:2,
-        size: '4.25" x 11"',
-        category: [
-          {
-            id: 1,
-            type: 'Regular',
-            amount: [
-              { quantity: 200, price: 120 },
-              { quantity: 1000, price: 220 },
-              { quantity: 2000, price: 320 }
-            ]
-          },
-          {
-            id: 2,
-            type: 'With Numbering',
-            amount: [
-              {quantity: 200, price: 140 },
-              {quantity: 1000, price: 240 },
-              {quantity: 2000, price: 350 }
-            ]
-          },
-          {
-            id: 3,
-            type: 'With Numbering & Made in Booklets',
-            amount: [
-              { quantity: 1000, price: 290 },
-              {quantity: 2000, price: 400}
-            ]
-          },
-        ]
-      },
-      {
-        id: 3,
-        size: '8.5" x 11"',
-        category: [
-          {
-            id: 1,
-            type: 'Regular',
-            amount: [
-              { quantity: 100, price: 120 },
-              { quantity: 500, price: 220 },
-              { quantity: 1000, price: 320 }
-            ]
-          },
-          {
-            id: 2,
-            type: 'With Numbering',
-            amount: [
-              {quantity: 100, price: 140 },
-              {quantity: 500, price: 240 },
-              {quantity: 1000, price: 350 }
-            ]
-          },
-          {
-            id: 3,
-            type: 'With Numbering & Made in Booklets',
-            amount: [
-              { quantity: 500, price: 290 },
-              {quantity: 1000, price: 400}
-            ]
-          },
-        ]
-      },
-      {
-        id: 4,
-        size: '8.5" x 14"',
-        category: [
-          {
-            id: 1,
-            type: 'Regular',
-            amount: [
-              { quantity: 100, price: 180 },
-              { quantity: 500, price: 380 },
-              { quantity: 1000, price: 520 }
-            ]
-          },
-          {
-            id: 2,
-            type: 'With Numbering',
-            amount: [
-              {quantity: 100, price: 200 },
-              {quantity: 500, price: 400 },
-              {quantity: 1000, price: 550 }
-            ]
-          },
-          {
-            id: 3,
-            type: 'With Numbering & Made in Booklets',
-            amount: [
-              { quantity: 500, price: 450},
-              {quantity: 1000, price: 600}
-            ]
-          },
-        ]
-      },
-    ]
-  },
-  {
-    id: 6,
-    name: 'Invoices Contracts Full Color 4 Parts',
-    measurements: [
-      {
-        id: 1,
-        size: '5.5" x 8.5"',
-        category: [
-          {
-            id: 1,
-            type: 'Regular',
-            amount: [
-              { quantity: 200, price: 120 },
-              { quantity: 1000, price: 235 },
-              { quantity: 2000, price: 350 }
-            ]
-          },
-          {
-            id: 2,
-            type: 'With Numbering',
-            amount: [
-              {quantity: 200, price: 140 },
-              {quantity: 1000, price: 255 },
-              {quantity: 2000, price: 380 }
-            ]
-          },
-          {
-            id: 3,
-            type: 'With Numbering & Made in Booklets',
-            amount: [
-              { quantity: 1000, price: 305 },
-              {quantity: 2000, price: 430}
-            ]
-          },
-        ]
+        ],
       },
       {
         id: 2,
@@ -832,31 +698,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 200, price: 120 },
-              { quantity: 1000, price: 235 },
-              { quantity: 2000, price: 350 }
-            ]
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 220 },
+              { id: 3, quantity: 2000, price: 320 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 200, price: 140 },
-              {quantity: 1000, price: 255 },
-              {quantity: 2000, price: 380 }
-            ]
+              { id: 1, quantity: 200, price: 140 },
+              { id: 2, quantity: 1000, price: 240 },
+              { id: 3, quantity: 2000, price: 350 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 1000, price: 305 },
-              {quantity: 2000, price: 430}
-            ]
+              { id: 1, quantity: 1000, price: 290 },
+              { id: 2, quantity: 2000, price: 400 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 3,
@@ -864,31 +730,31 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 120 },
-              { quantity: 500, price: 235 },
-              { quantity: 1000, price: 350 }
-            ]
+              { id: 1, quantity: 100, price: 120 },
+              { id: 2, quantity: 500, price: 220 },
+              { id: 3, quantity: 1000, price: 320 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 140 },
-              {quantity: 500, price: 255 },
-              {quantity: 1000, price: 380 }
-            ]
+              { id: 1, quantity: 100, price: 140 },
+              { id: 2, quantity: 500, price: 240 },
+              { id: 3, quantity: 1000, price: 350 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 305 },
-              {quantity: 1000, price: 430}
-            ]
+              { id: 1, quantity: 500, price: 290 },
+              { id: 2, quantity: 1000, price: 400 },
+            ],
           },
-        ]
+        ],
       },
       {
         id: 4,
@@ -896,35 +762,169 @@ export const INVOICES2 = [
         category: [
           {
             id: 1,
-            type: 'Regular',
+            type: "Regular",
             amount: [
-              { quantity: 100, price: 180 },
-              { quantity: 500, price: 390 },
-              { quantity: 1000, price: 540 }
-            ]
+              { id: 1, quantity: 100, price: 180 },
+              { id: 2, quantity: 500, price: 380 },
+              { id: 3, quantity: 1000, price: 520 },
+            ],
           },
           {
             id: 2,
-            type: 'With Numbering',
+            type: "With Numbering",
             amount: [
-              {quantity: 100, price: 200 },
-              {quantity: 500, price: 410 },
-              {quantity: 1000, price: 570 }
-            ]
+              { id: 1, quantity: 100, price: 200 },
+              { id: 2, quantity: 500, price: 400 },
+              { id: 3, quantity: 1000, price: 550 },
+            ],
           },
           {
             id: 3,
-            type: 'With Numbering & Made in Booklets',
+            type: "With Numbering & Made in Booklets",
             amount: [
-              { quantity: 500, price: 460},
-              {quantity: 1000, price: 620}
-            ]
+              { id: 1, quantity: 500, price: 450 },
+              { id: 2, quantity: 1000, price: 600 },
+            ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
-]
+  {
+    id: 6,
+    name: "Invoices Contracts Full Color 4 Parts",
+    measurements: [
+      {
+        id: 1,
+        size: '5.5" x 8.5"',
+        category: [
+          {
+            id: 1,
+            type: "Regular",
+            amount: [
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 235 },
+              { id: 3, quantity: 2000, price: 350 },
+            ],
+          },
+          {
+            id: 2,
+            type: "With Numbering",
+            amount: [
+              { id: 1, quantity: 200, price: 140 },
+              { id: 2, quantity: 1000, price: 255 },
+              { id: 3, quantity: 2000, price: 380 },
+            ],
+          },
+          {
+            id: 3,
+            type: "With Numbering & Made in Booklets",
+            amount: [
+              { id: 2, quantity: 1000, price: 305 },
+              { id: 3, quantity: 2000, price: 430 },
+            ],
+          },
+        ],
+      },
+      {
+        id: 2,
+        size: '4.25" x 11"',
+        category: [
+          {
+            id: 1,
+            type: "Regular",
+            amount: [
+              { id: 1, quantity: 200, price: 120 },
+              { id: 2, quantity: 1000, price: 235 },
+              { id: 3, quantity: 2000, price: 350 },
+            ],
+          },
+          {
+            id: 2,
+            type: "With Numbering",
+            amount: [
+              { id: 1, quantity: 200, price: 140 },
+              { id: 2, quantity: 1000, price: 255 },
+              { id: 3, quantity: 2000, price: 380 },
+            ],
+          },
+          {
+            id: 3,
+            type: "With Numbering & Made in Booklets",
+            amount: [
+              { id: 1, quantity: 1000, price: 305 },
+              { id: 2, quantity: 2000, price: 430 },
+            ],
+          },
+        ],
+      },
+      {
+        id: 3,
+        size: '8.5" x 11"',
+        category: [
+          {
+            id: 1,
+            type: "Regular",
+            amount: [
+              { id: 1, quantity: 100, price: 120 },
+              { id: 2, quantity: 500, price: 235 },
+              { id: 3, quantity: 1000, price: 350 },
+            ],
+          },
+          {
+            id: 2,
+            type: "With Numbering",
+            amount: [
+              { id: 1, quantity: 100, price: 140 },
+              { id: 2, quantity: 500, price: 255 },
+              { id: 3, quantity: 1000, price: 380 },
+            ],
+          },
+          {
+            id: 3,
+            type: "With Numbering & Made in Booklets",
+            amount: [
+              { id: 1, quantity: 500, price: 305 },
+              { id: 2, quantity: 1000, price: 430 },
+            ],
+          },
+        ],
+      },
+      {
+        id: 4,
+        size: '8.5" x 14"',
+        category: [
+          {
+            id: 1,
+            type: "Regular",
+            amount: [
+              { id: 1, quantity: 100, price: 180 },
+              { id: 2, quantity: 500, price: 390 },
+              { id: 3, quantity: 1000, price: 540 },
+            ],
+          },
+          {
+            id: 2,
+            type: "With Numbering",
+            amount: [
+              { id: 1, quantity: 100, price: 200 },
+              { id: 2, quantity: 500, price: 410 },
+              { id: 3, quantity: 1000, price: 570 },
+            ],
+          },
+          {
+            id: 3,
+            type: "With Numbering & Made in Booklets",
+            amount: [
+              { id: 1, quantity: 500, price: 460 },
+              { id: 2, quantity: 1000, price: 620 },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
 export const INVOICES = [
   // Invoices Contracts Black Ink 2 Parts
 

@@ -18,30 +18,30 @@ function Footer() {
             <h5 id='LinkHead'>Printing</h5>
 
             <ul className='list-unstyled'>
-              <li><Link id='gray'>Business Cards</Link></li>
-              <li><Link id='gray'>Brochures</Link></li>
-              <li><Link id='gray'>Flyers</Link></li>
-              <li><Link id='gray'>Invoices</Link></li>
+              <li><Link to='/business-cards' id='gray'>Business Cards</Link></li>
+              <li><Link to='/brochures' id='gray'>Brochures</Link></li>
+              <li><Link to ='/flyers' id='gray'>Flyers</Link></li>
+              <li><Link to='invoices' id='gray'>Invoices</Link></li>
             </ul>
           </Col>
           <Col md={4}>
             <h5 id='LinkHead'>Signs</h5>
 
             <ul className='list-unstyled'>
-              <li><Link id='gray'>Magnets</Link></li>
-              <li><Link id='gray'>Banners</Link></li>
-              <li><Link id='gray'>Aluminum Signs</Link></li>
-              <li><Link id='gray'>Realtor Signs</Link></li>
+              <li><Link to='/magnets' id='gray'>Magnets</Link></li>
+              <li><Link to ='/banners' id='gray'>Banners</Link></li>
+              <li><Link to='/aluminum-signs' id='gray'>Aluminum Signs</Link></li>
+              <li><Link to='/realtor-signs' id='gray'>Realtor Signs</Link></li>
             </ul>
           </Col>
           <Col md={4}>
             <h5 id='LinkHead'>Promotion Items</h5>
 
             <ul className='list-unstyled'>
-              <li><Link id='gray'>Pens</Link></li>
-              <li><Link id='gray'>Keychains</Link></li>
-              <li><Link id='gray'>Drink Wear</Link></li>
-              <li><Link id='gray'>Table Covers</Link></li>
+              <li><Link to='/pens' id='gray'>Pens</Link></li>
+              <li><Link to='/keychains' id='gray'>Keychains</Link></li>
+              <li><Link to='/drink-wear' id='gray'>Drink Wear</Link></li>
+              <li><Link to='/table-covers' id='gray'>Table Covers</Link></li>
             </ul>
           </Col>
 

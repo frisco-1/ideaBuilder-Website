@@ -4,11 +4,13 @@ import Footer from './Footer';
 import Home from './HomePage/Home';
 import NavB from './Navbar/Navbar';
 
-import {BusinessCard, Flyers, Invoices, Envelopes} from './ProductPages/ItemListing';
+import { BusinessCard, Flyers, Envelopes } from './ProductPages/ItemListing';
+import Invoices from './ProductPages/Invoices';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function Main() {
+  
   return (
     <>
       <Router>
@@ -17,10 +19,12 @@ function Main() {
         <Switch>
           <Route exact path='/' component={Home} />
           {/* <Route path={{ productId }} render={(productId) => <Prices ItemId={productId}/> }/> */}
+
           <Route exact path='/business-cards' component={BusinessCard} />
           <Route exact path='/flyers' component={Flyers}/>
           <Route exact path='/envelopes' component={Envelopes} />
           <Route exact path='/invoices' component={Invoices}/>
+          
         </Switch>
         
         <Footer/>

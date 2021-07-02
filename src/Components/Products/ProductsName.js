@@ -1,181 +1,216 @@
 export const PRODUCTS = [
   // Printing
   {
-    id: 'business-cards',
+    id: '/business-cards',
     type: 'PRINTING',
-    name: 'Business Cards'
+    name: 'Business Cards',
+    component: 'BusinessCard'
   },
   {
-    id: 'brochures',
+    id: '/brochures',
     type: 'PRINTING',
-    name: 'Brochures'
+    name: 'Brochures',
+    component: 'Brochures'
   },
   {
-    id: 'flyers',
+    id: '/flyers',
     type: 'PRINTING',
-    name: 'Flyers'
+    name: 'Flyers',
+    component: 'Flyers'
   },
   {
-    id: 'invoices',
+    id: '/invoices',
     type: 'PRINTING',
-    name: 'Invoices'
+    name: 'Invoices',
+    component: 'Invoices'
   },
   {
-    id: 'carbonless-form',
+    id: '/carbonless-form',
     type: 'PRINTING',
-    name: 'Carbonless Form'
+    name: 'Carbonless Form',
+    component: 'CarbonlessForm'
   },
   {
-    id: 'door-hangers',
+    id: '/door-hangers',
     type: 'PRINTING',
-    name: 'Door Hangers'
+    name: 'Door Hangers',
+    component: 'DoorHangers'
   },
   {
-    id: 'envelopes',
+    id: '/envelopes',
     type: 'PRINTING',
-    name: 'Envelopes'
+    name: 'Envelopes',
+    component:'Envelopes'
   },
   {
-    id: 'booklets',
+    id: '/booklets',
     type: 'PRINTING',
-    name: 'Booklets'
+    name: 'Booklets',
+    component: 'Booklets'
   },
   {
-    id: 'posters',
+    id: '/posters',
     type: 'PRINTING',
-    name: 'Posters'
+    name: 'Posters',
+    component: 'Posters'
   },
   {
-    id: 'letter-heads',
+    id: '/letter-heads',
     type: 'PRINTING',
-    name: 'Letter Heads'
+    name: 'Letter Heads',
+    component: 'LetterHeads'
   },
   {
-    id: 'Folders',
+    id: '/Folders',
     type: 'PRINTING',
-    name: 'Folders'
+    name: 'Folders',
+    component: 'Folders'
   },
   {
-    id: 'Labels',
+    id: '/Labels',
     type: 'PRINTING',
-    name: 'Labels'
+    name: 'Labels',
+    component: 'Labels'
   },
   {
-    id: 'note-pads',
+    id: '/note-pads',
     type: 'PRINTING',
-    name: 'Note Pads'
+    name: 'Note Pads',
+    component:'NotePads'
   },
   {
-    id: 'tickets',
+    id: '/tickets',
     type: 'PRINTING',
     name: 'Tickets',
+    component: 'Tickets'
   },
   {
-    id: 'menu',
+    id: '/menu',
     type: 'PRINTING',
     name: 'Menu',
+    component: 'Menu'
   },
   {
-    id: 'stickers',
+    id: '/stickers',
     type: 'PRINTING',
     name: 'Stickers',
+    component: 'Stickers'
   },
 
   // SIGNS
   {
-    id: 'magnets',
+    id: '/magnets',
     type: 'SIGNS',
     name: 'Magnets',
+    component: 'Magnets'
   }, 
   {
-    id: 'banners',
+    id: '/banners',
     type: 'SIGNS',
     name: 'Banners',
+    component: 'Banners'
   }, 
   {
-    id: 'aluminum-signs',
+    id: '/aluminum-signs',
     type: 'SIGNS',
     name: 'Aluminum Signs',
+    component: 'AluminumSigns'
   }, 
   {
-    id: 'realtor-signs',
+    id: '/realtor-signs',
     type: 'SIGNS',
     name: 'Realtor Signs',
+    component: 'RealtorSigns'
   }, 
   {
-    id: 'post-signs',
+    id: '/post-signs',
     type: 'SIGNS',
     name: 'Post Signs',
+    component: 'PostSigns'
   }, 
   {
-    id: 'riders',
+    id: '/riders',
     type: 'SIGNS',
     name: 'Riders',
+    component: 'Riders'
   }, 
   {
-    id: 'acrylic-stand-off-signs',
+    id: '/acrylic-stand-off-signs',
     type: 'SIGNS',
     name: 'Acrylic Stand Off Signs',
+    component: 'AcrylicStandOffSigns'
   }, 
   {
-    id: 'cut-out-letters',
+    id: '/cut-out-letters',
     type: 'SIGNS',
     name: 'Cut Out Letters',
+    component: 'CutOutLetters'
   }, 
   {
-    id: 'roll-up-sign',
+    id: '/roll-up-sign',
     type: 'SIGNS',
     name: 'Roll Up Sign',
+    component: 'RollUpSign'
   }, 
   {
-    id: 'back-drops',
+    id: '/back-drops',
     type: 'SIGNS',
     name: 'Back Drops',
+    component: 'BackDrops'
   }, 
   {
-    id: 'wall-graphics',
+    id: '/wall-graphics',
     type: 'SIGNS',
     name: 'Wall Graphics',
+    component: 'WallGraphics'
   }, 
   {
-    id: 'feather-flags',
+    id: '/feather-flags',
     type: 'SIGNS',
     name: 'Feather Flags',
+    component: 'FeatherFlags'
   },
   // Promotional Items
   {
-    id: 'pens',
+    id: '/pens',
     type: 'ITEMS',
     name: 'Pens',
+    component: 'Pens'
   },
   {
-    id: 'key-chains',
+    id: '/key-chains',
     type: 'ITEMS',
     name: 'Key chains',
+    component: 'Keychains'
   },
   {
-    id: 'drink-wear',
+    id: '/drink-wear',
     type: 'ITEMS',
     name: 'Drink Wear',
+    component: 'DrinkWear'
   },
   {
-    id: 'table-covers',
+    id: '/table-covers',
     type: 'ITEMS',
     name: 'Table Covers',
+    component: 'TableCovers'
   },
   {
-    id: 'calendars',
+    id: '/calendars',
     type: 'ITEMS',
     name: 'Calendars',
+    component: 'Calendars'
   },
   {
-    id: 'bags',
+    id: '/bags',
     type: 'ITEMS',
     name: 'Bags',
+    component: 'Bags'
   },
   {
-    id: 'face-mask',
+    id: '/face-mask',
     type: 'ITEMS',
     name: 'Face Mask',
+    component: 'FaceMask',
   },
 ]
