@@ -16,6 +16,7 @@ function Invoices() {
   //Array Functions
 
   // pNameOptions
+  // const pNameOptions = INVOICES2.map((p) => p.name).map((pName) => ({ id: pName.id, value: pName }));
   const pNameOptions = INVOICES2.map((pName) => ({ label: pName.name, value: pName.id }));
 
   console.log(pNameOptions);
@@ -35,9 +36,10 @@ function Invoices() {
     label: a.quantity,
     value: a.id,
   }));
+  console.log(quantityOptions);
 
-  let price = INVOICES2[pName.value - 1].measurements[size.value - 1].category[type.value - 1].amount[quantity.value - 1].price;
-  console.log(price);
+  let showPrice = INVOICES2[pName.value - 1].measurements[size.value-1].category[type.value - 1].amount[quantity.value ]?.price;
+  console.log(showPrice)
 
   return (
     <>
@@ -63,21 +65,39 @@ function Invoices() {
             <Form>
               <Form.Group controlId="productInvoice">
                 <Form.Label>Select Invoice Type:</Form.Label>
-                <Select value={pName.id} onChange={setPName} options={pNameOptions} placeholder="Select Invoice Type" isSearchable={false} />
+                <Select
+                  value={pName}
+                  onChange={setPName}
+                  options={pNameOptions}
+                  placeholder="Select Invoice Type"
+                  isSearchable={false}
+                />
               </Form.Group>
 
               <Form.Row>
                 <Col>
                   <Form.Group controlId="productSize">
                     <Form.Label>Size:</Form.Label>
-                    <Select value={size} onChange={setSize} options={sizeOptions} placeholder="Select Size" isSearchable={false} />
+                    <Select
+                      value={size}
+                      onChange={setSize}
+                      options={sizeOptions}
+                      placeholder="Select Size"
+                      isSearchable={false}
+                    />
                   </Form.Group>
                 </Col>
 
                 <Col>
                   <Form.Group controlId="productType">
                     <Form.Label>Type:</Form.Label>
-                    <Select value={type} onChange={setType} options={typeOptions} placeholder="Select Type" isSearchable={false} />
+                    <Select
+                      value={type}
+                      onChange={setType}
+                      options={typeOptions}
+                      placeholder="Select Type"
+                      isSearchable={false}
+                    />
                   </Form.Group>
                 </Col>
               </Form.Row>
@@ -95,7 +115,7 @@ function Invoices() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${price}</h3>
+            <h3 className="position-absolute pricingDiv">Printing Cost: ${showPrice}</h3>
           </Col>
         </Row>
       </Container>

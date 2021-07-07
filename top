@@ -1,0 +1,83 @@
+[33mcommit da4f7c07e016051d1b21c8f58e5d9ef0c6079a86[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Francisco G <ideabwebsites@gmail.com>
+Date:   Tue Jul 6 21:48:56 2021 -0400
+
+    Almost working Invoice Calculator
+
+[33mcommit e32899af4973290c48727a25fd1b94ae1d8326e7[m
+Author: Francisco G <ideabwebsites@gmail.com>
+Date:   Fri Jul 2 18:49:35 2021 -0400
+
+    Invoices Seperate File
+
+[33mcommit 40dfc6d5e47d4e2fdea2ddfb043e4722ea3298e4[m
+Author: Francisco G <ideabwebsites@gmail.com>
+Date:   Wed Jun 30 22:27:40 2021 -0400
+
+    Test Commit
+
+[33mcommit 978610d079a3d54f8680331a62d1b015b6e4bc9c[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Wed Jun 30 19:04:29 2021 -0400
+
+    Invoices Build 6-30-21
+
+[33mcommit 8ae1d5e85f3647bb804ecdffa2390ea7421a53a5[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Sat Jun 12 21:57:25 2021 -0400
+
+    Invoices
+
+[33mcommit 2b839d28bbe89a8d7af225fe7ef39b5ff7f73f4c[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Wed Jun 9 21:47:23 2021 -0400
+
+    PricingTab
+
+[33mcommit 618c69102358ca022329c06dc63a629d4deb020f[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Wed Jun 9 21:39:44 2021 -0400
+
+    Redesign Pricing
+
+[33mcommit 426d6f0da842b4255f829999717f7c38b91d4d50[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Tue Jun 8 23:58:14 2021 -0400
+
+    Price Calc2
+
+[33mcommit 92cc596000e0d58493c0b1bcd6e88f4a2bf50280[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Tue Jun 8 23:48:04 2021 -0400
+
+    Price Calculator
+
+[33mcommit 0834ea39bd9895baa62d3267a75c784cbe356661[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Sat Jun 5 10:49:09 2021 -0400
+
+    Links Refactor
+
+[33mcommit fc525afe4ac7e478a8b8bd3ea54c1d2b405f7291[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Thu Jun 3 22:52:50 2021 -0400
+
+    Home
+
+[33mcommit 19810c4272007af0b14d0662c2c4a2e32f6e63ca[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Thu Jun 3 22:05:01 2021 -0400
+
+    Footer
+
+[33mcommit 6a87ad37e41bfaab95cf05a86b497cf9e16f0839[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Thu Jun 3 13:29:40 2021 -0400
+
+    first commit
+
+[33mcommit 981ef223173bd3ec6b021dc8195cb6aac6dd7edc[m
+Author: Francisco Guerrero <paquito1214.2017@gmail.com>
+Date:   Wed Jun 2 21:18:31 2021 -0400
+
+    Initialize project using Create React App
