@@ -8,9 +8,9 @@ import {INVOICES2} from '../Products/Prices';
 //Invoices
 function Invoices() {
   //State
-  const [pName, setPName] = React.useState({ label: "Invoices Contracts Black Ink 2 Parts", value: 1 });
-  const [size, setSize] = React.useState({ label: '5.5" x 8.5"', value: 1 });
-  const [type, setType] = React.useState({ label: "Regular", value: 1 });
+  const [pName, setPName] = React.useState({ label: "Invoices Contracts Black Ink 2 Parts", value: 0 });
+  const [size, setSize] = React.useState({ label: '5.5" x 8.5"', value: 0 });
+  const [type, setType] = React.useState({ label: "Regular", value: 0 });
   const [quantity, setQuantity] = React.useState({ label: 0, value: 0 });
 
   //Array Functions
@@ -19,27 +19,27 @@ function Invoices() {
   // const pNameOptions = INVOICES2.map((p) => p.name).map((pName) => ({ id: pName.id, value: pName }));
   const pNameOptions = INVOICES2.map((pName) => ({ label: pName.name, value: pName.id }));
 
-  console.log(pNameOptions);
+  console.log(pName.value);
 
   //sizeOptions
-  const sizeOptions = INVOICES2.filter((p) => p.name === pName.label)[0].measurements.map((m) => ({ label: m.size, value: m.id }));
+  const sizeOptions = INVOICES2[pName.value]?.measurements.map((m) => ({ label: m.size, value: m.id }));
 
-  console.log(sizeOptions);
+  
 
   // typeOptions
-  const typeOptions = INVOICES2.filter((p) => p.name === pName.label)[0].measurements[0].category.map((c) => ({ label: c.type, value: c.id }));
+  const typeOptions = INVOICES2[pName.value ]?.measurements[size.value ]?.category.map((c) => ({ label: c.type, value: c.id }));
 
-  console.log(typeOptions);
+  
 
   //quantityOptions
-  const quantityOptions = INVOICES2.filter((p) => p.name === pName.label)[0].measurements[0].category[0].amount.map((a) => ({
+  const quantityOptions = INVOICES2[pName.value]?.measurements[size.value]?.category[type.value]?.amount.map((a) => ({
     label: a.quantity,
     value: a.id,
   }));
-  console.log(quantityOptions);
+  
 
-  let showPrice = INVOICES2[pName.value - 1].measurements[size.value-1].category[type.value - 1].amount[quantity.value ]?.price;
-  console.log(showPrice)
+  let showPrice = INVOICES2[pName.value].measurements[size.value].category[type.value].amount[quantity.value]?.price;
+  
 
   return (
     <>
