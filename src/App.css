@@ -61,8 +61,8 @@
   border: 2px solid white;
 }
 /* Pricing Cols */
-.CalCol {
-  background: rgba(179, 47, 47, 0.1);
+.PricingColor {
+  background: rgba(17, 122, 241, 0.1);
   border-radius: 5px;
 }
 .pricingDiv {
