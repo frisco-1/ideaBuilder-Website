@@ -4,8 +4,10 @@ import Footer from './Footer';
 import Home from './HomePage/Home';
 import NavB from './Navbar/Navbar';
 
-import { BusinessCard, Flyers, Envelopes } from './ProductPages/ItemListing';
+import { Envelopes } from './ProductPages/ItemListing';
 import Invoices from './ProductPages/Invoices';
+import BusinessCard from './ProductPages/BusinessCard';
+import Flyers from './ProductPages/Flyers';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 

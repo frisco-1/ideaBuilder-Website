@@ -3,52 +3,50 @@ import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
 import { Link } from "react-router-dom";
 //PRICES
-import {ENVELOPES } from "../Products/Prices";
+import { BCPRICES } from "../Products/Prices";
 
-
-//Envelopes
-export function Envelopes() {
+function BusinessCard() {
   //State
-  const [type, setType] = React.useState();
-  const [quantity, setQuantity] = React.useState();
+  const [type, setType] = React.useState({ label: "Black & White 14 PT.", value: 0});
+  const [quantity, setQuantity] = React.useState({ label: '0', value: 0 });
 
   //Array Functions
-
-  // typeOptions
-  const typeOptions = ENVELOPES.map((product) => product.type)
+  const typeOptions = BCPRICES.map((product) => product.type)
     .filter((v, i, a) => a.indexOf(v) === i)
     .map((type) => ({ label: type, value: type }));
-
-  //quantityOptions
-  const quantityOptions = ENVELOPES.filter((product) => type && product.type === type.value)
+  
+  const pictures = BCPRICES.filter(p => type && p.type === type.label)
+    .map(img => img.img);
+  
+  const quantityOptions = BCPRICES.filter((product) => type && product.type === type.value)
     .map((product) => product.quantity)
     .filter((v, i, a) => a.indexOf(v) === i)
     .map((quantity) => ({ label: quantity, value: quantity }));
 
-  // PriceOptions
-  const priceOptions = ENVELOPES.filter((product) => type && product.type === type.value && quantity && product.quantity === quantity.value).map(
-    (product) => product.price.toLocaleString("en-US")
+  const priceOptions = BCPRICES.filter((product) => type && product.type === type.value && quantity && product.quantity === quantity.value).map(
+    (product) => product.price
   );
-
   return (
     <>
       <Breadcrumb>
         <Breadcrumb.Item>
           <Link to="/">Home</Link>
         </Breadcrumb.Item>
-        <Breadcrumb.Item active>Flyers</Breadcrumb.Item>
+        <Breadcrumb.Item active>Business Card</Breadcrumb.Item>
       </Breadcrumb>
-      <Container>
-        <Row>
-          <Col md={12}>
-            <h2 className="pt-2 pb-2">Flyers</h2> <hr />
+
+      <Container className="pb-5">
+        
+        <Col md={12}>
+          <h2 className="pt-2 pb-2">Business Cards</h2> <hr />
+        </Col>
+
+        <Row className = "PricingColor">
+          <Col md={6} className="p-3 ">
+            <img src={pictures} alt='BusinessCard' width='100%'/>
           </Col>
 
-          <Col md={6} className="p-3 CalCol">
-            <img src="./img/p-business-card.jpg" alt="business-card" width="100%" />
-          </Col>
-
-          <Col md={6} className="p-3 CalCol position-relative">
+          <Col md={6} className="p-3 position-relative">
             <h3>Configure & Price</h3>
             <hr />
             <Form>
@@ -70,3 +68,5 @@ export function Envelopes() {
     </>
   );
 }
+
+export default BusinessCard

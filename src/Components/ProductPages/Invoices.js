@@ -2,9 +2,10 @@ import React from 'react';
 import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import  Select from 'react-select';
 import { Link } from 'react-router-dom';
+//imgCarousel
 import InvoiceCarousel from '../ProductsImgs/InvoiceCarousel';
-
-import {INVOICES2} from '../Products/Prices';
+//Array
+import {INVOICES} from '../Products/Prices';
 
 //Invoices
 function Invoices() {
@@ -17,29 +18,24 @@ function Invoices() {
   //Array Functions
 
   // pNameOptions
-  // const pNameOptions = INVOICES2.map((p) => p.name).map((pName) => ({ id: pName.id, value: pName }));
-  const pNameOptions = INVOICES2.map((pName) => ({ label: pName.name, value: pName.id }));
+  const pNameOptions = INVOICES.map((pName) => ({ label: pName.name, value: pName.id }));
 
   console.log(pName.value);
 
   //sizeOptions
-  const sizeOptions = INVOICES2[pName.value]?.measurements.map((m) => ({ label: m.size, value: m.id }));
-
-  
+  const sizeOptions = INVOICES[pName.value]?.measurements.map((m) => ({ label: m.size, value: m.id }));
 
   // typeOptions
-  const typeOptions = INVOICES2[pName.value ]?.measurements[size.value ]?.category.map((c) => ({ label: c.type, value: c.id }));
-
-  
+  const typeOptions = INVOICES[pName.value ]?.measurements[size.value ]?.category.map((c) => ({ label: c.type, value: c.id }));
 
   //quantityOptions
-  const quantityOptions = INVOICES2[pName.value]?.measurements[size.value]?.category[type.value]?.amount.map((a) => ({
+  const quantityOptions = INVOICES[pName.value]?.measurements[size.value]?.category[type.value]?.amount.map((a) => ({
     label: a.quantity,
     value: a.id,
   }));
   
 
-  let showPrice = INVOICES2[pName.value].measurements[size.value].category[type.value].amount[quantity.value]?.price;
+  let showPrice = INVOICES[pName.value].measurements[size.value].category[type.value].amount[quantity.value]?.price;
   
 
   return (

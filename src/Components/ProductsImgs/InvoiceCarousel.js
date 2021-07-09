@@ -1,9 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
+
 function InvoiceCarousel() {
   return (
-    <Carousel>
+    <Carousel className='carousel thumb thumbs carousel-slider control arrow control-dots dot'>
       <div>
           <img alt="InvoicesNumberParts" src="../img/Invoices/NUMBER-PARTS.jpg" width="100%"/>
       </div>
