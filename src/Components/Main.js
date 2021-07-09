@@ -4,10 +4,11 @@ import Footer from './Footer';
 import Home from './HomePage/Home';
 import NavB from './Navbar/Navbar';
 
-import { Envelopes } from './ProductPages/ItemListing';
-import Invoices from './ProductPages/Invoices';
-import BusinessCard from './ProductPages/BusinessCard';
-import Flyers from './ProductPages/Flyers';
+import Envelopes from './ProductPages/Printing/Envelopes';
+import Invoices from './ProductPages/Printing/Invoices';
+import BusinessCard from './ProductPages/Printing/BusinessCard';
+import Flyers from './ProductPages/Printing/Flyers';
+import DoorHanger from './ProductPages/Printing/DoorHangers';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -25,7 +26,8 @@ function Main() {
           <Route exact path='/business-cards' component={BusinessCard} />
           <Route exact path='/flyers' component={Flyers}/>
           <Route exact path='/envelopes' component={Envelopes} />
-          <Route exact path='/invoices' component={Invoices}/>
+          <Route exact path='/invoices' component={Invoices} />
+          <Route exact path='/door-hangers' component={DoorHanger}/>
           
         </Switch>
         

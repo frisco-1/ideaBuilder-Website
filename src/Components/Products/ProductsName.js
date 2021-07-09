@@ -25,12 +25,6 @@ export const PRODUCTS = [
     component: 'Invoices'
   },
   {
-    id: '/carbonless-form',
-    type: 'PRINTING',
-    name: 'Carbonless Form',
-    component: 'CarbonlessForm'
-  },
-  {
     id: '/door-hangers',
     type: 'PRINTING',
     name: 'Door Hangers',

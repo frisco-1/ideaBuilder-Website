@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
 import { Link } from "react-router-dom";
 //PRICES
-import {FLYERS} from "../Products/Prices";
+import {FLYERS} from "../../Products/Prices";
 
 function Flyers() {
   //State

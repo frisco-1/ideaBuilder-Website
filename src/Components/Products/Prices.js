@@ -61,11 +61,24 @@ export const FLYERS = [
 ];
 
 export const DOORHANGERS = [
-  { type: '3.6" x 8.5" Cardstock 14PT', quantity: 1000, price: 235 },
-  { type: '3.6" x 8.5" Cardstock 14PT', quantity: 5000, price: 375 },
-
-  { type: '4.25" x 11" Cardstock 14PT', quantity: 1000, price: 410 },
-  { type: '4.25" x 11" Cardstock 14PT', quantity: 5000, price: 535 },
+  {
+    id: 0,
+    name: '3.6" x 8.5" Cardstock 14 PT',
+    pricing: [
+      { id: 0, quantity: 1000, price: 235},
+      { id: 1, quantity: 5000, price: 375}
+    ],
+    img: './img/Flyers/3x4.png'
+  },
+  {
+    id: 1,
+    name: '4.25" x 11" Cardstock 14 PT',
+    pricing: [
+      { id: 0, quantity: 1000, price: 410},
+      { id: 1, quantity: 5000, price: 535}
+    ],
+    img: './img/Flyers/11x17.png'
+  },
 ];
 
 // Check Envelopes Again
@@ -937,6 +950,34 @@ export const FOLDERS = [
   { type: '9" x 12" Full Color Staple', quantity: 5000, price: 3000 },
 ];
 
-// export const BOOKLETS = [
-//   { type: '8.5" x 11" (12 Pages)', quantity: 25, price: }
-// ]
+export const POCKETFP = [
+  {
+    id: 0,
+    name: '9" x 12" Full Color CardStock',
+    pricing: [
+      {id: 0, quantity: 100, price: 500},
+      {id: 1, quantity: 500, price: 1300},
+      {id: 2, quantity: 1000, price: 1800},
+    ]
+  },
+  {
+    id: 1,
+    name: '9" x 12" Full Color Staple',
+    pricing: [
+      {id: 0, quantity: 100, price: 285},
+      {id: 1, quantity: 500, price: 750},
+      {id: 2, quantity: 1000, price: 1100},
+      {id: 3, quantity: 5000, price: 3000},
+    ]
+  },
+]
+
+export const REALTORSIGNS = [
+  {
+    id: 0,
+    name: 'Aluminum Sign',
+    category: [
+      {id: 0, }
+    ]
+  }
+]

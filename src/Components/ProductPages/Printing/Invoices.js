@@ -3,9 +3,9 @@ import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import  Select from 'react-select';
 import { Link } from 'react-router-dom';
 //imgCarousel
-import InvoiceCarousel from '../ProductsImgs/InvoiceCarousel';
+import InvoiceCarousel from '../../ProductsImgs/InvoiceCarousel';
 //Array
-import {INVOICES} from '../Products/Prices';
+import {INVOICES} from '../../Products/Prices';
 
 //Invoices
 function Invoices() {
