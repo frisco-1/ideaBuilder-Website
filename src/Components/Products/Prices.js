@@ -988,9 +988,30 @@ export const REALTORSIGNS = [
 
 export const MAGNETS = {
   products: [
-    { id: 0, productCode: "Cm1", size: '12" X 24"', description: "(LESS THAN 2 SQ. FEET - SAME PRICE)", price: 75 },
-    { id: 1, productCode: "Cm2", size: '15" X 24"', description: "(LESS THAN 2 SQ. FEET - SAME PRICE)", price: 95 },
-    { id: 2, productCode: "Cm3", size: '24" X 24"', description: "(UP TO 4 SQ. FEET - SAME PRICE)", price: 130 },
+    {
+      id: 0,
+      productCode: "Cm1",
+      size: '12" X 24"',
+      description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
+      price: 75,
+      img: "./img/Magnets/sample-12x24.jpg",
+    },
+    {
+      id: 1,
+      productCode: "Cm2",
+      size: '15" X 24"',
+      description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
+      price: 95,
+      img: "./img/Magnets/sample-18x24.webp",
+    },
+    {
+      id: 2,
+      productCode: "Cm3",
+      size: '24" X 24"',
+      description: "(UP TO 4 SQ. FEET - SAME PRICE)",
+      price: 130,
+      img: "./img/Magnets/sample-24x24.png",
+    },
   ],
   lamindatedFee: 15,
 };

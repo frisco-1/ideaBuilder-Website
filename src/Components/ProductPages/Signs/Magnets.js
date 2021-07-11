@@ -2,50 +2,58 @@ import React from "react";
 import { useState } from "react";
 import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
-import { Link } from "react-router-dom";
-import styles from "./magnets.module.css";
 
 import { MAGNETS } from "../../Products/Prices";
 
 function Magnets() {
   //state
-  const [product, setProduct] = useState(null);
+  const [product, setProduct] = useState({ value: MAGNETS.products[0].id, label: MAGNETS.products[0].size });
   const [quantity, setQuantity] = useState(2);
   const [isLaminated, setIsLaminated] = useState(false);
+
+  let productImg = product !== null ? MAGNETS.products[product.value].img : "";
 
   let calculatedPrice = (product !== null ? MAGNETS.products[product.value].price : 0) * quantity + (isLaminated ? 15 : 0);
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Magnets</Breadcrumb.Item>
       </Breadcrumb>
       <Container className="pb-5">
         <Col md={12}>
-          <h2 className="pt-2 pb-2">Magnets</h2> <hr />
+          <Row className="justify-content-sm-start">
+            <h2 className="pt-2 pb-2">Magnets</h2> <p className="magnetProductTag">(Cm)</p>
+          </Row>
         </Col>
-        <Row className="PricingColor">
-          <Col md={5} className="p-3 "></Col>
+        <Row className="PricingColor ">
+          <Col md={6} className="p-3 text-center">
+            <div>
+              <img className="magnetsImage" src={productImg} alt="Magnet Sign" />
+            </div>
+          </Col>
 
-          <Col md={7} className="p-3  position-relative">
+          <Col md={6} className="p-3  position-relative ">
             <h3>Configure & Price</h3>
             <hr />
             <Form>
-              <Form.Group controlId="productMagnets" style={{ width: "30em" }} class="magnetOptions">
+              <Form.Group controlId="productMagnets" className="magnetOptions">
                 <Row>
-                  <Col md={2}></Col>
-                  <Col md={10}>
-                    <span className={styles.size}>Size:</span>
+                  <Col>
+                    <span className="magnetOptionLabel">{product != null ? MAGNETS.products[product.value].productCode : null}</span>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={6} sm={4}>
+                    <div className="magentSize">Size:</div>
+                  </Col>
+                  <Col xs={6} sm={4}>
+                    <div className="magnetOptionLabel">QTY:</div>
                   </Col>
                 </Row>
 
                 <Row>
-                  <Col xs={2}>
-                    <span className={styles.optionLabel}>{product != null ? MAGNETS.products[product.value].productCode : null}</span>
-                  </Col>
-                  <Col xs={10}>
+                  <Col xs={6} sm={4}>
                     <Select
                       value={product}
                       onChange={setProduct}
@@ -54,20 +62,7 @@ function Magnets() {
                       isSearchable={false}
                     />
                   </Col>
-                </Row>
-                <Row>
-                  <Col xs={2}></Col>
-                  <Col xs={10}>
-                    <div className={styles.description}>
-                      <span className={styles.optionLabel}>{product != null ? MAGNETS.products[product.value].description : null}</span>
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={2}>
-                    <span className={styles.optionLabel}>QTY</span>
-                  </Col>
-                  <Col xs={10}>
+                  <Col xs={6} sm={4}>
                     <Form.Control
                       type="number"
                       step={"2"}
@@ -75,24 +70,30 @@ function Magnets() {
                       max={"20"}
                       value={quantity}
                       onChange={(e) => {
-                        if (e.target.value % 2 === 0) {
-                          setQuantity(e.target.value);
-                        }
+                        setQuantity(e.target.value);
                       }}
                     />
                   </Col>
                 </Row>
-                <Row className="justify-content-md-end">
+                <Row>
+                  <Col>
+                    <div className="magnetDescription">
+                      <span className="magentOptionLabel">{product != null ? MAGNETS.products[product.value].description : null}</span>
+                    </div>
+                  </Col>
+                </Row>
+
+                <Row className="justify-content-md-start">
                   <Form.Check
                     type="checkbox"
                     label="Laminated"
                     checked={isLaminated}
-                    className={styles.laminated}
-                    onClick={(e) => setIsLaminated(e.target.checked)}
+                    className="magnetLaminated"
+                    onChange={(e) => setIsLaminated(e.target.checked)}
                   />
                 </Row>
-                <Row>
-                  <h3 className="pricingDiv">Printing Cost: ${calculatedPrice}</h3>
+                <Row className="magnetsPriceRow">
+                  <h3>Sign Cost: ${calculatedPrice}</h3>
                 </Row>
               </Form.Group>
             </Form>
