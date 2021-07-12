@@ -981,11 +981,113 @@ export const POCKETFP = [
 export const REALTORSIGNS = [
   {
     id: 0,
-    name: "Aluminum Sign",
-    category: [{ id: 0 }],
+    type: 'Aluminum Sign',
+    category: [
+      {id: 0, size: '18" x 24"', quantity: 1, price:50}
+    ]
+  },
+  {
+    id: 1,
+    type: 'Aluminum Sign with Frame',
+    category: [
+      {id: 0, size: '18" x 24"', quantity: 1, price:85}
+    ]
   },
 ];
 
+export const BANNERS = [
+  {
+    id: 0,
+    size: '2" x 6"',
+    price: 65,
+    quantity: 1,
+    code: 'BAN1 '
+  },
+  {
+    id: 1,
+    size: '2" x 4"',
+    price: 65,
+    quantity: 1,
+    code: 'BAN1 '
+  },
+  {
+    id: 2,
+    size: '2" x 8"',
+    price: 85,
+    quantity: 1,
+    code: 'BAN2 '
+  },
+  {
+    id: 3,
+    size: '2" x 10"',
+    price: 95,
+    quantity: 1,
+    code: 'BAN3 '
+  },
+  {
+    id: 4,
+    size: '3" x 6"',
+    price: 120,
+    quantity: 1,
+    code: 'BAN4 '
+  },
+  {
+    id: 5,
+    size: '4" x 4"',
+    price: 120,
+    quantity: 1,
+    code: 'BAN4 '
+  },
+  {
+    id: 6,
+    size: '3" x 8"',
+    price: 140,
+    quantity: 1,
+    code: 'BAN5 '
+  },
+  {
+    id: 7,
+    size: '4" x 6"',
+    price: 140,
+    quantity: 1,
+    code: 'BAN5 '
+  },
+  {
+    id: 8,
+    size: '3" x 10"',
+    price: 150,
+    quantity: 1,
+    code: 'BAN6 '
+  },
+  {
+    id: 9,
+    size: '4" x 8"',
+    price: 160,
+    quantity: 1,
+    code: 'BAN7 '
+  },
+  {
+    id: 10,
+    size: '4" x 10"',
+    price: 180,
+    quantity: 1,
+    code: 'BAN8 '
+  },
+  {
+    id: 11,
+    size: '5" x 10"',
+    price: 200,
+    quantity: 1,
+    code: 'BAN9 '
+  },
+  {
+    id: 12,
+    size: '5" x 15"',
+    price: 250,
+    quantity: 1,
+    code: 'BAN10 '
+  },
+];
 export const MAGNETS = {
   products: [
     {

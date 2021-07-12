@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
-import { Link } from "react-router-dom";
 //PRICES
 import { BCPRICES } from "../../Products/Prices";
 
@@ -29,9 +28,7 @@ function BusinessCard() {
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Business Card</Breadcrumb.Item>
       </Breadcrumb>
 
