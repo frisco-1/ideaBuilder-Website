@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
-import { Link } from "react-router-dom";
 //PRICES
 import { ENVELOPES } from "../../Products/Prices";
 
@@ -32,10 +31,8 @@ function Envelopes() {
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
-        <Breadcrumb.Item active>Flyers</Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
+        <Breadcrumb.Item active>Envelopes</Breadcrumb.Item>
       </Breadcrumb>
 
       <Container className="pb-5">

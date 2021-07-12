@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import  Select from 'react-select';
-import { Link } from 'react-router-dom';
 
 //Array
 import {DOORHANGERS} from '../../Products/Prices';
@@ -23,9 +22,7 @@ function DoorHanger() {
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Door Hangers</Breadcrumb.Item>
       </Breadcrumb>
       <Container className="pb-5">

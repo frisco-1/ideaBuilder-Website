@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import  Select from 'react-select';
-import { Link } from 'react-router-dom';
 //imgCarousel
 import InvoiceCarousel from '../../ProductsImgs/InvoiceCarousel';
 //Array
@@ -41,9 +40,7 @@ function Invoices() {
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Invoices</Breadcrumb.Item>
       </Breadcrumb>
       <Container className="pb-5">
@@ -112,7 +109,7 @@ function Invoices() {
                 </Form.Group>
               </Form>
 
-              <h3 className="position-absolute pricingDiv">Printing Cost: ${showPrice}</h3>
+              <h3 className="position-absolute pricingDiv">Printing Cost: ${showPrice.toLocaleString("en-US")}</h3>
             </Col>
           </Row>
         

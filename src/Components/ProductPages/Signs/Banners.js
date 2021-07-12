@@ -3,37 +3,29 @@ import { Container, Row, Col, Form, Breadcrumb } from 'react-bootstrap';
 import Select from 'react-select';
 import NumericInput from 'react-numeric-input';
 
-import { REALTORSIGNS } from '../../Products/Prices';
+import { BANNERS } from '../../Products/Prices';
 
-function RealtorSigns() {
+function Banners() {
   //state
-  const [type, setType] = React.useState({ label: 'Aluminum Sign', value: 0 });
-  const [size, setSize] = React.useState({ label: '18" x 24"', value: 0 });
-  
+  const [size, setSize] = React.useState({ label: '2" x 6"', value: 0 });
 
-  //ArrayFunctions
-  const typeOptions = REALTORSIGNS.map((type) => ({ label: type.type, value: type.id }));
-
-  const sizeOptions = REALTORSIGNS[type.value]?.category.map((s) => ({ label: s.size, value: s.id }));
-
-  //Quantity Options
-  const quantityOptions = REALTORSIGNS[type.value]?.category.map((p) => p.quantity);
-
-  const [quantity, setQuantity] = React.useState(quantityOptions);
-
-  //Calculating price with quantity variable times p.price
-  let price = REALTORSIGNS[type.value]?.category.map((p) => p.price * quantity);
+  const sizeOptions = BANNERS.map((s) => ({ label: s.size, value: s.id }));
+  const codeOptions = BANNERS[size.value]?.code;
+  console.log(sizeOptions);
+  const [quantity, setQuantity] = React.useState(1);
+  let price = BANNERS[size.value]?.price * quantity;
+  console.log(price);
 
   return (
     <>
       <Breadcrumb>
         <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
-        <Breadcrumb.Item active>Realtor Signs</Breadcrumb.Item>
+        <Breadcrumb.Item active>Banners</Breadcrumb.Item>
       </Breadcrumb>
       <Container className="pb-5">
         
           <Col md={12}>
-          <h2 className="pt-2 pb-2 d-inline">Realtor Signs </h2>(REA) <hr />
+          <h2 className="pt-2 pb-2 d-inline">Banners </h2>(BAN) <hr />
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">
@@ -43,19 +35,9 @@ function RealtorSigns() {
             <Col md={6} className="p-3  position-relative">
               <h3>Configure & Price</h3>
               <hr />
+              <p>{codeOptions}</p>
               <Form>
-                <Form.Group controlId="productType">
-                  <Form.Label>Select Sign Type:</Form.Label>
-                  <Select
-                    value={type}
-                    onChange={setType}
-                    options={typeOptions}
-                    placeholder="Select Sign Type"
-                    isSearchable={false}
-                  />
-                </Form.Group>
-              
-              <Form.Row>
+                <Form.Row>
                   <Col md={6}>
                     <Form.Group controlId="productSize">
                       <Form.Label>Size:</Form.Label>
@@ -74,7 +56,7 @@ function RealtorSigns() {
                       <Form.Label className='d-block'>Quantity: </Form.Label>
                       <NumericInput
                         className='d-block numberPadding'
-                        min={quantityOptions}
+                        min={1}
                         max={100}
                         value={quantity}
                         onChange={setQuantity}
@@ -93,4 +75,4 @@ function RealtorSigns() {
   )
 }
 
-export default RealtorSigns;
+export default Banners

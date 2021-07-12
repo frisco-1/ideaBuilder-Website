@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
 import Select from "react-select";
-import { Link } from "react-router-dom";
 //PRICES
 import {FLYERS} from "../../Products/Prices";
 
@@ -37,16 +36,14 @@ function Flyers() {
   return (
     <>
       <Breadcrumb>
-        <Breadcrumb.Item>
-          <Link to="/">Home</Link>
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Flyers</Breadcrumb.Item>
       </Breadcrumb>
 
       <Container className="pb-5">
         
         <Col md={12}>
-          <h2 className="pt-2 pb-2">Flyers</h2> <hr />
+          <h2 className="pt-2 pb-2">Flyers</h2><hr />
         </Col>
         
         <Row className = "PricingColor">
@@ -69,7 +66,7 @@ function Flyers() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${priceOptions}</h3>
+            <h3 className="position-absolute pricingDiv">Printing Cost: ${priceOptions.toLocaleString("en-US")}</h3>
           </Col>
         </Row>
       </Container>
