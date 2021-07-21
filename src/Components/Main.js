@@ -9,6 +9,7 @@ import Invoices from "./ProductPages/Printing/Invoices";
 import BusinessCard from "./ProductPages/Printing/BusinessCard";
 import Flyers from "./ProductPages/Printing/Flyers";
 import DoorHanger from "./ProductPages/Printing/DoorHangers";
+import Stickers from "./ProductPages/Printing/Stickers";
 
 
 
@@ -36,6 +37,7 @@ function Main() {
           <Route exact path='/envelopes' component={Envelopes} />
           <Route exact path='/invoices' component={Invoices} />
           <Route exact path='/door-hangers' component={DoorHanger} />
+          <Route exact path='/stickers' component={Stickers} />
 
           <Route exact path="/magnets" component={Magnets} /> 
           <Route exact path='/realtor-signs' component={RealtorSigns} />

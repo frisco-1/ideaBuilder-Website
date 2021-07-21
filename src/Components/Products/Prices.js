@@ -1092,7 +1092,7 @@ export const MAGNETS = {
   products: [
     {
       id: 0,
-      productCode: "Cm1",
+      productCode: "CM1",
       size: '12" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 75,
@@ -1100,7 +1100,7 @@ export const MAGNETS = {
     },
     {
       id: 1,
-      productCode: "Cm2",
+      productCode: "CM2",
       size: '15" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 95,
@@ -1108,7 +1108,7 @@ export const MAGNETS = {
     },
     {
       id: 2,
-      productCode: "Cm3",
+      productCode: "CM3",
       size: '24" X 24"',
       description: "(UP TO 4 SQ. FEET - SAME PRICE)",
       price: 130,
@@ -1116,4 +1116,1038 @@ export const MAGNETS = {
     },
   ],
   lamindatedFee: 15,
+};
+export const STICKERS = {
+  Shape: [
+    {
+      id: 0,name: 'NO 5100 Circle'
+    },
+    {
+      id: 1,name: 'NO 5200 Square'
+    },
+    {
+      id: 2,name: 'NO 5400 Oval'
+    },
+    {
+      id: 3,name: 'NO 5500 Rectangle'
+    },
+  ],
+  Paper: [
+    { id: 0, type: 'White Gloss'},
+    { id: 1, type: 'Yellow Gloss'},
+    { id: 2, type: 'White Mate'},
+    { id: 3, type: 'Silver Foil'},
+    { id: 4, type: 'Gold Foil'},
+    { id: 5, type: 'Fluorescent Green'},
+    { id: 6, type: 'Fluorescent Yellow'},
+    { id: 7, type: 'Fluorescent Red'},
+    { id: 8, type: 'Fluorescent Orange'},
+    { id: 9, type: 'Fluorescent Pink'},
+  ],
+  Price: [
+    {
+      id: 0,
+      size: '1" x 1"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 95.20},
+                {id: 1, quantity: 5000, price: 250},
+                {id: 2, quantity: 10000, price: 350},
+                {id: 3, quantity: 25000, price: 550},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 250},
+                {id: 1, quantity: 5000, price: 350},
+                {id: 2, quantity: 10000, price: 460},
+                {id: 3, quantity: 25000, price: 670},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 118.40},
+                {id: 1, quantity: 5000, price: 330.50},
+                {id: 2, quantity: 10000, price: 442},
+                {id: 3, quantity: 25000, price: 682},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 273.20},
+                {id: 1, quantity: 5000, price: 430.50},
+                {id: 2, quantity: 10000, price: 552},
+                {id: 3, quantity: 25000, price: 802.50},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 1,
+      size: '1.5" x 1.5"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 95.2},
+                {id: 1, quantity: 5000, price: 250},
+                {id: 2, quantity: 10000, price: 350},
+                {id: 3, quantity: 25000, price: 550},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 250},
+                {id: 1, quantity: 5000, price: 350},
+                {id: 2, quantity: 10000, price: 460},
+                {id: 3, quantity: 25000, price: 670},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 118.4},
+                {id: 1, quantity: 5000, price: 330.5},
+                {id: 2, quantity: 10000, price: 442},
+                {id: 3, quantity: 25000, price: 682},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 273.2},
+                {id: 1, quantity: 5000, price: 430.5},
+                {id: 2, quantity: 10000, price: 552},
+                {id: 3, quantity: 25000, price: 802.5},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 2,
+      size: '2" x 1"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 95.2},
+                {id: 1, quantity: 5000, price: 250},
+                {id: 2, quantity: 10000, price: 350},
+                {id: 3, quantity: 25000, price: 550},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 250},
+                {id: 1, quantity: 5000, price: 350},
+                {id: 2, quantity: 10000, price: 460},
+                {id: 3, quantity: 25000, price: 670},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 118.4},
+                {id: 1, quantity: 5000, price: 330.5},
+                {id: 2, quantity: 10000, price: 442},
+                {id: 3, quantity: 25000, price: 682},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 273.2},
+                {id: 1, quantity: 5000, price: 430.5},
+                {id: 2, quantity: 10000, price: 552},
+                {id: 3, quantity: 25000, price: 802.5},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 3,
+      size: '2.5" x 1.25"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 95.2},
+                {id: 1, quantity: 5000, price: 250},
+                {id: 2, quantity: 10000, price: 350},
+                {id: 3, quantity: 25000, price: 550},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 250},
+                {id: 1, quantity: 5000, price: 350},
+                {id: 2, quantity: 10000, price: 460},
+                {id: 3, quantity: 25000, price: 670},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 118.4},
+                {id: 1, quantity: 5000, price: 330.5},
+                {id: 2, quantity: 10000, price: 442},
+                {id: 3, quantity: 25000, price: 682},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 273.2},
+                {id: 1, quantity: 5000, price: 430.5},
+                {id: 2, quantity: 10000, price: 552},
+                {id: 3, quantity: 25000, price: 802.5},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 4,
+      size: '2" x 2"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 120},
+                {id: 1, quantity: 5000, price: 298},
+                {id: 2, quantity: 10000, price: 417},
+                {id: 3, quantity: 25000, price: 640},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 307.90},
+                {id: 1, quantity: 5000, price: 652.50},
+                {id: 2, quantity: 10000, price: 850},
+                {id: 3, quantity: 25000, price: 1137.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 145.50},
+                {id: 1, quantity: 5000, price: 357.50},
+                {id: 2, quantity: 10000, price: 509},
+                {id: 3, quantity: 25000, price: 777},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 333.40},
+                {id: 1, quantity: 5000, price: 712},
+                {id: 2, quantity: 10000, price: 942},
+                {id: 3, quantity: 25000, price: 1274.50},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 5,
+      size: '2.5" x 2"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 120},
+                {id: 1, quantity: 5000, price: 298},
+                {id: 2, quantity: 10000, price: 417},
+                {id: 3, quantity: 25000, price: 640},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 307.90},
+                {id: 1, quantity: 5000, price: 652.50},
+                {id: 2, quantity: 10000, price: 850},
+                {id: 3, quantity: 25000, price: 1137.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 145.50},
+                {id: 1, quantity: 5000, price: 357.50},
+                {id: 2, quantity: 10000, price: 509},
+                {id: 3, quantity: 25000, price: 777},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 333.40},
+                {id: 1, quantity: 5000, price: 712},
+                {id: 2, quantity: 10000, price: 942},
+                {id: 3, quantity: 25000, price: 1274.50},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 6,
+      size: '3" x 3"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 131.00},
+                {id: 1, quantity: 5000, price: 395.00},
+                {id: 2, quantity: 10000, price: 620.00},
+                {id: 3, quantity: 25000, price: 1017.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 369.00},
+                {id: 1, quantity: 5000, price: 804.50},
+                {id: 2, quantity: 10000, price: 1098.00},
+                {id: 3, quantity: 25000, price: 1571.25},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 161.30},
+                {id: 1, quantity: 5000, price: 475.00},
+                {id: 2, quantity: 10000, price: 747.00},
+                {id: 3, quantity: 25000, price: 1217.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 399.30},
+                {id: 1, quantity: 5000, price: 884.50},
+                {id: 2, quantity: 10000, price: 1225.00},
+                {id: 3, quantity: 25000, price: 1771.25},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 7,
+      size: '2" x 4"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 131.00},
+                {id: 1, quantity: 5000, price: 395.00},
+                {id: 2, quantity: 10000, price: 620.00},
+                {id: 3, quantity: 25000, price: 1017.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 369.00},
+                {id: 1, quantity: 5000, price: 804.50},
+                {id: 2, quantity: 10000, price: 1098.00},
+                {id: 3, quantity: 25000, price: 1571.25},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 161.30},
+                {id: 1, quantity: 5000, price: 475.00},
+                {id: 2, quantity: 10000, price: 747.00},
+                {id: 3, quantity: 25000, price: 1217.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 399.30},
+                {id: 1, quantity: 5000, price: 884.50},
+                {id: 2, quantity: 10000, price: 1225.00},
+                {id: 3, quantity: 25000, price: 1771.25},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 8,
+      size: '3" x 2.5"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 131.00},
+                {id: 1, quantity: 5000, price: 395.00},
+                {id: 2, quantity: 10000, price: 620.00},
+                {id: 3, quantity: 25000, price: 1017.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 369.00},
+                {id: 1, quantity: 5000, price: 804.50},
+                {id: 2, quantity: 10000, price: 1098.00},
+                {id: 3, quantity: 25000, price: 1571.25},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 161.30},
+                {id: 1, quantity: 5000, price: 475.00},
+                {id: 2, quantity: 10000, price: 747.00},
+                {id: 3, quantity: 25000, price: 1217.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 399.30},
+                {id: 1, quantity: 5000, price: 884.50},
+                {id: 2, quantity: 10000, price: 1225.00},
+                {id: 3, quantity: 25000, price: 1771.25},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 9,
+      size: '4" x 2"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 131.00},
+                {id: 1, quantity: 5000, price: 395.00},
+                {id: 2, quantity: 10000, price: 620.00},
+                {id: 3, quantity: 25000, price: 1017.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 369.00},
+                {id: 1, quantity: 5000, price: 804.50},
+                {id: 2, quantity: 10000, price: 1098.00},
+                {id: 3, quantity: 25000, price: 1571.25},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 161.30},
+                {id: 1, quantity: 5000, price: 475.00},
+                {id: 2, quantity: 10000, price: 747.00},
+                {id: 3, quantity: 25000, price: 1217.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 399.30},
+                {id: 1, quantity: 5000, price: 884.50},
+                {id: 2, quantity: 10000, price: 1225.00},
+                {id: 3, quantity: 25000, price: 1771.25},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 10,
+      size: '5" x 2"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 131.00},
+                {id: 1, quantity: 5000, price: 395.00},
+                {id: 2, quantity: 10000, price: 620.00},
+                {id: 3, quantity: 25000, price: 1017.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 369.00},
+                {id: 1, quantity: 5000, price: 804.50},
+                {id: 2, quantity: 10000, price: 1098.00},
+                {id: 3, quantity: 25000, price: 1571.25},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 161.30},
+                {id: 1, quantity: 5000, price: 475.00},
+                {id: 2, quantity: 10000, price: 747.00},
+                {id: 3, quantity: 25000, price: 1217.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 399.30},
+                {id: 1, quantity: 5000, price: 884.50},
+                {id: 2, quantity: 10000, price: 1225.00},
+                {id: 3, quantity: 25000, price: 1771.25},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 11,
+      size: '3" x 4"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 151},
+                {id: 1, quantity: 5000, price: 467.50},
+                {id: 2, quantity: 10000, price: 780},
+                {id: 3, quantity: 25000, price: 1312.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 405.00},
+                {id: 1, quantity: 5000, price: 895.00},
+                {id: 2, quantity: 10000, price: 1250},
+                {id: 3, quantity: 25000, price: 2037.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 196.90},
+                {id: 1, quantity: 5000, price: 582.50},
+                {id: 2, quantity: 10000, price: 964},
+                {id: 3, quantity: 25000, price: 1615},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 450.90},
+                {id: 1, quantity: 5000, price: 1010},
+                {id: 2, quantity: 10000, price: 1434},
+                {id: 3, quantity: 25000, price: 2340},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 12,
+      size: '3.5" x 3.5"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 151},
+                {id: 1, quantity: 5000, price: 467.50},
+                {id: 2, quantity: 10000, price: 780},
+                {id: 3, quantity: 25000, price: 1312.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 405.00},
+                {id: 1, quantity: 5000, price: 895.00},
+                {id: 2, quantity: 10000, price: 1250},
+                {id: 3, quantity: 25000, price: 2037.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 196.90},
+                {id: 1, quantity: 5000, price: 582.50},
+                {id: 2, quantity: 10000, price: 964},
+                {id: 3, quantity: 25000, price: 1615},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 450.90},
+                {id: 1, quantity: 5000, price: 1010},
+                {id: 2, quantity: 10000, price: 1434},
+                {id: 3, quantity: 25000, price: 2340},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 13,
+      size: '4" x 4"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 151},
+                {id: 1, quantity: 5000, price: 467.50},
+                {id: 2, quantity: 10000, price: 780},
+                {id: 3, quantity: 25000, price: 1312.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 405.00},
+                {id: 1, quantity: 5000, price: 895.00},
+                {id: 2, quantity: 10000, price: 1250},
+                {id: 3, quantity: 25000, price: 2037.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 196.90},
+                {id: 1, quantity: 5000, price: 582.50},
+                {id: 2, quantity: 10000, price: 964},
+                {id: 3, quantity: 25000, price: 1615},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 450.90},
+                {id: 1, quantity: 5000, price: 1010},
+                {id: 2, quantity: 10000, price: 1434},
+                {id: 3, quantity: 25000, price: 2340},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 14,
+      size: '5" x 3"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 151},
+                {id: 1, quantity: 5000, price: 467.50},
+                {id: 2, quantity: 10000, price: 780},
+                {id: 3, quantity: 25000, price: 1312.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 405.00},
+                {id: 1, quantity: 5000, price: 895.00},
+                {id: 2, quantity: 10000, price: 1250},
+                {id: 3, quantity: 25000, price: 2037.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 196.90},
+                {id: 1, quantity: 5000, price: 582.50},
+                {id: 2, quantity: 10000, price: 964},
+                {id: 3, quantity: 25000, price: 1615},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 450.90},
+                {id: 1, quantity: 5000, price: 1010},
+                {id: 2, quantity: 10000, price: 1434},
+                {id: 3, quantity: 25000, price: 2340},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 15,
+      size: '6" x 2"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 151},
+                {id: 1, quantity: 5000, price: 467.50},
+                {id: 2, quantity: 10000, price: 780},
+                {id: 3, quantity: 25000, price: 1312.50},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 405.00},
+                {id: 1, quantity: 5000, price: 895.00},
+                {id: 2, quantity: 10000, price: 1250},
+                {id: 3, quantity: 25000, price: 2037.50},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 196.90},
+                {id: 1, quantity: 5000, price: 582.50},
+                {id: 2, quantity: 10000, price: 964},
+                {id: 3, quantity: 25000, price: 1615},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 450.90},
+                {id: 1, quantity: 5000, price: 1010},
+                {id: 2, quantity: 10000, price: 1434},
+                {id: 3, quantity: 25000, price: 2340},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+    {
+      id: 16,
+      size: '6" x 4"',
+      style: [
+        {
+          id: 0,
+          lam: 'No Lamination',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 175.6},
+                {id: 1, quantity: 5000, price: 625},
+                {id: 2, quantity: 10000, price: 1020},
+                {id: 3, quantity: 25000, price: 1775},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 502},
+                {id: 1, quantity: 5000, price: 1626},
+                {id: 2, quantity: 10000, price: 1530},
+                {id: 3, quantity: 25000, price: 2275},
+              ]
+            },
+          ]
+        },
+        {
+          id: 1,
+          lam: 'Over Laminated',
+          color: [
+            {
+              id: 0,
+              selectColor: 'One Color',
+              amount: [
+                {id: 0, quantity: 1000, price: 225.2},
+                {id: 1, quantity: 5000, price: 756.5},
+                {id: 2, quantity: 10000, price: 1239},
+                {id: 3, quantity: 25000, price: 2135},
+              ]
+            },
+            {
+              id: 1,
+              selectColor: 'Full Color',
+              amount: [
+                { id: 0, quantity: 1000, price: 551.6},
+                {id: 1, quantity: 5000, price: 1757.5},
+                {id: 2, quantity: 10000, price: 1749},
+                {id: 3, quantity: 25000, price: 2635},
+              ]
+            },
+          ]
+        }
+      ]
+  
+    },
+  ]
+  
 };
