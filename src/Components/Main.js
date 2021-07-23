@@ -19,6 +19,9 @@ import Banners from './ProductPages/Signs/Banners';
 import Magnets from "./ProductPages/Signs/Magnets";
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import FoamSigns from "./ProductPages/Signs/FoamSigns";
+import CoroplastSigns from "./ProductPages/Signs/CoroplastSigns";
+import AluminumSigns from "./ProductPages/Signs/AluminumSigns";
 
 
 
@@ -42,6 +45,9 @@ function Main() {
           <Route exact path="/magnets" component={Magnets} /> 
           <Route exact path='/realtor-signs' component={RealtorSigns} />
           <Route exact path='/banners' component={Banners} />
+          <Route exact path='/foam-signs' component={FoamSigns} />
+          <Route exact path='/coroplast-signs' component={CoroplastSigns} />
+          <Route exact path='/aluminum-signs' component={AluminumSigns} />
           
 
         </Switch>

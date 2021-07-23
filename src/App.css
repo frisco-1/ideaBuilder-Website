@@ -18,7 +18,9 @@
   border-bottom-right-radius: 21.25rem;
   height: calc(1.5em + 0.75rem + 2px);
 }
-
+#bold {
+  font-weight: 500;
+}
 #support {
   color: black;
 }

@@ -17,6 +17,9 @@ function BusinessCard() {
   const pictures = BCPRICES.filter(p => type && p.type === type.label)
     .map(img => img.img);
   
+  const productCode = BCPRICES.filter(p => type && p.type === type.label)
+    .map(code => code.code);
+  
   const quantityOptions = BCPRICES.filter((product) => type && product.type === type.value)
     .map((product) => product.quantity)
     .filter((v, i, a) => a.indexOf(v) === i)
@@ -35,7 +38,7 @@ function BusinessCard() {
       <Container className="pb-5">
         
         <Col md={12}>
-          <h2 className="pt-2 pb-2">Business Cards</h2> <hr />
+          <h2 className="pt-2 pb-2 d-inline">Business Cards </h2>(BC) <hr />
         </Col>
 
         <Row className = "PricingColor">
@@ -46,6 +49,7 @@ function BusinessCard() {
           <Col md={6} className="p-3 position-relative">
             <h3>Configure & Price</h3>
             <hr />
+            <p>{productCode}</p>
             <Form>
               <Form.Group controlId="productType">
                 <Form.Label>Type:</Form.Label>

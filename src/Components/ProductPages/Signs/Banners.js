@@ -29,7 +29,7 @@ function Banners() {
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">
-              <img src='./img/BusinessCard/Black&White.jpg' alt='RealtorSigns' width='100%'/>
+              <img src='./img/BusinessCard/Black&White.jpg' alt='Banners' width='100%'/>
             </Col>
 
             <Col md={6} className="p-3  position-relative">

@@ -20,7 +20,9 @@ function Flyers() {
     .map(img => img.img)
     .filter((v, i, a) => a.indexOf(v) === i)
   
-  console.log(pictures);
+  const productCode = FLYERS.filter(p => type && p.type === type.label)
+    .map(code => code.code)
+    .filter((v, i, a) => a.indexOf(v) === i)
 
   //quantityOptions
   const quantityOptions = FLYERS.filter((product) => type && product.type === type.value)
@@ -43,7 +45,7 @@ function Flyers() {
       <Container className="pb-5">
         
         <Col md={12}>
-          <h2 className="pt-2 pb-2">Flyers</h2><hr />
+          <h2 className="pt-2 pb-2 d-inline">Flyers </h2>(FLY) <hr />
         </Col>
         
         <Row className = "PricingColor">
@@ -54,6 +56,7 @@ function Flyers() {
           <Col md={6} className="p-3 position-relative">
             <h3>Configure & Price</h3>
             <hr />
+            <p>{productCode}</p>
             <Form>
               <Form.Group controlId="productType">
                 <Form.Label>Type:</Form.Label>

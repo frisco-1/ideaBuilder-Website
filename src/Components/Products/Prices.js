@@ -1,69 +1,70 @@
 export const BCPRICES = [
-  { id: 0, type: "Black & White 14 PT.", quantity: 1000, price: 30, img: "./img/BusinessCard/Black&White.png" },
-  { id: 1, type: "Multicolor 14 PT.", quantity: 1000, price: 45, img: "./img/BusinessCard/Multicolor.png" },
-  { id: 2, type: "Full Color 4/0", quantity: 1000, price: 55, img: "./img/BusinessCard/FullColorBC4-0.png" },
-  { id: 3, type: "Full Color 4/4 14 PT. 1M", quantity: 1000, price: 65, img: "./img/BusinessCard/FullColorBC4-4_14PT1m.png" },
-  { id: 4, type: "Full Color 4/4 16 PT. 1M (40)", quantity: 1000, price: 75, img: "./img/BusinessCard/FullColorBC4-416PT1m.png" },
-  { id: 5, type: "Full Color 4/4 12 PT. 5M (COPIDEN)", quantity: 5000, price: 120, img: "./img/BusinessCard/FullColor-4x4-12pt-5m.png " },
-  { id: 6, type: "Full Color 4/4 16 PT. 5M Round Corners (40)", quantity: 5000, price: 180, img: "./img/BusinessCard/FullColor-4x4-16p-RoundCorners.png" },
-  { id: 7, type: "Full Color Spot UV 16 PT Round Corners (40)", quantity: 1000, price: 125, img: "./img/BusinessCard/SpotUV.png" },
-  { id: 8, type: "16 PT Silk Laminated with Foil 4/4 (40)", quantity: 1000, price: 235, img: "./img/BusinessCard/SilkLam.png" },
+  { id: 0, type: "Black & White 14 PT.", quantity: 1000, price: 30, img: "./img/BusinessCard/Black&White.png", code: 'BC 1' },
+  { id: 1, type: "Multicolor 14 PT.", quantity: 1000, price: 45, img: "./img/BusinessCard/Multicolor.png", code: 'BC 2' },
+  { id: 2, type: "Full Color 4/0", quantity: 1000, price: 55, img: "./img/BusinessCard/FullColorBC4-0.png", code: 'BC 3' },
+  { id: 3, type: "Full Color 4/4 14 PT. 1M", quantity: 1000, price: 65, img: "./img/BusinessCard/FullColorBC4-4_14PT1m.png", code: 'BC 4' },
+  { id: 4, type: "Full Color 4/4 16 PT. 1M (40)", quantity: 1000, price: 75, img: "./img/BusinessCard/FullColorBC4-416PT1m.png", code: 'BC 5' },
+  { id: 5, type: "Full Color 4/4 12 PT. 5M (COPIDEN)", quantity: 5000, price: 120, img: "./img/BusinessCard/FullColor-4x4-12pt-5m.png ", code: 'BC 6' },
+  { id: 6, type: "Full Color 4/4 16 PT. 5M Round Corners (40)", quantity: 5000, price: 180, img: "./img/BusinessCard/FullColor-4x4-16p-RoundCorners.png", code: 'BC 7' },
+  { id: 7, type: "Full Color Spot UV 16 PT Round Corners (40)", quantity: 1000, price: 125, img: "./img/BusinessCard/SpotUV.png", code: 'BC 8' },
+  { id: 8, type: "16 PT Silk Laminated with Foil 4/4 (40)", quantity: 1000, price: 235, img: "./img/BusinessCard/SilkLam.png", code: 'BC 10' },
   {
     id: 9,
     type: "20 PT Clear Plastic or Clear Frosted (40) (1M)",
     quantity: 1000,
     price: 265,
     img: "./img/BusinessCard/ClearPlasticClearFrostedBC.png",
+    code: 'BC 11'
   },
-  { id: 10, type: "20 PT White Plastic 4/4 (40) (1M)", quantity: 1000, price: 210, img: "./img/BusinessCard/ClearPlasticClearFrostedBC.png" },
-  { id: 11, type: "32 PT Uncoated Painted Edge (40) (1M)", quantity: 1000, price: 270, img: "./img/BusinessCard/UncoatedPaintedEdgeBC.png" },
-  { id: 12, type: "Business Card Magnet FULL COLOR (1M)", quantity: 1000, price: 240, img: "./img/BusinessCard/MagentFullColorBC.png" },
-  { id: 13, type: "Business Card Sticker FULL COLOR (1M)", quantity: 1000, price: 160, img: "./img/BusinessCard/StickerFullColorBC.png" },
+  { id: 10, type: "20 PT White Plastic 4/4 (40) (1M)", quantity: 1000, price: 210, img: "./img/BusinessCard/ClearPlasticClearFrostedBC.png", code: 'BC 12' },
+  { id: 11, type: "32 PT Uncoated Painted Edge (40) (1M)", quantity: 1000, price: 270, img: "./img/BusinessCard/UncoatedPaintedEdgeBC.png", code: 'BC 13' },
+  { id: 12, type: "Business Card Magnet FULL COLOR (1M)", quantity: 1000, price: 240, img: "./img/BusinessCard/MagentFullColorBC.png", code: 'BC 14' },
+  { id: 13, type: "Business Card Sticker FULL COLOR (1M)", quantity: 1000, price: 160, img: "./img/BusinessCard/StickerFullColorBC.png", code: 'BC 15' },
 ];
 
 export const FLYERS = [
-  { type: '8.5" x 11" 100LB Text 4/4', quantity: 500, price: 175, img: "./img/Flyers/8.5x11.png" },
-  { type: '8.5" x 11" 100LB Text 4/4', quantity: 1000, price: 280, img: "./img/Flyers/8.5x11.png" },
-  { type: '8.5" x 11" 100LB Text 4/4', quantity: 5000, price: 600, img: "./img/Flyers/8.5x11.png" },
+  { type: '8.5" x 11" 100LB Text 4/4', quantity: 500, price: 175, img: "./img/Flyers/8.5x11.png", code: 'FLY 1' },
+  { type: '8.5" x 11" 100LB Text 4/4', quantity: 1000, price: 280, img: "./img/Flyers/8.5x11.png", code: 'FLY 1' },
+  { type: '8.5" x 11" 100LB Text 4/4', quantity: 5000, price: 600, img: "./img/Flyers/8.5x11.png", code: 'FLY 1' },
 
-  { type: '8.5" x 11" 100LB Text 4/0', quantity: 500, price: 125, img: "./img/Flyers/8.5x11.png" },
-  { type: '8.5" x 11" 100LB Text 4/0', quantity: 1000, price: 199, img: "./img/Flyers/8.5x11.png" },
-  { type: '8.5" x 11" 100LB Text 4/0', quantity: 5000, price: 420, img: "./img/Flyers/8.5x11.png" },
+  { type: '8.5" x 11" 100LB Text 4/0', quantity: 500, price: 125, img: "./img/Flyers/8.5x11.png", code: 'FLY 2' },
+  { type: '8.5" x 11" 100LB Text 4/0', quantity: 1000, price: 199, img: "./img/Flyers/8.5x11.png", code: 'FLY 2' },
+  { type: '8.5" x 11" 100LB Text 4/0', quantity: 5000, price: 420, img: "./img/Flyers/8.5x11.png", code: 'FLY 2' },
 
-  { type: '11" x 17" 100LB Text 4/4', quantity: 500, price: 295, img: "./img/Flyers/11x17.png" },
-  { type: '11" x 17" 100LB Text 4/4', quantity: 1000, price: 580, img: "./img/Flyers/11x17.png" },
-  { type: '11" x 17" 100LB Text 4/4', quantity: 5000, price: 1100, img: "./img/Flyers/11x17.png" },
+  { type: '11" x 17" 100LB Text 4/4', quantity: 500, price: 295, img: "./img/Flyers/11x17.png", code: 'FLY 3' },
+  { type: '11" x 17" 100LB Text 4/4', quantity: 1000, price: 580, img: "./img/Flyers/11x17.png", code: 'FLY 3' },
+  { type: '11" x 17" 100LB Text 4/4', quantity: 5000, price: 1100, img: "./img/Flyers/11x17.png", code: 'FLY 3' },
 
-  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 500, price: 55, img: "./img/Flyers/3x4.png" },
-  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 1000, price: 95, img: "./img/Flyers/3x4.png" },
-  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 5000, price: 130, img: "./img/Flyers/3x4.png" },
-  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 10000, price: 220, img: "./img/Flyers/3x4.png" },
+  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 500, price: 55, img: "./img/Flyers/3x4.png", code: 'FLY 4' },
+  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 1000, price: 95, img: "./img/Flyers/3x4.png", code: 'FLY 4' },
+  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 5000, price: 130, img: "./img/Flyers/3x4.png", code: 'FLY 4' },
+  { type: '3" x 4" Cardstock 14PT 4/4', quantity: 10000, price: 220, img: "./img/Flyers/3x4.png", code: 'FLY 4' },
 
-  { type: '4" x 6" Cardstock 14PT 4/0', quantity: 500, price: 60, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Cardstock 14PT 4/0', quantity: 1000, price: 95, img: "./img/Flyers/4x6.png" },
+  { type: '4" x 6" Cardstock 14PT 4/0', quantity: 500, price: 60, img: "./img/Flyers/4x6.png", code: 'FLY 5' },
+  { type: '4" x 6" Cardstock 14PT 4/0', quantity: 1000, price: 95, img: "./img/Flyers/4x6.png", code: 'FLY 5' },
 
-  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 500, price: 80, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 1000, price: 120, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 5000, price: 220, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 10000, price: 400, img: "./img/Flyers/4x6.png" },
+  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 500, price: 80, img: "./img/Flyers/4x6.png", code: 'FLY 6' },
+  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 1000, price: 120, img: "./img/Flyers/4x6.png", code: 'FLY 6' },
+  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 5000, price: 220, img: "./img/Flyers/4x6.png", code: 'FLY 6' },
+  { type: '4" x 6" Cardstock 14PT 4/4', quantity: 10000, price: 400, img: "./img/Flyers/4x6.png", code: 'FLY 6' },
 
-  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 500, price: 120, img: "./img/Flyers/3.6x8.5.png" },
-  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 1000, price: 200, img: "./img/Flyers/3.6x8.5.png" },
-  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 5000, price: 375, img: "./img/Flyers/3.6x8.5.png" },
+  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 500, price: 120, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 7' },
+  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 1000, price: 200, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 7' },
+  { type: '3.6" x 8.5" 100LB Text 4/4', quantity: 5000, price: 375, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 7' },
 
-  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 500, price: 120, img: "./img/Flyers/5.5x8.5.png" },
-  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 1000, price: 220, img: "./img/Flyers/5.5x8.5.png" },
-  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 5000, price: 475, img: "./img/Flyers/5.5x8.5.png" },
-  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 10000, price: 750, img: "./img/Flyers/5.5x8.5.png" },
+  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 500, price: 120, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 8' },
+  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 1000, price: 220, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 8' },
+  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 5000, price: 475, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 8' },
+  { type: '5.5" x 8.5" Cardstock 14PT', quantity: 10000, price: 750, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 8' },
 
-  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 500, price: 175, img: "./img/Flyers/6.75x9.png" },
-  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 1000, price: 280, img: "./img/Flyers/6.75x9.png" },
-  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 5000, price: 550, img: "./img/Flyers/6.75x9.png" },
-  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 10000, price: 950, img: "./img/Flyers/6.75x9.png" },
+  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 500, price: 175, img: "./img/Flyers/6.75x9.png", code: 'FLY 9' },
+  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 1000, price: 280, img: "./img/Flyers/6.75x9.png", code: 'FLY 9' },
+  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 5000, price: 550, img: "./img/Flyers/6.75x9.png", code: 'FLY 9' },
+  { type: '6.75" x 9" Cardstock 14PT 4/4', quantity: 10000, price: 950, img: "./img/Flyers/6.75x9.png", code: 'FLY 9' },
 
-  { type: '4" x 6" Magnetic', quantity: 500, price: 330, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Magnetic', quantity: 1000, price: 540, img: "./img/Flyers/4x6.png" },
-  { type: '4" x 6" Magnetic', quantity: 10000, price: 950, img: "./img/Flyers/4x6.png" },
+  { type: '4" x 6" Magnetic', quantity: 500, price: 330, img: "./img/Flyers/4x6.png", code: 'FLY 10' },
+  { type: '4" x 6" Magnetic', quantity: 1000, price: 540, img: "./img/Flyers/4x6.png", code: 'FLY 10' },
+  { type: '4" x 6" Magnetic', quantity: 10000, price: 950, img: "./img/Flyers/4x6.png", code: 'FLY 10' },
 ];
 
 export const DOORHANGERS = [
@@ -2151,3 +2152,201 @@ export const STICKERS = {
   ]
   
 };
+
+export const FOAMSIGNS = [
+  {
+    id: 0,
+    size: '2" x 2"',
+    price: 35,
+    quantity: 1,
+    code: 'FS 1'
+  },
+  {
+    id: 1,
+    size: '4" x 2"',
+    price: 50,
+    quantity: 1,
+    code: 'FS 2'
+  },
+  {
+    id: 2,
+    size: '4" x 4"',
+    price: 75,
+    quantity: 1,
+    code: 'FS 3'
+  },
+  {
+    id: 3,
+    size: '2" x 8"',
+    price: 75,
+    quantity: 1,
+    code: 'FS 3'
+  },
+  {
+    id: 4,
+    size: '4" x 5"',
+    price: 95,
+    quantity: 1,
+    code: 'FS 4'
+  },
+  {
+    id: 5,
+    size: '4" x 6"',
+    price: 110,
+    quantity: 1,
+    code: 'FS 5'
+  },
+  {
+    id: 6,
+    size: '3" x 6"',
+    price: 110,
+    quantity: 1,
+    code: 'FS 5'
+  },
+  {
+    id: 7,
+    size: '4" x 8"',
+    price: 160,
+    quantity: 1,
+    code: 'FS 6'
+  },
+  {
+    id: 8,
+    size: '3" x 8"',
+    price: 160,
+    quantity: 1,
+    code: 'FS 6'
+  },
+]
+
+export const COROSIGNS = [
+  {
+    id: 0,
+    size: '2" x 2"',
+    price: 50,
+    quantity: 1,
+    code: 'COR 1'
+  },
+  {
+    id: 1,
+    size: '4" x 2"',
+    price: 70,
+    quantity: 1,
+    code: 'COR 2'
+  },
+  {
+    id: 2,
+    size: '4" x 4"',
+    price: 120,
+    quantity: 1,
+    code: 'COR 3'
+  },
+  {
+    id: 3,
+    size: '2" x 8"',
+    price: 120,
+    quantity: 1,
+    code: 'COR 3'
+  },
+  {
+    id: 4,
+    size: '4" x 5"',
+    price: 140,
+    quantity: 1,
+    code: 'COR 4'
+  },
+  {
+    id: 5,
+    size: '4" x 6"',
+    price: 160,
+    quantity: 1,
+    code: 'COR 5'
+  },
+  {
+    id: 6,
+    size: '3" x 6"',
+    price: 160,
+    quantity: 1,
+    code: 'COR 5'
+  },
+  {
+    id: 7,
+    size: '4" x 8"',
+    price: 200,
+    quantity: 1,
+    code: 'COR 6'
+  },
+  {
+    id: 8,
+    size: '3" x 8"',
+    price: 200,
+    quantity: 1,
+    code: 'COR 6'
+  },
+]
+
+export const ALUMINUMSIGNS = [
+  {
+    id: 0,
+    size: '2" x 2"',
+    price: 90,
+    quantity: 1,
+    code: 'MM 1'
+  },
+  {
+    id: 1,
+    size: '4" x 2"',
+    price: 132,
+    quantity: 1,
+    code: 'MM 2'
+  },
+  {
+    id: 2,
+    size: '4" x 4"',
+    price: 165,
+    quantity: 1,
+    code: 'MM 3'
+  },
+  {
+    id: 3,
+    size: '2" x 8"',
+    price: 165,
+    quantity: 1,
+    code: 'MM 3'
+  },
+  {
+    id: 4,
+    size: '4" x 5"',
+    price: 220,
+    quantity: 1,
+    code: 'MM 4'
+  },
+  {
+    id: 5,
+    size: '4" x 6"',
+    price: 290,
+    quantity: 1,
+    code: 'MM 5'
+  },
+  {
+    id: 6,
+    size: '3" x 6"',
+    price: 290,
+    quantity: 1,
+    code: 'MM 5'
+  },
+  {
+    id: 7,
+    size: '4" x 8"',
+    price: 296,
+    quantity: 1,
+    code: 'MM 6'
+  },
+  {
+    id: 8,
+    size: '3" x 8"',
+    price: 296,
+    quantity: 1,
+    code: 'MM 6'
+  },
+]
