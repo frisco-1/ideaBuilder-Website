@@ -51,19 +51,36 @@ function Footer() {
           </Col>
           {/* End of line break */}
 
-          <Col md={6}>
+          <Col md={3}>
             <h3 id='footHeading'>Address</h3>
 
             <p id='LinkHead'>3277 Lake Worth Rd. Suite B
             Palm Springs, FL 33461</p>
           </Col>
 
-          <Col md={6}>
+          <Col md={3}>
             <h3 id='footHeading'>Contact Us</h3>
 
             <ul className='list-unstyled fs-5'>
               <li><a href='tel:+5617211473' id='white'><AiTwotonePhone/> (561) 721-1473</a></li>
               <li><a href='mailto:sales@ideaprinting.com' id='white'><IoMdMail/> sales@ideaprinting.com</a></li>
+            </ul>
+          </Col>
+
+          <Col md={3}>
+            <h3 id='footHeading'>Website Links</h3>
+
+            <ul className='list-unstyled fs-5'>
+              <li className='mb-2'><a href='https://www.ibtshirts.com/' id='white' target='_blank' rel='noreferrer'><img src='img/ib tshirt logo.png' height='40px' alt='ibshirtslogo'/></a></li>
+              <li className='mb-2'><a href='https://www.ibsites.com/' id='white' target='_blank' rel='noreferrer'><img src='img/ib sites logo.png' height='40px' alt='ibsiteslogo'/></a></li>
+            </ul>
+          </Col>
+
+          <Col md={3}>
+            <h3 id='footHeading'>Social Media</h3>
+
+            <ul className='list-unstyled fs-5'>
+              
             </ul>
           </Col>
 

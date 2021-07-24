@@ -28,6 +28,11 @@ function MainNav({ListItems, ListPrinting, ListSigns}) {
                 <Nav.Link as={Link} to='/contact'>Contact Us</Nav.Link>
 
               </Nav>
+            
+              <Nav>
+                <Nav.Link target="_blank"  href='https://www.ibtshirts.com/'><img src='img/ib tshirt logo.png' height='40px' alt='ibshirtslogo'/></Nav.Link>
+                <Nav.Link target="_blank" href='https://www.ibsites.com/'><img src='img/ib sites logo.png' height='40px' alt='ibsiteslogo'/></Nav.Link>
+              </Nav>
               
             </Navbar.Collapse>
           </Container>

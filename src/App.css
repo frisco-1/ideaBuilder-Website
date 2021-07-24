@@ -46,6 +46,40 @@
 #margin-right-remove {
   margin-right: 0;
 }
+.welcome-card {
+  background: url("./IDEABUILDERWEBSITE2.png") no-repeat center center/cover;
+  padding: 100px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.welcome-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+.located-card {
+  background: url("./palm-trees.jpg") no-repeat center center/cover;
+  padding: 150px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.located-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
 
 /* Footer */
 #footer {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, ListGroup } from 'react-bootstrap';
 import ListBar from './ListBar';
-import ListCard from './ListCard';
+import Info from './Info';
 
 function ContentPage({PRODUCTS}) {
   return (
@@ -16,8 +16,7 @@ function ContentPage({PRODUCTS}) {
         </Col>
 
         <Col className='m-5'>
-          <h4>Products</h4>
-          <ListCard PRODUCTS={PRODUCTS}/>
+          <Info/>
         </Col>
 
       </Row>
