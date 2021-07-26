@@ -1,0 +1,114 @@
+.sideBarP {
+  background: #b7b7b7;
+  border: 2px solid lightgray;
+  border-bottom: none;
+  margin: 0px;
+}
+.shadow {
+  box-shadow: 10px 5px 5px black;
+}
+
+#margin-right-remove {
+  margin-right: 0;
+}
+//INFO CARDS
+.welcome-card {
+  background: url("../IDEABUILDERWEBSITE.png") no-repeat center center/cover;
+  padding: 100px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.welcome-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+.located-card {
+  background: url("../palm-trees.jpg") no-repeat center center/cover;
+  padding: 150px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.located-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+.contact-card {
+  background: url("../IBStore.png") no-repeat center center/cover;
+  padding: 150px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.contact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+
+// Info Content
+.InfoSizing {
+  margin: 3rem;
+}
+#white-nonLink {
+  color: white;
+}
+.InfoContact {
+  font-size: 25px;
+}
+#card-button {
+  background-color: #008ecb;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+@media only screen and (max-width: 581px) {
+  .InfoHeading {
+    font-size: 25px;
+  }
+  .InfoContact {
+    font-size: 1px;
+  }
+}
+
+@media only screen and (max-width: 1298px) {
+  .sideBarP {
+    font-size: 1.25rem;
+  }
+  .InfoSizing {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+  }
+  .InfoContact {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  #sideBarHide {
+    display: none;
+  }
+  .InfoSizing {
+    margin: 0rem;
+  }
+}

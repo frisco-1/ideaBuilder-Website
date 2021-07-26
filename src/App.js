@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Colors.scss";
 import Main from "./Components/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";

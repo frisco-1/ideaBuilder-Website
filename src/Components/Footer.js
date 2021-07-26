@@ -2,7 +2,9 @@ import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { AiTwotonePhone } from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
 import { IoMdMail } from 'react-icons/io';
+import '../Stylesheets/Footer.scss'
 
 function Footer() {
   const date = new Date();
@@ -72,15 +74,17 @@ function Footer() {
 
             <ul className='list-unstyled fs-5'>
               <li className='mb-2'><a href='https://www.ibtshirts.com/' id='white' target='_blank' rel='noreferrer'><img src='img/ib tshirt logo.png' height='40px' alt='ibshirtslogo'/></a></li>
-              <li className='mb-2'><a href='https://www.ibsites.com/' id='white' target='_blank' rel='noreferrer'><img src='img/ib sites logo.png' height='40px' alt='ibsiteslogo'/></a></li>
+              <li className='mb-2'><a href='https://www.ibsites.com/' id='white' target='_blank' rel='noreferrer'><img src='img/white2-ib sites logo.png' height='40px' alt='ibsiteslogo'/></a></li>
             </ul>
           </Col>
 
           <Col md={3}>
             <h3 id='footHeading'>Social Media</h3>
 
-            <ul className='list-unstyled fs-5'>
-              
+            <ul className='list-unstyled'>
+              <a href='https://www.facebook.com/ideabprinting' id='white' target='_blank' rel='noreferrer'>
+                <AiFillFacebook className='facebook-icon'/>
+              </a>
             </ul>
           </Col>
 

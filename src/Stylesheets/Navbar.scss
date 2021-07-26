@@ -1,0 +1,37 @@
+$link-background: #008ecb;
+$support-link: black;
+$support-link-hover: red;
+
+.logo {
+  line-height: 1px;
+}
+#main {
+  font-size: 40px;
+}
+#small {
+  font-size: 21px;
+}
+
+#roundSearch1 {
+  border-top-left-radius: 21.25rem;
+  border-bottom-left-radius: 21.25rem;
+}
+#roundSearch2 {
+  border-top-right-radius: 21.25rem;
+  border-bottom-right-radius: 21.25rem;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+#bold {
+  font-weight: 500;
+}
+#support {
+  color: $support-link;
+}
+#support:hover {
+  color: $support-link-hover;
+  text-decoration: none;
+}
+
+#linksBg {
+  background: $link-background;
+}
