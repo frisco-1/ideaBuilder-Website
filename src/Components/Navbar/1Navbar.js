@@ -4,6 +4,7 @@ import {NavDropdown } from 'react-bootstrap';
 // import { DropdownSubmenu, NavDropdownMenu} from "react-bootstrap-submenu";
 import { PRODUCTS } from '../Products/ProductsName';
 import { Link } from 'react-router-dom';
+import SiteLinks from '../../Data.json';
 
 import TopNav from './TopNav';
 import MainNav from './MainNav';
@@ -12,7 +13,7 @@ class NavB extends Component {
   render() {
     return (
       <>
-        <TopNav/>
+        <TopNav data={SiteLinks}/>
         <MainNav ListPrinting={ListPrinting} ListSigns={ListSigns} ListItems={ListItems}/>
         
       </>

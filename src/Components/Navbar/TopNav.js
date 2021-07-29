@@ -1,8 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Navbar, Nav, Container, Form, Button } from 'react-bootstrap';
 import { AiOutlineSearch } from 'react-icons/ai';
 
-function TopNav() {
+function TopNav({ data }) {
+  const [filteredData, setFilteredData] = useState([]);
+  const [wordEntered, setWordEntered] = useState("");
+
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+    const newFilter = data.filter((value) => {
+      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+    });
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
+      setFilteredData(newFilter);
+    }
+  };
+
+   const clearInput = () => {
+    setFilteredData([]);
+    setWordEntered("");
+  };
+
   return (
     <div>
       {/* NavbarHeader */}
@@ -26,20 +48,36 @@ function TopNav() {
             <Nav>
               <Form className="d-flex align-items-center ">
                 <Form.Control
-                  type="search"
+                  type="text"
                   placeholder="Search"
-                  className=""
+                  value={wordEntered}
+                  onChange={handleFilter}
                   id="roundSearch1"
                   aria-label="Search"
                 />
-                <Button
-                  variant="outline-success"
-                  id='roundSearch2'
-                  className='d-flex align-items-center justify-content-center'
-                >
-                    <AiOutlineSearch />
-                    
-                </Button>
+              
+                <div className="searchIcon">
+                  {filteredData.length === 0 ? (
+                    <Button variant="outline-success" id='roundSearch2' className='d-flex align-items-center justify-content-center'
+                    >
+                      <AiOutlineSearch />
+                    </Button>
+                  ) : (
+                    <Button id="roundSearch2" className='d-flex align-items-center text-center justify-content-center' onClick={clearInput}>x</Button>
+                  )}
+                </div>
+              
+               {filteredData.length !== 0 && (
+                  <div className="dataResult">
+                    {filteredData.slice(0, 15).map((value, key) => {
+                      return (
+                        <a className="dataItem" href={value.link}>
+                          <p>{value.title} </p>
+                        </a>
+                      );
+                    })}
+                  </div>
+                )}
               </Form>
                 
               <a href='tel:561-721-1473' className='d-flex pl-4' id='support'>
