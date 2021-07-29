@@ -135,6 +135,12 @@
     line-height: 25px;
   }
 }
+@media only screen and (max-width: 584px) {
+  .located-card,
+  .contact-card {
+    padding: 50px;
+  }
+}
 @media only screen and (max-width: 320px) {
   .NavBarLogo {
     #main {
