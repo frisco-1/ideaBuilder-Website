@@ -8,7 +8,7 @@ function TopNav() {
       {/* NavbarHeader */}
         <Navbar  >
           <Container fluid='md' className='topNav'> 
-            <Navbar.Brand href="/" className='d-flex justify-content-center align-items-center'>
+            <Navbar.Brand href="/" className='d-flex justify-content-center align-items-center NavBarLogo'>
               <img
                 alt=""
                 src="./img/logo.png"

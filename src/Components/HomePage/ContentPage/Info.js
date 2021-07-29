@@ -15,14 +15,14 @@ function ListCard() {
           <h5>Your Local Printing and Signs Business Since 1999</h5>
         </div>
       </Col>
-
-      <Col xs={6} className='located-card'>
-        <div className='d-flex justify-content-center align-self-center text-center'>
+      
+      <Col xs={6} className='located-card '>
+        <div className='d-flex justify-content-center align-items-center align-self-center text-center'>
           <h3 className='InfoHeading'>We're Located In Palm Springs, Florida!</h3>
         </div>
       </Col>
 
-      <Col xs={6} className='contact-card'>
+      <Col xs={6} className='contact-card '>
         <div className='d-flex text-center align-self-center flex-column'>
           <h3 className='InfoHeading'>Contact Us</h3>
           <div className='d-flex text-center align-self-center flex-column InfoContact'>
@@ -33,7 +33,7 @@ function ListCard() {
           </div>
         </div>
       </Col>
-
+      
       <Col md={12} className='welcome-card'>
         <div className='d-flex text-center align-self-center flex-column'>
           <h2>Looking for T Shirts and Custom Apparel?</h2>

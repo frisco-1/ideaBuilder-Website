@@ -68,16 +68,62 @@
 .InfoSizing {
   margin: 3rem;
 }
+.InfoBar {
+  margin: 3rem;
+}
 #white-nonLink {
   color: white;
 }
 .InfoContact {
   font-size: 25px;
+  line-height: 39px;
 }
 #card-button {
   background-color: #008ecb;
-  margin-left: 250px;
-  margin-right: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 250px;
+  width: 250px;
+}
+
+//Adjusting The Two Columns
+@media only screen and (max-width: 1163px) {
+  .InfoBar {
+    margin: 1.5rem;
+  }
+  .InfoSizing {
+    margin: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .InfoBar {
+    margin: 0.5rem;
+  }
+  .InfoSizing {
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 923px) {
+  .InfoBar {
+    margin: 0.25rem;
+    width: 100%;
+  }
+  .InfoSizing {
+    margin: 0.25rem;
+    width: 100%;
+  }
+}
+
+//Phone Sizes
+@media only screen and (max-width: 860px) {
+  #sideBarHide {
+    display: none;
+  }
+  .InfoSizing {
+    margin: 0rem;
+  }
 }
 
 @media only screen and (max-width: 581px) {
@@ -85,30 +131,17 @@
     font-size: 25px;
   }
   .InfoContact {
-    font-size: 1px;
+    font-size: 12.5px;
+    line-height: 25px;
   }
 }
-
-@media only screen and (max-width: 1298px) {
-  .sideBarP {
-    font-size: 1.25rem;
-  }
-  .InfoSizing {
-    margin-top: 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
-  }
-  .InfoContact {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 860px) {
-  #sideBarHide {
-    display: none;
-  }
-  .InfoSizing {
-    margin: 0rem;
+@media only screen and (max-width: 320px) {
+  .NavBarLogo {
+    #main {
+      font-size: 30px;
+    }
+    #small {
+      font-size: 20px;
+    }
   }
 }

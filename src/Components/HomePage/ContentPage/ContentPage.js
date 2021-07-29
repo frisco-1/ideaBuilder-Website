@@ -9,7 +9,7 @@ function ContentPage({PRODUCTS}) {
     <div>
       <Row id='margin-right-remove'>
 
-        <Col md={3} className='m-5 p-1 shadow' id='sideBarHide'>
+        <Col md={3} className='InfoBar p-1 shadow' id='sideBarHide'>
           <h4 className='p-3  d-flex sideBarP' >Popular Products</h4>
           <ListGroup variant='flush'>
             <ListBar PRODUCTS={PRODUCTS}/>
