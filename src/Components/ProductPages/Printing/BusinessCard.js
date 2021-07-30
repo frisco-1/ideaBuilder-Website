@@ -6,8 +6,8 @@ import { BCPRICES } from "../../Products/Prices";
 
 function BusinessCard() {
   //State
-  const [type, setType] = React.useState({ label: "Black & White 14 PT.", value: 0});
-  const [quantity, setQuantity] = React.useState({ label: '0', value: 0 });
+  const [type, setType] = React.useState({ label: BCPRICES[0].type, value: BCPRICES[0].id});
+  const [quantity, setQuantity] = React.useState({ label: BCPRICES[0].quantity, value: BCPRICES[0].id });
 
   //Array Functions
   const typeOptions = BCPRICES.map((product) => product.type)
@@ -62,7 +62,7 @@ function BusinessCard() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${priceOptions}</h3>
+            <h3 className="position-absolute pricingDiv">Printing Cost: ${(priceOptions).toLocaleString(undefined,{'minimumFractionDigits':2,'maximumFractionDigits':2})}</h3>
           </Col>
         </Row>
       </Container>

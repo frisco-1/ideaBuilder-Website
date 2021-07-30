@@ -4,14 +4,14 @@ import Footer from './Footer';
 import Home from './HomePage/Home';
 import NavB from './Navbar/1Navbar';
 
+//PRINTING
 import Envelopes from "./ProductPages/Printing/Envelopes";
 import Invoices from "./ProductPages/Printing/Invoices";
 import BusinessCard from "./ProductPages/Printing/BusinessCard";
 import Flyers from "./ProductPages/Printing/Flyers";
 import DoorHanger from "./ProductPages/Printing/DoorHangers";
-import Stickers from "./ProductPages/Printing/Stickers";
-
-
+import Labels from "./ProductPages/Printing/Labels";
+import Brochures from "./ProductPages/Printing/Brochures";
 
 //SIGNS
 import RealtorSigns from './ProductPages/Signs/RealtorSigns';
@@ -40,7 +40,8 @@ function Main() {
           <Route exact path='/envelopes' component={Envelopes} />
           <Route exact path='/invoices' component={Invoices} />
           <Route exact path='/door-hangers' component={DoorHanger} />
-          <Route exact path='/stickers' component={Stickers} />
+          <Route exact path='/labels' component={Labels} />
+          <Route exact path='/brochures' component={Brochures}/>
 
           <Route exact path="/magnets" component={Magnets} /> 
           <Route exact path='/realtor-signs' component={RealtorSigns} />

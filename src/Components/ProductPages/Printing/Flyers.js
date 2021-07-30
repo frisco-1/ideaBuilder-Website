@@ -6,7 +6,7 @@ import {FLYERS} from "../../Products/Prices";
 
 function Flyers() {
   //State
-  const [type, setType] = React.useState({label: '8.5" x 11" 100LB Text 4/4', value: 0});
+  const [type, setType] = React.useState({label: '3" x 4" Cardstock 14PT 2 Sides', value: 0});
   const [quantity, setQuantity] = React.useState({label: 0, value: 0});
 
   //Array Functions
