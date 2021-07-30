@@ -46,7 +46,8 @@ function TopNav({ data }) {
             </Navbar.Brand>
 
             <Nav>
-              <Form className="d-flex align-items-center ">
+              <Form className="d-flex align-items-center search">
+                <div className='searchInput'>
                 <Form.Control
                   type="text"
                   placeholder="Search"
@@ -56,7 +57,7 @@ function TopNav({ data }) {
                   aria-label="Search"
                 />
               
-                <div className="searchIcon">
+                
                   {filteredData.length === 0 ? (
                     <Button variant="outline-success" id='roundSearch2' className='d-flex align-items-center justify-content-center'
                     >

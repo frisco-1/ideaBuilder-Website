@@ -35,6 +35,16 @@ $support-link-hover: red;
 #linksBg {
   background: $link-background;
 }
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .searchInput {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 .dataResult {
   margin-top: 350px;
