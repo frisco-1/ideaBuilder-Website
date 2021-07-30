@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Navbar, Nav, Container, Form, Button } from 'react-bootstrap';
 import { AiOutlineSearch } from 'react-icons/ai';
+import { MdCancel } from 'react-icons/md';
 
 function TopNav({ data }) {
   const [filteredData, setFilteredData] = useState([]);
@@ -25,7 +26,7 @@ function TopNav({ data }) {
     setWordEntered("");
   };
 
-  return (
+ return (
     <div>
       {/* NavbarHeader */}
         <Navbar  >
@@ -64,7 +65,9 @@ function TopNav({ data }) {
                       <AiOutlineSearch />
                     </Button>
                   ) : (
-                    <Button id="roundSearch2" className='d-flex align-items-center text-center justify-content-center' onClick={clearInput}>x</Button>
+                    <Button id="roundSearch2" className='d-flex align-items-center text-center justify-content-center' onClick={clearInput}>
+                      <MdCancel/>
+                    </Button>
                   )}
                 </div>
               
