@@ -3,6 +3,7 @@ import React from "react";
 import Footer from './Footer';
 import Home from './HomePage/Home';
 import NavB from './Navbar/1Navbar';
+import Contact from './Contact';
 
 //PRINTING
 import Envelopes from "./ProductPages/Printing/Envelopes";
@@ -50,6 +51,7 @@ function Main() {
           <Route exact path='/coroplast-signs' component={CoroplastSigns} />
           <Route exact path='/aluminum-signs' component={AluminumSigns} />
           
+          <Route exact path='/contact' component={Contact} />
 
         </Switch>
 
