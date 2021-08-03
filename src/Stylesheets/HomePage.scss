@@ -151,3 +151,18 @@
     }
   }
 }
+
+// New Info SCSS
+#ProductCard {
+  background-color: #008ecb;
+  border: #008ecb;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+#ProductCard:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
