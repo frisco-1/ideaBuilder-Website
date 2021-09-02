@@ -28,7 +28,7 @@ function DoorHanger() {
       <Container className="pb-5">
         
           <Col md={12}>
-            <h2 className="pt-2 pb-2">Invoices</h2> <hr />
+            <h2 className="pt-2 pb-2">Door Hangers</h2> <hr />
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">

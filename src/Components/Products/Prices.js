@@ -1,54 +1,54 @@
 export const BCPRICES = [
-  { id: 0, type: "Black & White 14 PT. - One Sided", quantity: 1000, price: 30, img: "./img/BusinessCard/Black&White.png", code: 'BC 1' },
-  { id: 1, type: "Multicolor 14 PT. - One Sided", quantity: 1000, price: 45, img: "./img/BusinessCard/Multicolor.png", code: 'BC 2' },
-  { id: 2, type: "Full Color - One Sided", quantity: 1000, price: 55, img: "./img/BusinessCard/FullColor1.png", code: 'BC 3' },
-  { id: 3, type: "Full Color 14 PT. - Double Sided ", quantity: 1000, price: 65, img: "./img/BusinessCard/FullColor14PT.png", code: 'BC 4' },
-  { id: 4, type: "Full Color 16 PT. - Double Sided ", quantity: 1000, price: 75, img: "./img/BusinessCard/FullColor16PT.png", code: 'BC 5' },
-  { id: 5, type: "Full Color 12 PT. - Double Sided ", quantity: 5000, price: 120, img: "./img/BusinessCard/FullColor12PT.png ", code: 'BC 6' },
-  { id: 6, type: "Full Color 16 PT. - Double Sided Round Corners", quantity: 5000, price: 180, img: "./img/BusinessCard/FullColor16PTRound.png", code: 'BC 7' },
-  { id: 7, type: "Full Color Spot UV 16 PT. - One Sided Round Corners", quantity: 1000, price: 125, img: "./img/BusinessCard/SpotUV.png", code: 'BC 8' },
-  { id: 8, type: "16 PT Silk Laminated with Foil - Double Sided", quantity: 1000, price: 235, img: "./img/BusinessCard/SilkLam.png", code: 'BC 10' },
+  { id: 0, type: "Black & White 14 PT. - One Sided", quantity: 1000, price: 30, img: "./img/01-Printing/BusinessCard/Black&White.png", code: 'BC 1' },
+  { id: 1, type: "Multicolor 14 PT. - One Sided", quantity: 1000, price: 45, img: "./img/01-Printing/BusinessCard/Multicolor.png", code: 'BC 2' },
+  { id: 2, type: "Full Color - One Sided", quantity: 1000, price: 55, img: "./img/01-Printing/BusinessCard/FullColor1.png", code: 'BC 3' },
+  { id: 3, type: "Full Color 14 PT. - Double Sided ", quantity: 1000, price: 65, img: "./img/01-Printing/BusinessCard/FullColor14PT.png", code: 'BC 4' },
+  { id: 4, type: "Full Color 16 PT. - Double Sided ", quantity: 1000, price: 75, img: "./img/01-Printing/BusinessCard/FullColor16PT.png", code: 'BC 5' },
+  { id: 5, type: "Full Color 12 PT. - Double Sided ", quantity: 5000, price: 120, img: "./img/01-Printing/BusinessCard/FullColor12PT.png ", code: 'BC 6' },
+  { id: 6, type: "Full Color 16 PT. - Double Sided Round Corners", quantity: 5000, price: 180, img: "./img/01-Printing/BusinessCard/FullColor16PTRound.png", code: 'BC 7' },
+  { id: 7, type: "Full Color Spot UV 16 PT. - One Sided Round Corners", quantity: 1000, price: 125, img: "./img/01-Printing/BusinessCard/SpotUV.png", code: 'BC 8' },
+  { id: 8, type: "16 PT Silk Laminated with Foil - Double Sided", quantity: 1000, price: 235, img: "./img/01-Printing/BusinessCard/SilkLam.png", code: 'BC 10' },
   {
-    id: 9, type: "20 PT Clear Plastic or Clear Frosted - One Sided", quantity: 1000, price: 265, img: "./img/BusinessCard/ClearPlasticClearFrostedBC.png",code: 'BC 11'
+    id: 9, type: "20 PT Clear Plastic or Clear Frosted - One Sided", quantity: 1000, price: 265, img: "./img/01-Printing/BusinessCard/ClearPlasticClearFrostedBC.png",code: 'BC 11'
   },
-  { id: 10, type: "20 PT White Plastic - Double Sided", quantity: 1000, price: 210, img: "./img/BusinessCard/ClearPlasticClearFrostedBC.png", code: 'BC 12' },
-  { id: 11, type: "32 PT Uncoated Painted Edge - One Sided", quantity: 1000, price: 270, img: "./img/BusinessCard/32PT.png", code: 'BC 13' },
-  { id: 12, type: "Business Card Magnet FULL COLOR - One Sided", quantity: 1000, price: 240, img: "./img/BusinessCard/MagentFullColorBC.png", code: 'BC 14' },
-  { id: 13, type: "Business Card Sticker FULL COLOR - One Sided", quantity: 1000, price: 160, img: "./img/BusinessCard/StickerFullColorBC.png", code: 'BC 15' },
+  { id: 10, type: "20 PT White Plastic - Double Sided", quantity: 1000, price: 210, img: "./img/01-Printing/BusinessCard/ClearPlasticClearFrostedBC.png", code: 'BC 12' },
+  { id: 11, type: "32 PT Uncoated Painted Edge - One Sided", quantity: 1000, price: 270, img: "./img/01-Printing/BusinessCard/32PT.png", code: 'BC 13' },
+  { id: 12, type: "Business Card Magnet FULL COLOR - One Sided", quantity: 1000, price: 240, img: "./img/01-Printing/BusinessCard/MagentFullColorBC.png", code: 'BC 14' },
+  { id: 13, type: "Business Card Sticker FULL COLOR - One Sided", quantity: 1000, price: 160, img: "./img/01-Printing/BusinessCard/StickerFullColorBC.png", code: 'BC 15' },
 ];
 
 export const FLYERS = [
 
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 500, price: 55, img: "./img/Flyers/3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 1000, price: 95, img: "./img/Flyers/3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 5000, price: 130, img: "./img/Flyers/3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 10000, price: 220, img: "./img/Flyers/3x4.png", code: 'FLY 1' },
+  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 500, price: 55, img: "./img/01-Printing/Flyers/3x4.png", code: 'FLY 1' },
+  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 1000, price: 95, img: "./img/01-Printing/Flyers/3x4.png", code: 'FLY 1' },
+  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 5000, price: 130, img: "./img/01-Printing/Flyers/3x4.png", code: 'FLY 1' },
+  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 10000, price: 220, img: "./img/01-Printing/Flyers/3x4.png", code: 'FLY 1' },
 
-  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 500, price: 60, img: "./img/Flyers/4x6.png", code: 'FLY 2' },
-  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 1000, price: 95, img: "./img/Flyers/4x6.png", code: 'FLY 2' },
+  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 500, price: 60, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 2' },
+  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 1000, price: 95, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 2' },
 
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 500, price: 80, img: "./img/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 1000, price: 120, img: "./img/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 5000, price: 220, img: "./img/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 10000, price: 400, img: "./img/Flyers/4x6.png", code: 'FLY 3' },
+  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 500, price: 80, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
+  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 1000, price: 120, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
+  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 5000, price: 220, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
+  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 10000, price: 400, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
 
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 500, price: 120, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 4' },
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 1000, price: 200, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 4' },
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 5000, price: 375, img: "./img/Flyers/3.6x8.5.png", code: 'FLY 4' },
+  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 500, price: 120, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
+  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 1000, price: 200, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
+  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 5000, price: 375, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
 
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 500, price: 120, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 1000, price: 220, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 5000, price: 475, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 10000, price: 750, img: "./img/Flyers/5.5x8.5.png", code: 'FLY 5' },
+  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 500, price: 120, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
+  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 1000, price: 220, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
+  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 5000, price: 475, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
+  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 10000, price: 750, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
 
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 500, price: 175, img: "./img/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 1000, price: 280, img: "./img/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 5000, price: 550, img: "./img/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 10000, price: 950, img: "./img/Flyers/6.75x9.png", code: 'FLY 6' },
+  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 500, price: 175, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
+  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 1000, price: 280, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
+  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 5000, price: 550, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
+  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
 
-  { type: '4" x 6" Magnetic 1 Side', quantity: 500, price: 330, img: "./img/Flyers/4x6.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 1000, price: 540, img: "./img/Flyers/4x6.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 10000, price: 950, img: "./img/Flyers/4x6.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 500, price: 330, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 1000, price: 540, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
 ];
 
 export const DOORHANGERS = [
@@ -59,7 +59,7 @@ export const DOORHANGERS = [
       { id: 0, quantity: 1000, price: 235 },
       { id: 1, quantity: 5000, price: 375 },
     ],
-    img: "./img/Flyers/3x4.png",
+    img: "./img/01-Printing/Door Hangers/DoorHanger-3x8.png",
   },
   {
     id: 1,
@@ -68,7 +68,7 @@ export const DOORHANGERS = [
       { id: 0, quantity: 1000, price: 410 },
       { id: 1, quantity: 5000, price: 535 },
     ],
-    img: "./img/Flyers/11x17.png",
+    img: "./img/01-Printing/Door Hangers/DoorHanger-4.25x11.png",
   },
 ];
 
@@ -969,14 +969,16 @@ export const REALTORSIGNS = [
     type: 'Aluminum Sign',
     category: [
       {id: 0, size: '18" x 24"', quantity: 1, price:50}
-    ]
+    ],
+    img: "./img/02-Signs/Realtor Signs/RealtorSign01.png"
   },
   {
     id: 1,
     type: 'Aluminum Sign with Frame',
     category: [
       {id: 0, size: '18" x 24"', quantity: 1, price:85}
-    ]
+    ],
+    img: "./img/02-Signs/Realtor Signs/RealtorSign02.png"
   },
 ];
 
@@ -1073,7 +1075,7 @@ export const BANNERS = [
     code: 'BAN10 '
   },
 ];
-export const MAGNETS = {
+export const CARMAGNETS = {
   products: [
     {
       id: 0,
@@ -1081,7 +1083,7 @@ export const MAGNETS = {
       size: '12" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 75,
-      img: "./img/Magnets/sample-12x24.jpg",
+      img: "./img/02-Signs/Car Magnets/sample-12x24.jpg",
     },
     {
       id: 1,
@@ -1089,7 +1091,7 @@ export const MAGNETS = {
       size: '15" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 95,
-      img: "./img/Magnets/sample-18x24.webp",
+      img: "./img/02-Signs/Car Magnets/sample-18x24.webp",
     },
     {
       id: 2,
@@ -1097,7 +1099,7 @@ export const MAGNETS = {
       size: '24" X 24"',
       description: "(UP TO 4 SQ. FEET - SAME PRICE)",
       price: 130,
-      img: "./img/Magnets/sample-24x24.png",
+      img: "./img/02-Signs/Car Magnets/sample-24x24.png",
     },
   ],
   lamindatedFee: 15,
@@ -2339,7 +2341,7 @@ export const BROCHURES = [
   {
     id: 0,
     type: '8.5" x 11" 100LB Text 2 Sides',
-    img: './img/Flyers/8.5x11.png',
+    img: './img/01-Printing/Flyers/8.5x11.png',
     price:[
       { id: 0, quantity: 500, price: 175},
       { id: 1, quantity: 1000, price: 280},
@@ -2349,7 +2351,7 @@ export const BROCHURES = [
   {
     id: 1,
     type: '8.5" x 11" 100LB Text 1 Side',
-    img: './img/Flyers/8.5x11.png',
+    img: './img/01-Printing/Flyers/8.5x11.png',
     price:[
       { id: 0, quantity: 500, price: 125},
       { id: 1, quantity: 1000, price: 199},
@@ -2359,11 +2361,24 @@ export const BROCHURES = [
   {
     id: 2,
     type: '11" x 17" 100LB Text 2 Sides',
-    img: './img/Flyers/11x17.png',
+    img: './img/01-Printing/Flyers/11x17.png',
     price:[
       { id: 0, quantity: 500, price: 295},
       { id: 1, quantity: 1000, price: 580},
       { id: 2, quantity: 5000, price: 1100},
     ]
+  },
+]
+
+export const ROLLUPSIGN = [
+  {
+    id: 0,
+    type: 'Complete With Base',
+    price: 170
+  },
+  {
+    id: 1,
+    type: 'Imprint Only',
+    price: 110
   },
 ]

@@ -24,6 +24,8 @@ function RealtorSigns() {
   //Calculating price with quantity variable times p.price
   let price = REALTORSIGNS[type.value]?.category.map((p) => p.price * quantity);
 
+  let image = REALTORSIGNS[type.value]?.img;
+
   return (
     <>
       <Breadcrumb>
@@ -37,7 +39,7 @@ function RealtorSigns() {
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">
-              <img src='./img/BusinessCard/Black&White.jpg' alt='RealtorSigns' width='100%'/>
+              <img src={image} alt='RealtorSigns' width='100%'/>
             </Col>
 
             <Col md={6} className="p-3  position-relative">

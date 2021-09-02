@@ -6,16 +6,16 @@ function InvoiceCarousel() {
   return (
     <Carousel className='carousel thumb thumbs carousel-slider control arrow control-dots dot'>
       <div>
-          <img alt="InvoicesNumberParts" src="../img/Invoices/NUMBER-PARTS.jpg" width="100%"/>
+          <img alt="InvoicesNumberParts" src="../img/01-Printing/Invoices/NUMBER-PARTS.jpg" width="100%"/>
       </div>
       <div>
-          <img alt="InvoicesPaddingOptional" src="../img/Invoices/PADDING-OPTIONS.jpg" width="100%"/>
+          <img alt="InvoicesPaddingOptional" src="../img/01-Printing/Invoices/PADDING-OPTIONS.jpg" width="100%"/>
       </div>
       <div>
-          <img alt="InvoicesSequential" src="../img/Invoices/SEQUENTIAL-NUMBERING.jpg" width="100%"/>
+          <img alt="InvoicesSequential" src="../img/01-Printing/Invoices/SEQUENTIAL-NUMBERING.jpg" width="100%"/>
       </div>
       <div>
-          <img alt="InvoicesSizes" src="../img/Invoices/SIZES-CHART.jpg" width="100%"/>
+          <img alt="InvoicesSizes" src="../img/01-Printing/Invoices/SIZES-CHART.jpg" width="100%"/>
       </div>
     </Carousel>
   )

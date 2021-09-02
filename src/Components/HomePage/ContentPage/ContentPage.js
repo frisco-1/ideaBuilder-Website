@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, ListGroup } from 'react-bootstrap';
 import ListBar from './ListBar';
-import Info from './Info';
+import TopSellers from './TopSellers';
 import '../../../Stylesheets/HomePage.scss';
 
 function ContentPage({PRODUCTS}) {
@@ -17,7 +17,7 @@ function ContentPage({PRODUCTS}) {
         </Col>
 
         <Col className='InfoSizing'>
-          <Info/>
+          <TopSellers/>
         </Col>
 
       </Row>

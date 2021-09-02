@@ -51,7 +51,7 @@ function Brochures() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${(price).toLocaleString(undefined,{'minimumFractionDigits':2,'maximumFractionDigits':2})}</h3>
+            <h3 className="position-absolute pricingDiv">Printing Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
       </Container>

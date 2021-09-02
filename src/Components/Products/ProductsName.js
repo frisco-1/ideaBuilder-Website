@@ -75,12 +75,17 @@ export const PRODUCTS = [
     type: 'PRINTING',
     name: 'Stickers',
   },
+  {
+    id: '/promotional-magnets',
+    type: 'PRINTING',
+    name: 'Promotional Magnets',
+  },
 
   // SIGNS
   {
-    id: '/magnets',
+    id: '/car-magnets',
     type: 'SIGNS',
-    name: 'Magnets',
+    name: 'Car Magnets',
   }, 
   {
     id: '/banners',
