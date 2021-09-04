@@ -46,9 +46,9 @@ export const FLYERS = [
   { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 5000, price: 550, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
   { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
 
-  { type: '4" x 6" Magnetic 1 Side', quantity: 500, price: 330, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 1000, price: 540, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 500, price: 330, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 1000, price: 540, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
+  { type: '4" x 6" Magnetic 1 Side', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
 ];
 
 export const DOORHANGERS = [
@@ -1083,7 +1083,7 @@ export const CARMAGNETS = {
       size: '12" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 75,
-      img: "./img/02-Signs/Car Magnets/sample-12x24.jpg",
+      img: "./img/02-Signs/Car Magnets/CarMagnet 12x24.png",
     },
     {
       id: 1,
@@ -1091,7 +1091,7 @@ export const CARMAGNETS = {
       size: '15" X 24"',
       description: "(LESS THAN 2 SQ. FEET - SAME PRICE)",
       price: 95,
-      img: "./img/02-Signs/Car Magnets/sample-18x24.webp",
+      img: "./img/02-Signs/Car Magnets/CarMagnet 15x24.png",
     },
     {
       id: 2,
@@ -1099,7 +1099,7 @@ export const CARMAGNETS = {
       size: '24" X 24"',
       description: "(UP TO 4 SQ. FEET - SAME PRICE)",
       price: 130,
-      img: "./img/02-Signs/Car Magnets/sample-24x24.png",
+      img: "./img/02-Signs/Car Magnets/CarMagnet 24x24.png",
     },
   ],
   lamindatedFee: 15,

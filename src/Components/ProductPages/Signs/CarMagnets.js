@@ -17,42 +17,32 @@ function CarMagnets() {
   let calculatedPrice = (product !== null ? CARMAGNETS.products[product.value].price : 0) * quantity + (isLaminated ? 15 : 0);
   return (
     <>
+      {/* CAR MAGNETS */}
       <Breadcrumb>
-        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
         <Breadcrumb.Item active>Car Magnets</Breadcrumb.Item>
       </Breadcrumb>
       <Container className="pb-5">
+
         <Col md={12}>
-          <h2 className="pt-2 pb-2 d-inline">Car Magnets </h2>(CM) <hr />
+          <h2 className="pt-2 pb-2 d-inline">Car Magnets </h2><hr />
         </Col>
-        <Row className="PricingColor ">
-          <Col md={6} className="p-3 text-center">
-            <div>
-              <img className="magnetsImage" src={productImg} alt="Magnet Sign" />
-            </div>
+        <Row className="PricingColor">
+          <Col md={6} className="p-3 ">
+            <img src={productImg} alt="Magnet Sign" width="100%"/>
           </Col>
 
-          <Col md={6} className="p-3  position-relative ">
+          <Col md={6} className="p-3  position-relative">
             <h3>Configure & Price</h3>
             <hr />
-            <Form>
-              <Form.Group controlId="productMagnets" className="magnetOptions">
-                <Row>
-                  <Col>
-                    <span className="magnetOptionLabel">{product != null ? CARMAGNETS.products[product.value].productCode : null}</span>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={6} sm={4}>
-                    <div className="magentSize">Size:</div>
-                  </Col>
-                  <Col xs={6} sm={4}>
-                    <div className="magnetOptionLabel">Quantity:</div>
-                  </Col>
-                </Row>
+            <p></p>
 
-                <Row>
-                  <Col xs={6} sm={4}>
+            <Form>
+              {/* Quantity Using NumericInput */}
+              <Form.Row>
+                <Col md={6}>
+                  <Form.Group controlId='productSize' >
+                    <Form.Label className='d-block'>Size: </Form.Label>
                     <Select
                       value={product}
                       onChange={setProduct}
@@ -60,8 +50,12 @@ function CarMagnets() {
                       placeholder="Select Magnet Size"
                       isSearchable={false}
                     />
-                  </Col>
-                  <Col xs={6} sm={4}>
+                  </Form.Group>
+                </Col>
+
+                <Col md={6}>
+                  <Form.Group controlId='productQuantity' >
+                    <Form.Label className='d-block'>Quantity: </Form.Label>
                     <NumericInput
                       type="number"
                       step={"1"}
@@ -71,32 +65,35 @@ function CarMagnets() {
                       onChange={setQuantity}
                       className='d-block numberPadding'
                     />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-                    <div className="magnetDescription">
-                      <span className="magentOptionLabel">{product != null ? CARMAGNETS.products[product.value].description : null}</span>
-                    </div>
-                  </Col>
-                </Row>
+                  </Form.Group>
+                </Col>
+              </Form.Row>
 
-                <Row className="justify-content-md-start">
+              <Form.Row>
+                <Col>
+                  <div className="magnetDescription">
+                    <span className="magentOptionLabel">{product != null ? CARMAGNETS.products[product.value].description : null}</span>
+                  </div>
+                </Col>
+              </Form.Row>
+
+              <Form.Row>
+                <Col>
                   <Form.Check
                     type="checkbox"
                     label="Laminated"
                     checked={isLaminated}
-                    className="magnetLaminated"
+                    className="magnetLaminated pb-5"
                     onChange={(e) => setIsLaminated(e.target.checked)}
                   />
-                </Row>
-                <Row className="magnetsPriceRow">
-                  <h3>Sign Cost: ${calculatedPrice.toLocaleString("en-US")}</h3>
-                </Row>
-              </Form.Group>
+                </Col>
+              </Form.Row>
+              
             </Form>
+            <h3 className="position-absolute pricingDiv">Sign Cost: ${(calculatedPrice).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
+
       </Container>
     </>
   );
