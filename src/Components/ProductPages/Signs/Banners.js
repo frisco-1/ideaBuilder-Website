@@ -15,6 +15,7 @@ function Banners() {
   const [quantity, setQuantity] = React.useState(1);
   let price = BANNERS[size.value]?.price * quantity;
   console.log(price);
+  let img = BANNERS[size.value]?.img;
 
   return (
     <>
@@ -29,7 +30,7 @@ function Banners() {
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">
-              <img src='./img/BusinessCard/Black&White.jpg' alt='Banners' width='100%'/>
+              <img src={img} alt='Banners' width='100%'/>
             </Col>
 
             <Col md={6} className="p-3  position-relative">
@@ -52,7 +53,7 @@ function Banners() {
                     </Form.Group>
                   </Col>
                   <Col md={6}>
-                    <Form.Group controlId='productQuantity' className='pb-5' >
+                    <Form.Group controlId='productQuantity' >
                       <Form.Label className='d-block'>Quantity: </Form.Label>
                       <NumericInput
                         className='d-block numberPadding'
@@ -64,7 +65,10 @@ function Banners() {
                     </Form.Group>
                   </Col>
                 </Form.Row>
+                <p className='pb-5'><span id='bold'>Description: </span> We use a premium heavyweight 13 oz. scrim vinyl banner. It has a very smooth surface for best printing results. This material is typically used for billboards, building wraps, banners, event flags, trade show signage, parades, etc.</p>
               </Form>
+            
+            
 
               <h3 className="position-absolute pricingDiv">Sign Cost: ${price.toLocaleString("en-US")}</h3>
             </Col>

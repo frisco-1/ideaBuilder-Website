@@ -15,7 +15,9 @@ function AluminumSigns() {
 
   const code = ALUMINUMSIGNS[size.value]?.code;
 
-  let price = ALUMINUMSIGNS[size.value]?.price * quantity; 
+  let price = ALUMINUMSIGNS[size.value]?.price * quantity;
+  
+  let img = ALUMINUMSIGNS[size.value]?.img;
 
   return (
     <>
@@ -30,7 +32,7 @@ function AluminumSigns() {
           </Col>
           <Row className = "PricingColor">
             <Col md={6} className="p-3 ">
-              <img src='./img/BusinessCard/Black&White.png' alt='Aluminum Signs' width='100%'/>
+              <img src={img} alt='Aluminum Signs' width='100%'/>
             </Col>
 
             <Col md={6} className="p-3  position-relative">
@@ -56,7 +58,7 @@ function AluminumSigns() {
 
                   <Col md={6}>
                     {/* Quantity Using NumericInput */}
-                      <Form.Group controlId='productQuantity' className='pb-5' >
+                      <Form.Group controlId='productQuantity'  >
                         <Form.Label className='d-block'>Quantity: </Form.Label>
                         <NumericInput
                           className='d-block numberPadding'
@@ -70,7 +72,8 @@ function AluminumSigns() {
                 </Form.Row>
               </Form>
               <p className='mb-5'><span id='bold'>Description: </span> Aluminum Signs are laminated</p>
-              <h3 className="position-absolute pricingDiv">Sign Cost: ${price.toLocaleString("en-US")}</h3>
+            
+              <h3 className="position-absolute pricingDiv">Sign Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
             </Col>
           </Row>
         

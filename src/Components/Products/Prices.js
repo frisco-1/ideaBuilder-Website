@@ -988,91 +988,104 @@ export const BANNERS = [
     size: '2" x 6"',
     price: 65,
     quantity: 1,
-    code: 'BAN1 '
+    code: 'BAN1 ',
+    img: './img/02-Signs/Banners/Banner2x6.png'
   },
   {
     id: 1,
     size: '2" x 4"',
     price: 65,
     quantity: 1,
-    code: 'BAN1 '
+    code: 'BAN1 ',
+    img: './img/02-Signs/Banners/Banner2x4.png'
   },
   {
     id: 2,
     size: '2" x 8"',
     price: 85,
     quantity: 1,
-    code: 'BAN2 '
+    code: 'BAN2 ',
+    img:'./img/02-Signs/Banners/Banner2x8.png'
   },
   {
     id: 3,
     size: '2" x 10"',
     price: 95,
     quantity: 1,
-    code: 'BAN3 '
+    code: 'BAN3 ',
+    img:'./img/02-Signs/Banners/Banner2x10.png'
   },
   {
     id: 4,
     size: '3" x 6"',
     price: 120,
     quantity: 1,
-    code: 'BAN4 '
+    code: 'BAN4 ',
+    img:'./img/02-Signs/Banners/Banner3x6.png'
   },
   {
     id: 5,
     size: '4" x 4"',
     price: 120,
     quantity: 1,
-    code: 'BAN4 '
+    code: 'BAN4 ',
+    img:'./img/02-Signs/Banners/Banner4x4.png'
   },
   {
     id: 6,
     size: '3" x 8"',
     price: 140,
     quantity: 1,
-    code: 'BAN5 '
+    code: 'BAN5 ',
+    img:'./img/02-Signs/Banners/Banner3x8.png'
   },
   {
     id: 7,
     size: '4" x 6"',
     price: 140,
     quantity: 1,
-    code: 'BAN5 '
+    code: 'BAN5 ',
+    img:'./img/02-Signs/Banners/Banner4x6.png'
   },
   {
     id: 8,
     size: '3" x 10"',
     price: 150,
     quantity: 1,
-    code: 'BAN6 '
+    code: 'BAN6 ',
+    img:'./img/02-Signs/Banners/Banner3x10.png'
   },
   {
     id: 9,
     size: '4" x 8"',
     price: 160,
     quantity: 1,
-    code: 'BAN7 '
+    code: 'BAN7 ',
+    img:'./img/02-Signs/Banners/Banner4x8.png'
   },
   {
     id: 10,
     size: '4" x 10"',
     price: 180,
     quantity: 1,
-    code: 'BAN8 '
+    code: 'BAN8 ',
+    img:'./img/02-Signs/Banners/Banner4x10.png'
   },
   {
     id: 11,
     size: '5" x 10"',
     price: 200,
     quantity: 1,
-    code: 'BAN9 '
+    code: 'BAN9 ',
+    img:'./img/02-Signs/Banners/Banner5x10.png'
   },
   {
     id: 12,
     size: '5" x 15"',
     price: 250,
     quantity: 1,
-    code: 'BAN10 '
+    code: 'BAN10 ',
+    img:'./img/02-Signs/Banners/Banner5x15.png'
   },
 ];
 export const CARMAGNETS = {
@@ -2277,63 +2290,72 @@ export const ALUMINUMSIGNS = [
     size: '2" x 2"',
     price: 90,
     quantity: 1,
-    code: 'MM 1'
+    code: 'MM 1',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign2x2.png'
   },
   {
     id: 1,
     size: '4" x 2"',
     price: 132,
     quantity: 1,
-    code: 'MM 2'
+    code: 'MM 2',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign4x2.png'
   },
   {
     id: 2,
     size: '4" x 4"',
     price: 165,
     quantity: 1,
-    code: 'MM 3'
+    code: 'MM 3',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign4x4.png'
   },
   {
     id: 3,
     size: '2" x 8"',
     price: 165,
     quantity: 1,
-    code: 'MM 3'
+    code: 'MM 3',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign2x8.png'
   },
   {
     id: 4,
     size: '4" x 5"',
     price: 220,
     quantity: 1,
-    code: 'MM 4'
+    code: 'MM 4',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign4x5.png'
   },
   {
     id: 5,
     size: '4" x 6"',
     price: 290,
     quantity: 1,
-    code: 'MM 5'
+    code: 'MM 5',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign4x6.png'
   },
   {
     id: 6,
     size: '3" x 6"',
     price: 290,
     quantity: 1,
-    code: 'MM 5'
+    code: 'MM 5',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign3x6.png'
   },
   {
     id: 7,
     size: '4" x 8"',
     price: 296,
     quantity: 1,
-    code: 'MM 6'
+    code: 'MM 6',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign4x8.png'
   },
   {
     id: 8,
     size: '3" x 8"',
     price: 296,
     quantity: 1,
-    code: 'MM 6'
+    code: 'MM 6',
+    img: './img/02-Signs/Aluminum Sign/AluminumSign3x8.png'
   },
 ]
 

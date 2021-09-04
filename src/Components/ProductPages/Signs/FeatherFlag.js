@@ -45,6 +45,7 @@ function FeatherFlag() {
               </Form.Group>
             </Form>
             <p className='mb-5'><span id='bold'>Description: </span> The Econo Feather Flag is suitable for outdoor events. Effectively advertise your logo or message with our econo feather flag. Its curved sleeve and free-flying edge allows the flag to grab attention without wrapping around the pole, and assembly is easy. Available hardware is a ground stake to fit to your pole set.</p>
+            
             <h3 className="position-absolute pricingDiv">Sign Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
