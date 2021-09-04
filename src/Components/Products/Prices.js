@@ -1120,16 +1120,16 @@ export const CARMAGNETS = {
 export const LABELS = {
   Shape: [
     {
-      id: 0,name: 'NO 5100 Circle'
+      id: 0,name: 'NO 5100 Circle',img: './img/01-Printing/Labels/LabelsCircle.png'
     },
     {
-      id: 1,name: 'NO 5200 Square'
+      id: 1,name: 'NO 5200 Square',img: './img/01-Printing/Labels/LabelsSquare.png'
     },
     {
-      id: 2,name: 'NO 5400 Oval'
+      id: 2,name: 'NO 5400 Oval',img: './img/01-Printing/Labels/LabelsOval.png'
     },
     {
-      id: 3,name: 'NO 5500 Rectangle'
+      id: 3,name: 'NO 5500 Rectangle',img: './img/01-Printing/Labels/LabelsRectangle.png'
     },
   ],
   Paper: [

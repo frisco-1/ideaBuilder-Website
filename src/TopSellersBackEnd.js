@@ -25,9 +25,15 @@ export const INFO = [
   },
   {
     id: 4,
-    pic: './img/02-Signs/Car Magnets/sample-18x24.webp',
+    pic: './img/02-Signs/Car Magnets/CarMagnet 12x24.png',
     name: 'Car Magnets',
     url: '/car-magnets'
+  },
+  {
+    id: 5,
+    pic: './img/01-Printing/Labels/LabelsCircle.png',
+    name: 'Labels',
+    url: '/labels'
   },
   
 ]
