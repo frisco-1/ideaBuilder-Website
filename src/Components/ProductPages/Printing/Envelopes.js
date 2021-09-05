@@ -22,6 +22,10 @@ function Envelopes() {
     .map((product) => product.quantity)
     .filter((v, i, a) => a.indexOf(v) === i)
     .map((quantity) => ({ label: quantity, value: quantity }));
+  //quantityOptions
+  const image = ENVELOPES.filter((product) => type && product.type === type.value)
+    .map((product) => product.img)
+    .filter((v, i, a) => a.indexOf(v) === i)
 
   // PriceOptions
   const priceOptions = ENVELOPES.filter((product) => type && product.type === type.value && quantity && product.quantity === quantity.value).map(
@@ -41,7 +45,7 @@ function Envelopes() {
         </Col>
         <Row className = "PricingColor">
           <Col md={6} className="p-3 CalCol">
-            <img src="./img/p-business-card.jpg" alt="business-card" width="100%" />
+            <img src={image} alt="Envelopes" width="100%" />
           </Col>
 
           <Col md={6} className="p-3 CalCol position-relative">
