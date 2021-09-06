@@ -35,5 +35,11 @@ export const INFO = [
     name: 'Labels',
     url: '/labels'
   },
+  {
+    id: 6,
+    pic: './img/03-Promotional/TableCovers/6-3Sided.png',
+    name: 'Table Covers',
+    url: '/table-covers'
+  },
   
 ]
