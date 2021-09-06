@@ -1,0 +1,128 @@
+/* Colors */
+#gray,
+#grayf {
+  color: #a3a6a9;
+}
+
+#gray:hover {
+  color: white;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
+#white {
+  color: white;
+}
+
+#white:hover {
+  color: lightgray;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
+#lightBlue {
+  color: #80c7e5;
+}
+
+#lightBlue:hover {
+  color: white;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
+.magnetOptionLabel,
+.magentSize {
+  font-size: 20px;
+  margin: 0.5em 0;
+}
+
+.magnetDescription {
+  font-size: 20px;
+  padding: 1em 0;
+}
+
+.magnetLaminated {
+  margin-left: 1em;
+}
+
+.magnetLaminated label {
+  font-size: 20px;
+  margin: 1em 0 0.5em 0.5em;
+}
+
+.magnetLaminated input {
+  width: 24px;
+  margin: 1.8em 0 0 -1.4em;
+}
+
+.magnetsImage {
+  width: 22em;
+}
+
+.magnetProductTag {
+  margin: 1em 0 0 1em;
+  font-size: 18px;
+}
+
+.magnetsPriceRow {
+  margin-top: 3em;
+}
+
+@media only screen and (max-width: 900px) {
+  .topNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .topNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #support {
+    position: absolute;
+    margin-top: 50px;
+    display: block;
+  }
+  #linksBg {
+    margin-top: 50px;
+  }
+  #main {
+    font-size: 25px;
+  }
+  #small {
+    font-size: 15px;
+  }
+  .logo {
+    line-height: 1px;
+  }
+  #hiddenPhone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .magnetsPriceRow {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .magnetsImage {
+    width: 20em;
+  }
+}
+/*# sourceMappingURL=Colors.css.map */

@@ -1,0 +1,38 @@
+/* Footer */
+#footer {
+  background: #12263e;
+  padding: 50px 50px;
+}
+
+#footHeading {
+  color: #abcde7;
+}
+
+#LinkHead {
+  color: white;
+}
+
+#line-break {
+  border: 2px solid white;
+}
+
+/* Pricing Cols */
+.PricingColor {
+  background: rgba(17, 122, 241, 0.1);
+  border-radius: 5px;
+}
+
+.pricingDiv {
+  padding: 20px 0px;
+  bottom: 0;
+}
+
+.numberPadding {
+  padding: 6px;
+  width: 100%;
+}
+
+.facebook-icon {
+  font-size: 50px;
+}
+/*# sourceMappingURL=Footer.css.map */

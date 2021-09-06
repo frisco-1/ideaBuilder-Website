@@ -74,47 +74,94 @@ export const DOORHANGERS = [
 
 // Check Envelopes Again
 export const ENVELOPES = [
-  { type: "No.6 / No.10 1 Color", quantity: 1000, price: 120, img: './img/01-Printing/Envelopes/No6_No10-1Color.png' },
-  { type: "No.6 / No.10 1 Color", quantity: 2000, price: 205, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 3000, price: 290, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 4000, price: 375, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 5000, price: 460, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 6000, price: 545, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 7000, price: 630, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 8000, price: 715, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-  { type: "No.6 / No.10 1 Color", quantity: 9000, price: 800, img: './img/01-Printing/Envelopes/No6_No10-1Color.png'  },
-
-  { type: "No.6 Top Opening 1 Color ", quantity: 1000, price: 150, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 2000, price: 245, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 3000, price: 340, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 4000, price: 435, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 5000, price: 530, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 6000, price: 625, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 7000, price: 720, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 8000, price: 815, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-  { type: "No.6 Top Opening 1 Color ", quantity: 9000, price: 910, img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png' },
-
-  { type: "No.6 / No.10 Multicolor", quantity: 500, price: 150, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 1000, price: 250, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 2000, price: 390, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 3000, price: 530, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 4000, price: 670, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 5000, price: 810, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 6000, price: 950, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 7000, price: 1090, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 8000, price: 1230, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-  { type: "No.6 / No.10 Multicolor", quantity: 9000, price: 1370, img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png' },
-
-  { type: "No.10 Multicolor Window", quantity: 500, price: 180, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 1000, price: 310, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 2000, price: 490, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 3000, price: 670, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 4000, price: 850, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 5000, price: 1030, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 6000, price: 1210, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 7000, price: 1390, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 8000, price: 1570, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
-  { type: "No.10 Multicolor Window", quantity: 9000, price: 1750, img: './img/01-Printing/Envelopes/No10 Multicolor.png' },
+  {
+    id: 0,
+    type: "No.6 / No.10 1 Color",
+    img: './img/01-Printing/Envelopes/No6_No10-1Color.png',
+    amount:
+    [
+      {id: 0, quantity: 1000, price: 120},
+      {id: 1, quantity: 2000, price: 205},
+      {id: 2, quantity: 3000, price: 290},
+      {id: 3, quantity: 4000, price: 375},
+      {id: 4, quantity: 5000, price: 460},
+      {id: 5, quantity: 6000, price: 545},
+      {id: 6, quantity: 7000, price: 630},
+      {id: 7, quantity: 8000, price: 715},
+      {id: 8, quantity: 9000, price: 800},
+    ]
+  },
+  {
+    id: 1,
+    type: "No.6 Top Opening 1 Color",
+    img: './img/01-Printing/Envelopes/No6 Top Opening 1 Color.png',
+    amount:
+    [
+      {id: 0, quantity: 1000, price: 150},
+      {id: 1, quantity: 2000, price: 245},
+      {id: 2, quantity: 3000, price: 340},
+      {id: 3, quantity: 4000, price: 435},
+      {id: 4, quantity: 5000, price: 530},
+      {id: 5, quantity: 6000, price: 625},
+      {id: 6, quantity: 7000, price: 720},
+      {id: 7, quantity: 8000, price: 815},
+      {id: 8, quantity: 9000, price: 910},
+    ]
+  },
+  {
+    id: 2,
+    type: "No.6 / No.10 Multicolor",
+    img: './img/01-Printing/Envelopes/No6_No10 Multicolor.png',
+    amount:
+    [
+      {id: 0, quantity: 500, price: 150},
+      {id: 1, quantity: 1000, price: 250},
+      {id: 2, quantity: 2000, price: 390},
+      {id: 3, quantity: 3000, price: 530},
+      {id: 4, quantity: 4000, price: 670},
+      {id: 5, quantity: 5000, price: 810},
+      {id: 6, quantity: 6000, price: 950},
+      {id: 7, quantity: 7000, price: 1090},
+      {id: 8, quantity: 8000, price: 1230},
+      {id: 9, quantity: 9000, price: 1370},
+    ]
+  },
+  {
+    id: 3,
+    type: "No.10 Multicolor Window",
+    img: './img/01-Printing/Envelopes/No10 Multicolor.png',
+    amount:
+    [
+      {id: 0, quantity: 500, price: 180},
+      {id: 1, quantity: 1000, price: 310},
+      {id: 2, quantity: 2000, price: 490},
+      {id: 3, quantity: 3000, price: 670},
+      {id: 4, quantity: 4000, price: 850},
+      {id: 5, quantity: 5000, price: 1030},
+      {id: 6, quantity: 6000, price: 1210},
+      {id: 7, quantity: 7000, price: 1390},
+      {id: 8, quantity: 8000, price: 1570},
+      {id: 9, quantity: 9000, price: 1750},
+    ]
+  },
+  {
+    id: 4,
+    type: "No 10. Specialty Paper",
+    img: './img/01-Printing/Envelopes/No10 Multicolor.png',
+    amount:
+    [
+      {id: 0, quantity: 500, price: 180},
+      {id: 1, quantity: 1000, price: 310},
+      {id: 2, quantity: 2000, price: 490},
+      {id: 3, quantity: 3000, price: 670},
+      {id: 4, quantity: 4000, price: 850},
+      {id: 5, quantity: 5000, price: 1030},
+      {id: 6, quantity: 6000, price: 1210},
+      {id: 7, quantity: 7000, price: 1390},
+      {id: 8, quantity: 8000, price: 1570},
+      {id: 9, quantity: 9000, price: 1750},
+    ]
+  },
 ];
 
 export const LETTERHEADS = [
@@ -2402,5 +2449,48 @@ export const ROLLUPSIGN = [
     id: 1,
     type: 'Imprint Only',
     price: 110
+  },
+]
+
+export const TABLECOVERS = [
+  {
+    id: 0,
+    size: "6' TABLE THROW",
+    options: [
+      {
+        id: 0,
+        name: "6ft Table Cover 3 sided (Open Back)",
+        price: 71.66,
+        img: './img/03-Promotional/TableCovers/6-3Sided.png',
+        description: 'Our standard table cover is a great table topper for trade shows, exhibitions, and any presentations. Our table covers are dye sublimated and are 100% washable if it ever gets dirty. This table cover is made from our 8.8 oz. polyester table fabric that drapes over 3 sides of a 72" x 30" x 30" display table. The table cover is sewn with rounded corners and hang approximately 2" above the floor. Complete your presentation with our simple and cost-effective table cover.'
+      },
+      {
+        id: 1,
+        name: "6ft Table Cover 4 sided (Close Back)",
+        price: 95.06,
+        img: './img/03-Promotional/TableCovers/6-4Sided.png',
+        description: 'Our standard 4 sided table cover is a great table topper for trade shows, exhibitions, and any presentations. Our table covers are dye sublimated and are 100% washable. This table cover is made of 8.8 oz. polyester table fabric with rounded corners and hangs approximately 2" above the floor.  This material drapes over 4 sides of a 72" x 30" x 30" display table.  Complete your presentation with our simple and cost-effective table cover.'
+      },
+    ]
+  },
+  {
+    id: 1,
+    size: "8' TABLE THROW",
+    options: [
+      {
+        id: 0,
+        name: "8ft Table Cover 3 sided (Open Back)",
+        price: 85.25,
+        img: './img/03-Promotional/TableCovers/8-3Sided.png',
+        description: 'Our standard table cover is a great table topper for trade shows, exhibitions, and any presentations. Our table covers are dye sublimated and are 100% washable if it ever gets dirty. This table cover is made from our 8.8 oz. polyester table fabric that drapes over 3 sides of a 96" x 30" x 30" display table. The table cover is sewn with rounded corners and hang approximately 2" above the floor. Complete your presentation with our simple and cost-effective table cover.'
+      },
+      {
+        id: 1,
+        name: "8ft Table Cover 4 sided (Close Back)",
+        price: 114.13,
+        img: './img/03-Promotional/TableCovers/8-4Sided.png',
+        description: 'Our standard 4 sided table cover is a great table topper for trade shows, exhibitions, and any presentations. Our table covers are dye sublimated and are 100% washable. This table cover is made of 8.8 oz. polyester table fabric with rounded corners and hangs approximately 2" above the floor. This material drapes over 4 sides of a 96" x 30" x 30" display table.  Complete your presentation with our simple and cost-effective table cover.'
+      },
+    ]
   },
 ]

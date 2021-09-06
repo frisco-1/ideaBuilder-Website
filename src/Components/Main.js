@@ -24,7 +24,11 @@ import AluminumSigns from "./ProductPages/Signs/AluminumSigns";
 import FeatherFlag from "./ProductPages/Signs/FeatherFlag";
 import RollUpSign from "./ProductPages/Signs/RollUpSign";
 
+//PROMOTIONAL ITEMS
+import TableCover from "./ProductPages/Promotional Items/TableCover";
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 
 
@@ -41,6 +45,7 @@ function Main() {
           <Route exact path="/" component={Home} />
           {/* <Route path={{ productId }} render={(productId) => <Prices ItemId={productId}/> }/> */}
 
+          {/* Printing */}
           <Route exact path='/business-cards' component={BusinessCard} />
           <Route exact path='/flyers' component={Flyers} />
           <Route exact path='/envelopes' component={Envelopes} />
@@ -49,6 +54,7 @@ function Main() {
           <Route exact path='/labels' component={Labels} />
           <Route exact path='/brochures' component={Brochures} />
 
+          {/* Signs */}
           <Route exact path="/car-magnets" component={CarMagnets} />
           <Route exact path='/realtor-signs' component={RealtorSigns} />
           <Route exact path='/banners' component={Banners} />
@@ -57,6 +63,9 @@ function Main() {
           <Route exact path='/aluminum-signs' component={AluminumSigns} />
           <Route exact path='/feather-flags' component={FeatherFlag} />
           <Route exact path='/roll-up-sign' component={RollUpSign} />
+
+          {/* Promotional  */}
+          <Route exact path='/table-covers' component={TableCover} />
 
           <Route exact path='/contact' component={Contact} />
 

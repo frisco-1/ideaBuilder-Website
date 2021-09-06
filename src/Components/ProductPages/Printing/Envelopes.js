@@ -7,30 +7,21 @@ import { ENVELOPES } from "../../Products/Prices";
 //Envelopes
 function Envelopes() {
   //State
-  const [type, setType] = React.useState();
-  const [quantity, setQuantity] = React.useState();
-
-  //Array Functions
-
-  // typeOptions
-  const typeOptions = ENVELOPES.map((product) => product.type)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((type) => ({ label: type, value: type }));
-
-  //quantityOptions
-  const quantityOptions = ENVELOPES.filter((product) => type && product.type === type.value)
-    .map((product) => product.quantity)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((quantity) => ({ label: quantity, value: quantity }));
-  //quantityOptions
-  const image = ENVELOPES.filter((product) => type && product.type === type.value)
-    .map((product) => product.img)
-    .filter((v, i, a) => a.indexOf(v) === i)
-
-  // PriceOptions
-  const priceOptions = ENVELOPES.filter((product) => type && product.type === type.value && quantity && product.quantity === quantity.value).map(
-    (product) => product.price.toLocaleString("en-US")
+  const [type, setType] = React.useState(
+    { value: ENVELOPES[0].id, label: ENVELOPES[0].type }
   );
+  const [quantity, setQuantity] = React.useState(
+    { value: ENVELOPES[0].amount[0].id, label: ENVELOPES[0].amount[0].quantity }
+  );
+
+  //Options
+  const typeOptions = ENVELOPES.map(option => ({ value: option.id, label: option.type }));
+  const quantityOptions = ENVELOPES[type.value].amount.map(option => ({ value: option.id, label: option.quantity }));
+
+  const price = ENVELOPES[type.value].amount[quantity.value].price;
+
+  
+  let image = ENVELOPES[type.value].img;
 
   return (
     <>
@@ -54,7 +45,13 @@ function Envelopes() {
             <Form>
               <Form.Group controlId="productType">
                 <Form.Label>Type:</Form.Label>
-                <Select value={type} onChange={setType} options={typeOptions} placeholder="Select Type" isSearchable={false} />
+                <Select
+                  value={type}
+                  onChange={setType}
+                  options={typeOptions}
+                  placeholder="Select Type"
+                  isSearchable={false} 
+                />
               </Form.Group>
 
               <Form.Group controlId="productQuantity" className="pb-5">
@@ -63,7 +60,7 @@ function Envelopes() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${priceOptions}</h3>
+            <h3 className="position-absolute pricingDiv">Sign Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,188 @@
+.sideBarP {
+  background: #b7b7b7;
+  border: 2px solid lightgray;
+  border-bottom: none;
+  margin: 0px;
+}
+
+.shadow {
+  -webkit-box-shadow: 10px 5px 5px black;
+          box-shadow: 10px 5px 5px black;
+}
+
+#margin-right-remove {
+  margin-right: 0;
+}
+
+.welcome-card {
+  background: url("../IDEABUILDERWEBSITE.png") no-repeat center center/cover;
+  padding: 100px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+
+.located-card {
+  background: url("../palm-trees.jpg") no-repeat center center/cover;
+  padding: 150px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.located-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+
+.contact-card {
+  background: url("../IBStore.png") no-repeat center center/cover;
+  padding: 150px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.59);
+  z-index: -1;
+}
+
+.InfoSizing {
+  margin: 3rem;
+}
+
+.InfoBar {
+  margin: 3rem;
+}
+
+#white-nonLink {
+  color: white;
+}
+
+.InfoContact {
+  font-size: 25px;
+  line-height: 39px;
+}
+
+#card-button {
+  background-color: #008ecb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  max-width: 250px;
+  width: 250px;
+}
+
+@media only screen and (max-width: 1163px) {
+  .InfoBar {
+    margin: 1.5rem;
+  }
+  .InfoSizing {
+    margin: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .InfoBar {
+    margin: 0.5rem;
+  }
+  .InfoSizing {
+    margin: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 923px) {
+  .InfoBar {
+    margin: 0.25rem;
+    width: 100%;
+  }
+  .InfoSizing {
+    margin: 0.25rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  #sideBarHide {
+    display: none;
+  }
+  .InfoSizing {
+    margin: 0rem;
+  }
+}
+
+@media only screen and (max-width: 581px) {
+  .InfoHeading {
+    font-size: 25px;
+  }
+  .InfoContact {
+    font-size: 12.5px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .located-card,
+  .contact-card {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .NavBarLogo #main {
+    font-size: 30px;
+  }
+  .NavBarLogo #small {
+    font-size: 20px;
+  }
+}
+
+#ProductCard {
+  background-color: #008ecb;
+  border: #008ecb;
+  padding: 10px;
+  margin: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+
+#ProductCard:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 1;
+}
+/*# sourceMappingURL=HomePage.css.map */
