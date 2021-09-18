@@ -85,7 +85,7 @@ function TableCover() {
 
             <p className='pb-5'><span id='bold'>Description: </span>{description}</p>
 
-            <h3 className="position-absolute pricingDiv">Sign Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
+            <h3 className="position-absolute pricingDiv">Item Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
       </Container>

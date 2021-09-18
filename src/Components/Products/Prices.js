@@ -150,16 +150,9 @@ export const ENVELOPES = [
     img: './img/01-Printing/Envelopes/No10 Multicolor.png',
     amount:
     [
-      {id: 0, quantity: 500, price: 180},
-      {id: 1, quantity: 1000, price: 310},
-      {id: 2, quantity: 2000, price: 490},
-      {id: 3, quantity: 3000, price: 670},
-      {id: 4, quantity: 4000, price: 850},
-      {id: 5, quantity: 5000, price: 1030},
-      {id: 6, quantity: 6000, price: 1210},
-      {id: 7, quantity: 7000, price: 1390},
-      {id: 8, quantity: 8000, price: 1570},
-      {id: 9, quantity: 9000, price: 1750},
+      {id: 0, quantity: 500, price: 220},
+      {id: 1, quantity: 1000, price: 375},
+      {id: 2, quantity: 2000, price: 670}
     ]
   },
 ];

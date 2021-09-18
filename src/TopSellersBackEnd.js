@@ -41,5 +41,11 @@ export const INFO = [
     name: 'Table Covers',
     url: '/table-covers'
   },
+  {
+    id: 7,
+    pic: './img/01-Printing/Envelopes/No6_No10-1Color.png',
+    name: 'Envelopes',
+    url: '/envelopes'
+  },
   
 ]
