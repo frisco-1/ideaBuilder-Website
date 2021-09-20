@@ -1,5 +1,5 @@
 import React from 'react';
-import { PRODUCTS } from '../Products/ProductsName';
+import { PRODUCTS } from '../Products/NavLinks';
 
 import HomeCarousel from './HomeCarousel';
 import ContentPage from './ContentPage/ContentPage';

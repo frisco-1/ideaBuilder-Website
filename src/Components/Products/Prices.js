@@ -19,36 +19,84 @@ export const BCPRICES = [
 
 export const FLYERS = [
 
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 500, price: 55, img: "./img/01-Printing/Flyers/Flyers3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 1000, price: 95, img: "./img/01-Printing/Flyers/Flyers3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 5000, price: 130, img: "./img/01-Printing/Flyers/Flyers3x4.png", code: 'FLY 1' },
-  { type: '3" x 4" Cardstock 14PT 2 Sides', quantity: 10000, price: 220, img: "./img/01-Printing/Flyers/Flyers3x4.png", code: 'FLY 1' },
-
-  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 500, price: 60, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 2' },
-  { type: '4" x 6" Cardstock 14PT 1 Side', quantity: 1000, price: 95, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 2' },
-
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 500, price: 80, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 1000, price: 120, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 5000, price: 220, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
-  { type: '4" x 6" Cardstock 14PT 2 Sides', quantity: 10000, price: 400, img: "./img/01-Printing/Flyers/4x6.png", code: 'FLY 3' },
-
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 500, price: 120, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 1000, price: 200, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
-  { type: '3.6" x 8.5" Cardstock 14PT 2 Sides', quantity: 5000, price: 375, img: "./img/01-Printing/Flyers/3.6x8.5.png", code: 'FLY 4' },
-
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 500, price: 120, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 1000, price: 220, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 5000, price: 475, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
-  { type: '5.5" x 8.5" Cardstock 14PT 1 Side', quantity: 10000, price: 750, img: "./img/01-Printing/Flyers/5.5x8.5.png", code: 'FLY 5' },
-
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 500, price: 175, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 1000, price: 280, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 5000, price: 550, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
-  { type: '6.75" x 9" Cardstock 14PT 2 Sides', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/6.75x9.png", code: 'FLY 6' },
-
-  { type: '4" x 6" Magnetic 1 Side', quantity: 500, price: 330, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 1000, price: 540, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
-  { type: '4" x 6" Magnetic 1 Side', quantity: 10000, price: 950, img: "./img/01-Printing/Flyers/4x6Magnetic.png", code: 'FLY 7' },
+  {
+    id: 0,
+    type: '3" x 4" Cardstock 14PT 2 Sides',
+    img:'./img/01-Printing/Flyers/Flyers3x4.png',
+    code: 'FLY 1',
+    pricing: [
+      { id: 0, quantity: 500, price: 55},
+      { id: 1, quantity: 1000, price: 95},
+      { id: 2, quantity: 5000, price: 130},
+      { id: 3, quantity: 10000, price: 220},
+    ]
+  },
+  {
+    id: 1,
+    type: '4" x 6" Cardstock 14PT 1 Side',
+    img: "./img/01-Printing/Flyers/4x6 1Side.png",
+    code: 'FLY 2',
+    pricing: [
+      { id: 0, quantity: 500, price: 60},
+      { id: 1, quantity: 1000, price: 95}
+    ]
+  },
+  {
+    id: 2,
+    type: '4" x 6" Cardstock 14PT 2 Sides',
+    img: "./img/01-Printing/Flyers/4x6 2Side.png",
+    code: 'FLY 3',
+    pricing: [
+      { id: 0, quantity: 500, price: 60},
+      { id: 1, quantity: 1000, price: 95}
+    ]
+  },
+  {
+    id: 3,
+    type: '3.6" x 8.5" Cardstock 14PT 2 Sides',
+    img: "./img/01-Printing/Flyers/3.6x8.5.png",
+    code: 'FLY 4',
+    pricing: [
+      { id: 0, quantity: 500, price: 120},
+      { id: 1, quantity: 1000, price: 200},
+      { id: 2, quantity: 5000, price: 375},
+    ]
+  },
+  {
+    id: 4,
+    type: '5.5" x 8.5" Cardstock 14PT 1 Side',
+    img: "./img/01-Printing/Flyers/5.5x8.5.png",
+    code: 'FLY 5',
+    pricing: [
+      { id: 0, quantity: 500, price: 120},
+      { id: 1, quantity: 1000, price: 220},
+      { id: 2, quantity: 5000, price: 475},
+      { id: 3, quantity: 10000, price: 750},
+    ]
+  },
+  {
+    id: 5,
+    type: '6.75" x 9" Cardstock 14PT 2 Sides',
+    img: "./img/01-Printing/Flyers/6.75x9.png",
+    code: 'FLY 6',
+    pricing: [
+      { id: 0, quantity: 500, price: 175},
+      { id: 1, quantity: 1000, price: 280},
+      { id: 2, quantity: 5000, price: 550},
+      { id: 3, quantity: 10000, price: 950},
+    ]
+  },
+  {
+    id: 6,
+    type: '4" x 6" Magnetic 1 Side',
+    img: "./img/01-Printing/Flyers/4x6Magnetic.png",
+    code: 'FLY 7',
+    pricing: [
+      { id: 0, quantity: 500, price: 330},
+      { id: 1, quantity: 1000, price: 540},
+      { id: 2, quantity: 5000, price: 950}
+    ]
+  },
 ];
 
 export const DOORHANGERS = [
@@ -2484,6 +2532,66 @@ export const TABLECOVERS = [
         img: './img/03-Promotional/TableCovers/8-4Sided.png',
         description: 'Our standard 4 sided table cover is a great table topper for trade shows, exhibitions, and any presentations. Our table covers are dye sublimated and are 100% washable. This table cover is made of 8.8 oz. polyester table fabric with rounded corners and hangs approximately 2" above the floor. This material drapes over 4 sides of a 96" x 30" x 30" display table.  Complete your presentation with our simple and cost-effective table cover.'
       },
+    ]
+  },
+]
+
+export const CARS_VANS_WRAP = [
+  {
+    id: 0,
+    name: "Small Cars Wrap",
+    des: "Price Includes Installation. Price per one job.",
+    products: [
+      { id: 0, code: "SCV 1", type: "VINYL DECALS", price: "600", img:'./img/03-Promotional/Wraps(Cars&Vans)/CarsVinyl.png'},
+      {id: 1, code: "SCV 2", type: "SEMI WRAP", price: "1200", img: './img/03-Promotional/Wraps(Cars&Vans)/CarSemi.png'},
+      {id: 2, code: "SCV 3", type: "FULL WRAP", price: "2000", img: './img/03-Promotional/Wraps(Cars&Vans)/CarFull.png'}
+    ]
+  },
+  {
+    id: 1,
+    name: "Vans Wrap",
+    des: "Price Includes Installation. Price per one job.",
+    products: [
+      {id: 0, code: "VAN 1", type: "VINYL DECALS", price: "800", img: './img/03-Promotional/Wraps(Cars&Vans)/VansVinylDecal.png'},
+      {id: 1, code: "VAN 2", type: "SEMI WRAP", price: "1400", img: './img/03-Promotional/Wraps(Cars&Vans)/VansSemiWrap.png'},
+      {id: 2, code: "VAN 3", type: "FULL WRAP", price: "2500", img: './img/03-Promotional/Wraps(Cars&Vans)/VansFullWrap.png'},
+      {id: 3, code: "VAN 4", type: "HIGH TOP VANS", price: "3500", img: './img/03-Promotional/Wraps(Cars&Vans)/VansHighTop.png'}
+    ]
+  },
+]
+
+export const TRAILERS_WRAP = [
+  {
+    id: 0,
+    style: 'FULL WRAP W/INSTALLATION',
+    code: "TRV FULL",
+    img:"./img/03-Promotional/Wraps(Trailers)/FullWrapTrailer.png",
+    size: [ 
+      { id: 0, size: "12-14 FEET", price: 2500 },
+      { id: 1, size: "16-18 FEET", price: 2900 },
+      { id: 2, size: "20 FEET & UP", price: 3200 },
+    ]
+  },
+  {
+    id: 1,
+    style: 'SEMI WRAP W/INSTALLATION',
+    code: "TRV DECAL",
+    img:"./img/03-Promotional/Wraps(Trailers)/SemiVinylTrailer.png",
+    size: [
+      { id: 0, size: "12-14 FEET", price: 1300 },
+      { id: 1, size: "16-18 FEET", price: 1500 },
+      { id: 2, size: "20 FEET & UP", price: 1700},
+    ]
+  },
+  {
+    id: 2,
+    style: 'CUT VINYL W/INSTALLATION  ',
+    code: "TRV SEMI",
+    img:"./img/03-Promotional/Wraps(Trailers)/CutVinylTrailer.png",
+    size: [
+      { id: 0, size: "12-14 FEET", price: 900 },
+      { id: 1, size: "16-18 FEET", price: 1050 },
+      { id: 2, size: "20 FEET & UP", price: 1200},
     ]
   },
 ]

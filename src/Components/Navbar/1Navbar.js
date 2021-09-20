@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../Stylesheets/Navbar.scss';
 import {NavDropdown } from 'react-bootstrap';
 // import { DropdownSubmenu, NavDropdownMenu} from "react-bootstrap-submenu";
-import { PRODUCTS } from '../Products/ProductsName';
+import { PRODUCTS } from '../Products/NavLinks';
 import { Link } from 'react-router-dom';
 import SiteLinks from '../../Data.json';
 

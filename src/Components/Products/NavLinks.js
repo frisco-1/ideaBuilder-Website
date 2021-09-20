@@ -71,11 +71,6 @@ export const PRODUCTS = [
     name: 'Menu',
   },
   {
-    id: '/stickers',
-    type: 'PRINTING',
-    name: 'Stickers',
-  },
-  {
     id: '/promotional-magnets',
     type: 'PRINTING',
     name: 'Promotional Magnets',
@@ -187,5 +182,15 @@ export const PRODUCTS = [
     id: '/face-mask',
     type: 'ITEMS',
     name: 'Face Mask',
+  },
+  {
+    id: '/cars-vans-wrap',
+    type: 'ITEMS',
+    name: 'Wraps (Cars & Vans)',
+  },
+  {
+    id: '/trailers-wrap',
+    type: 'ITEMS',
+    name: 'Wraps (Trailers)',
   },
 ]

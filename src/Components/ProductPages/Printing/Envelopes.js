@@ -18,10 +18,10 @@ function Envelopes() {
   const typeOptions = ENVELOPES.map(option => ({ value: option.id, label: option.type }));
   const quantityOptions = ENVELOPES[type.value].amount.map(option => ({ value: option.id, label: option.quantity }));
 
-  const price = ENVELOPES[type.value].amount[quantity.value].price;
+  const price = ENVELOPES[type.value].amount[quantity.value]?.price;
 
   
-  let image = ENVELOPES[type.value].img;
+  let image = ENVELOPES[type.value]?.img;
 
   return (
     <>
@@ -60,7 +60,7 @@ function Envelopes() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Sign Cost: ${(price).toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
+            <h3 className="position-absolute pricingDiv">Sign Cost: ${(price)?.toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
       </Container>

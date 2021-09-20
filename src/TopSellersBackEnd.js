@@ -47,5 +47,29 @@ export const INFO = [
     name: 'Envelopes',
     url: '/envelopes'
   },
+  {
+    id: 8,
+    pic: './img/01-Printing/Flyers/Flyers3x4.png',
+    name: 'Flyers',
+    url: '/flyers'
+  },
+  {
+    id: 9,
+    pic: './img/01-Printing/Door Hangers/DoorHanger-3x8.png',
+    name: 'Door Hangers',
+    url: '/door-hangers'
+  },
+  {
+    id: 10,
+    pic: './img/03-Promotional/Wraps(Trailers)/FullWrapTrailer.png',
+    name: 'Wrap (Trailers)',
+    url: '/trailers-wrap'
+  },
+  {
+    id: 11,
+    pic: './img/03-Promotional/Wraps(Cars&Vans)/CarsVinyl.png',
+    name: 'Wrap (Cars&Vans)',
+    url: '/cars-vans-wrap'
+  },
   
 ]

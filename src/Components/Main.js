@@ -26,8 +26,11 @@ import RollUpSign from "./ProductPages/Signs/RollUpSign";
 
 //PROMOTIONAL ITEMS
 import TableCover from "./ProductPages/Promotional Items/TableCover";
+import CarsVansWrap from "./ProductPages/Promotional Items/CarsVansWrap";
+import TrailerWrap from "./ProductPages/Promotional Items/TrailerWrap";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 
 
@@ -66,6 +69,8 @@ function Main() {
 
           {/* Promotional  */}
           <Route exact path='/table-covers' component={TableCover} />
+          <Route exact path='/cars-vans-wrap' component={CarsVansWrap} />
+          <Route exact path='/trailers-wrap' component={TrailerWrap} />
 
           <Route exact path='/contact' component={Contact} />
 

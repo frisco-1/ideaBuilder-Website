@@ -7,7 +7,7 @@ function Info() {
   const TopSellers = INFO.map((info =>
     <Col md={4} key={info.id}>
       <Button href={info.url} id='ProductCard'>
-        <img src={info.pic} alt={info.name} width='410px' height='410px'/>
+        <img src={info.pic} alt={info.name} width='100%'/>
         <h5 className='d-flex text-center align-content-center justify-content-center' key={info.id}>{info.name}</h5>
       </Button>
     </Col>

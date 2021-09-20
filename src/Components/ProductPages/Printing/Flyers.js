@@ -6,34 +6,21 @@ import {FLYERS} from "../../Products/Prices";
 
 function Flyers() {
   //State
-  const [type, setType] = React.useState({label: '3" x 4" Cardstock 14PT 2 Sides', value: 0});
-  const [quantity, setQuantity] = React.useState({label: 0, value: 0});
+  const [type, setType] = React.useState({value: FLYERS[0].id, label: FLYERS[0].type});
+  const [quantity, setQuantity] = React.useState({value: FLYERS[0].pricing[0].id, label: FLYERS[0].pricing[0].quantity});
 
   //Array Functions
-
-  // typeOptions
-  const typeOptions = FLYERS.map((product) => product.type)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((type) => ({ label: type, value: type }));
+    // typeOptions
+  const typeOptions = FLYERS.map((type) => ({ value: type.id, label: type.type }));
   
-  const pictures = FLYERS.filter(p => type && p.type === type.label)
-    .map(img => img.img)
-    .filter((v, i, a) => a.indexOf(v) === i)
+    //quantityOptions
+  let quantityOptions = FLYERS[type.value].pricing.map((qty) => ({ value: qty.id, label: qty.quantity }));
   
-  const productCode = FLYERS.filter(p => type && p.type === type.label)
-    .map(code => code.code)
-    .filter((v, i, a) => a.indexOf(v) === i)
+    //Other Variables
+  const productCode = FLYERS[type.value]?.code;
+  const price = FLYERS[type.value].pricing[quantity.value]?.price;
+  const img = FLYERS[type.value]?.img;
 
-  //quantityOptions
-  const quantityOptions = FLYERS.filter((product) => type && product.type === type.value)
-    .map((product) => product.quantity)
-    .filter((v, i, a) => a.indexOf(v) === i)
-    .map((quantity) => ({ label: quantity, value: quantity }));
-
-  // PriceOptions
-  const priceOptions = FLYERS.filter((product) => type && product.type === type.value && quantity && product.quantity === quantity.value).map(
-    (product) => product.price.toLocaleString("en-US")
-  );
 
   return (
     <>
@@ -50,7 +37,7 @@ function Flyers() {
         
         <Row className = "PricingColor">
           <Col md={6} className="p-3">
-            <img src={pictures} alt="Flyers" width="100%" />
+            <img src={img} alt="Flyers" width="100%" />
           </Col>
 
           <Col md={6} className="p-3 position-relative">
@@ -69,7 +56,7 @@ function Flyers() {
               </Form.Group>
             </Form>
 
-            <h3 className="position-absolute pricingDiv">Printing Cost: ${priceOptions.toLocaleString("en-US")}</h3>
+            <h3 className="position-absolute pricingDiv">Item Cost: ${(price)?.toLocaleString(undefined, { 'minimumFractionDigits': 2, 'maximumFractionDigits': 2 })}</h3>
           </Col>
         </Row>
       </Container>
