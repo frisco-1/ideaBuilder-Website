@@ -1034,9 +1034,9 @@ export const POCKETFP = [
     id: 0,
     name: '9" x 12" Full Color CardStock',
     pricing: [
-      { id: 0, quantity: 100, price: 500 },
-      { id: 1, quantity: 500, price: 1300 },
-      { id: 2, quantity: 1000, price: 1800 },
+      { id: 0, quantity: 100, price: 600 },
+      { id: 1, quantity: 500, price: 1400 },
+      { id: 2, quantity: 1000, price: 1900 },
     ],
   },
   {
