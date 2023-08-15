@@ -25,10 +25,10 @@ export const FLYERS = [
     img:'./img/01-Printing/Flyers/Flyers3x4.png',
     code: 'FLY 1',
     pricing: [
-      { id: 0, quantity: 500, price: 55},
-      { id: 1, quantity: 1000, price: 95},
-      { id: 2, quantity: 5000, price: 130},
-      { id: 3, quantity: 10000, price: 220},
+      { id: 0, quantity: 500, price: 75},
+      { id: 1, quantity: 1000, price: 140},
+      { id: 2, quantity: 5000, price: 210},
+      { id: 3, quantity: 10000, price: "N/A"},
     ]
   },
   {
@@ -1043,10 +1043,10 @@ export const POCKETFP = [
     id: 1,
     name: '9" x 12" Full Color Staple',
     pricing: [
-      { id: 0, quantity: 100, price: 285 },
-      { id: 1, quantity: 500, price: 750 },
-      { id: 2, quantity: 1000, price: 1100 },
-      { id: 3, quantity: 5000, price: 3000 },
+      { id: 0, quantity: 100, price: 320 },
+      { id: 1, quantity: 500, price: 850 },
+      { id: 2, quantity: 1000, price: 1300 },
+      { id: 3, quantity: 5000, price: 3600 },
     ],
   },
 ];
